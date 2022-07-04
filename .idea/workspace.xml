@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5352da3f-2dc8-43bb-b1bb-55261de347c4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/helloworld/src/main/java/task_2603/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld/src/main/java/task_2603/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld/target/classes/task_2603/HelloWorld.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +48,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\github\helloworld\src\test\java" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -72,7 +79,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="test2" />
                       </list>
                     </value>
                   </entry>
