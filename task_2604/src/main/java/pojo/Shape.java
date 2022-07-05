@@ -25,6 +25,8 @@ public class Shape {
     }
 
     public void print() {
+        //内部调用最好不要使用 getter setter，直接操作即可，减少栈帧
+        //其实这里执行多了之后， JIT 优化也会内联，将 getAlign() 改成 this.align
         if(getAlign() == 'l'){
             printLeft();
         }

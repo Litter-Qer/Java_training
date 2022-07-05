@@ -20,6 +20,9 @@ public class Parallelogram extends Shape {
     @Override
     public void printLeft()
     {
+        // 1. 思考下对于 System.out 一次写入 10 个字符与 10 次每次写 1 个字符哪个效率更高
+        // 2. 使用 jmh 验证你的猜想
+        // 3. 思考下如何减少 System.out 的次数
         for (int i = 0; i < this.height; i++) {
             for (int j = 0; j < i; j++) {
                 System.out.print(" ");
