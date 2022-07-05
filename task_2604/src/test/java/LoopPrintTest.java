@@ -3,6 +3,7 @@ import pojo.Parallelogram;
 import pojo.Square;
 import pojo.Trapezoid;
 import pojo.Triangle;
+import task_2604.LoopPrint;
 
 public class LoopPrintTest {
     final char LABEL = '*';           //打印的标识

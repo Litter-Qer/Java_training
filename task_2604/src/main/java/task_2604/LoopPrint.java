@@ -1,3 +1,5 @@
+package task_2604;
+
 import pojo.Shape;
 
 /**
