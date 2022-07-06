@@ -1,7 +1,5 @@
 package pojo;
 
-import java.security.PrivilegedAction;
-
 public class Triangle extends Shape {
     final int height;
 

@@ -1,5 +1,4 @@
 import org.junit.Test;
-import task_2604.MultiplicationTable;
 import task_2604.NumPyramid;
 
 public class NumPyramidTest {

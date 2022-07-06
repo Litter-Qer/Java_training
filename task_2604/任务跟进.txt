@@ -1,0 +1,18 @@
+1. 利用Stringbuilder减少System.Out的使用
+任务结果
+# Run complete. Total time: 00:13:26
+
+Benchmark                 Mode  Cnt   Score    Error   Units
+SystemOutCompare.test1   thrpt   10  ≈ 10⁻⁵           ops/ns
+SystemOutCompare1.test2  thrpt   10  ≈ 10⁻⁴           ops/ns
+
+昨天的任务中，打印图形的方法主要采用的是print和println结合的形式。
+经过今天的修改，把整体的打印逻辑改为先使用string builder构造一个字符串。
+然后把整个字符串打印出来，整个过程只需要一个print。
+test1使用的是老的方法，而test2使用的是string builder。
+结果很明显test2的效率远大于test1. 所以在日常使用中，应该尽量减少System.Out.print的使用。
+
+2. 探究String Builder的底层——关联到源码
+
+
+

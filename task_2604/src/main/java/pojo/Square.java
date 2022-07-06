@@ -1,6 +1,6 @@
 package pojo;
 
-public class Square extends Rectangle {
+public class Square extends Shape {
     final private int side;
 
     public Square(int side) {
