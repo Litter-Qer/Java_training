@@ -1,2 +1,0 @@
-fetch counts = 0
-
