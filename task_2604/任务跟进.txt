@@ -13,6 +13,87 @@ test1使用的是老的方法，而test2使用的是string builder。
 结果很明显test2的效率远大于test1. 所以在日常使用中，应该尽量减少System.Out.print的使用。
 
 2. 探究String Builder的底层——关联到源码
+## Stringbuilder中调用append
+
+public AbstractStringBuilder append(String str) {
+        if (str == null) {
+            return appendNull();
+        }
+        int len = str.length();
+        ensureCapacityInternal(count + len);
+        putStringAt(count, str);
+        count += len;
+        return this;
+    }
+
+通过观察源码发现，stringbuilder底层是通过把新的字符串直接利用index来拼接到老的字符串上的。
+
+3. 利用反编译探究string + 底层是如何实现的
+
+预先写好的method
+public void string2() {
+        String s1 = "12" + "asd";
+        String s2 = "12" + new String("asd");
+        String s3 = "12" ;
+        String s4 = "asd";
+        String s5 = s3 + s4;
+        String s6 = 20 + 10 + "12" + 20 + 15;
+
+    }
+
+反编译结果
+public void string2() {
+        String s1 = "12asd";
+        String var10000 = new String("asd");
+        String s2 = "12" + var10000;
+        String s3 = "12";
+        String s4 = "asd";
+        s3.makeConcatWithConstants<invokedynamic>(s3, s4);
+	  String s6 = "30122015";
+    }
+
+通过反编译结果发现当使用 + 来拼接字符串的时候会有以下几种不同的结果
+a)如果相加的两个变量是常量的话，那么就直接拼接
+b)如果相加的两个变量中有一个是新的字符串对象，则先定义对象，在直接相加
+c)如果相加的都是变量的话，则会使用StringBuilder来进行拼接
+
+其他观察结果
+拼接字符串当中如果加入运算，java不会直接把数字转成StringBuilder然后直接拼接。相反的，java会把运算先完成在进行拼接。
+这个结果也侧面证明了如果一个拼接操作中出现了两个常量，则java会先把常量按照运算符的规则合并然后在处理拼接。
+
+
+4. 语法糖的思考
+字符串相加
+根据上述的发现，java中的语法糖其实明确简化了字符串的相加过程。
+如果编译时期内就可以处理，并且结果是确定的。那么就直接拼接，并显示结果。
+如果编译时期内无法处理，例如s5。则会转换成Stringbuilder然后利用append进行拼接。
+那么也就是说，如果我需要把多个string相加，我不需要在java文件中定义stringbuilder，java编译器可以直接帮助我完成这一步。
+也就是说，我只需要在java文件中使用 + 即可。这样简化了编程的复杂度，而且代码也更可读。
+
+5. 其他问题
+java文件
+    public void printMT() {
+        for (int i = 1; i < 10; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(i +"x"+ j +"="+ (i*j) + " ");
+            }
+            System.out.println();
+        }
+    }
+
+
+反编译结果
+    public void printMT() {
+        for(int i = 1; i < 10; ++i) {
+            for(int j = 1; j <= i; ++j) {
+                System.out.print("" + i + "x" + j + "=" + i * j + " ");
+            }
+
+            System.out.println();
+        }
+
+这里Java编译器自动加上了""，也把i++和j++改成了++i和++j。这个地方，我查了以下，没有发现特别相关的解释。
+如果按照反编译的结果，那么出来的结果应该会少一行，然后每一行多一列。这个地方是反编译显示的问题，还是就是这样的？
 
 
 

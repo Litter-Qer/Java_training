@@ -4,38 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/github.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_82.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jmh_jmh_core_1_35.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jmh_jmh_generator_annprocess_1_35.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloworld/helloworld.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2604/src/main/java/task_2604/SystemOutCompare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2604/src/main/java/task_2604/SystemOutCompare1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2604/task_2604.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2604/任务跟进.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/target/test-classes/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld/target/test-classes/HelloWorld.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/task_2604/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/task_2604/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/src/main/java/pojo/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2604/src/main/java/pojo/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/src/main/java/pojo/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2604/src/main/java/pojo/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/src/main/java/pojo/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2604/src/main/java/pojo/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/src/test/java/NumPyramidTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2604/src/test/java/NumPyramidTest.java" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="利用JMH对比了不同的实现方法">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2604/src/main/java/task_2604/MultiplicationTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2604/src/main/java/task_2604/MultiplicationTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2604/target/classes/task_2604/MultiplicationTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/task_2604/target/classes/task_2604/MultiplicationTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2604/target/classes/task_2604/SystemOutCompare.class" beforeDir="false" afterPath="$PROJECT_DIR$/task_2604/target/classes/task_2604/SystemOutCompare.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2604/target/classes/task_2604/SystemOutCompare1.class" beforeDir="false" afterPath="$PROJECT_DIR$/task_2604/target/classes/task_2604/SystemOutCompare1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2604/target/classes/task_2604/jmh_generated/SystemOutCompare_test2_jmhTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2604/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/task_2604/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2604/任务跟进.txt" beforeDir="false" afterPath="$PROJECT_DIR$/task_2604/任务跟进.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +28,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-17.0.3.1/lib/src.zip!/java.base/java/lang/StringBuilder.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -79,10 +59,11 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/github",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SystemOutCompare">
+  <component name="RunManager" selected="JUnit.MTTest">
     <configuration name="SystemOutCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task_2604.SystemOutCompare" />
       <module name="task_2604" />
@@ -116,13 +97,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MTTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_2604" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MTTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.SystemOutCompare" />
+      <item itemvalue="JUnit.MTTest" />
       <item itemvalue="JUnit.LoopPrintTest" />
       <item itemvalue="JUnit.LoopPrintTest.printSquareTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MTTest" />
         <item itemvalue="Application.SystemOutCompare" />
         <item itemvalue="JUnit.LoopPrintTest" />
         <item itemvalue="JUnit.LoopPrintTest.printSquareTest" />
@@ -137,8 +129,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657069872510</updated>
-      <workItem from="1657069873652" duration="6618000" />
+      <workItem from="1657069873652" duration="11717000" />
     </task>
+    <task id="LOCAL-00001" summary="利用JMH对比了不同的实现方法">
+      <created>1657078465880</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657078465880</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,5 +157,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="利用JMH对比了不同的实现方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="利用JMH对比了不同的实现方法" />
   </component>
 </project>
