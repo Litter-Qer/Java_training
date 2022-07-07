@@ -4,31 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="跟进了昨天的任务">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2605/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2605/src/main/java/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2605/src/main/java/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2605/src/test/java/InsertionSortTest.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_82.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jmh_jmh_core_1_35.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jmh_jmh_generator_annprocess_1_35.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="冒泡以及插入排序">
+      <change afterPath="$PROJECT_DIR$/task_2605/reflection" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2605/src/main/java/Array2d.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2605/src/main/java/YHTriangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/helloworld.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/task_2604.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2605/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/task_2605/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2605/src/main/java/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2605/src/main/java/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2605/src/main/java/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2605/src/main/java/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2605/src/test/java/InsertionSortTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/task_2605/src/test/java/InsertionSortTest.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,14 +63,14 @@
     "last_opened_file_path": "C:/github",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RunManager" selected="JUnit.InsertionSortTest.test sort">
-    <configuration name="ArrayExes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayExes" />
+    <configuration name="Array2d" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array2d" />
       <module name="task_2605" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,6 +90,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="YHTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="YHTriangle" />
+      <module name="task_2605" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InsertionSortTest.test sort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_2605" />
       <option name="PACKAGE_NAME" value="" />
@@ -116,29 +107,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MTTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_2604" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MTTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.Array2d" />
       <item itemvalue="Application.BubbleSort" />
-      <item itemvalue="Application.ArrayExes" />
+      <item itemvalue="Application.YHTriangle" />
       <item itemvalue="Application.InsertionSort" />
       <item itemvalue="JUnit.InsertionSortTest.test sort" />
-      <item itemvalue="JUnit.MTTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.InsertionSortTest.test sort" />
+        <item itemvalue="Application.Array2d" />
+        <item itemvalue="Application.YHTriangle" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.ArrayExes" />
-        <item itemvalue="JUnit.MTTest" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +134,7 @@
       <updated>1657069872510</updated>
       <workItem from="1657069873652" duration="19564000" />
       <workItem from="1657092055093" duration="157000" />
-      <workItem from="1657092228280" duration="6382000" />
+      <workItem from="1657092228280" duration="18640000" />
     </task>
     <task id="LOCAL-00001" summary="利用JMH对比了不同的实现方法">
       <created>1657078465880</created>
@@ -168,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657083358215</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="冒泡以及插入排序">
+      <created>1657156216316</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657156216316</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +178,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="利用JMH对比了不同的实现方法" />
     <MESSAGE value="跟进了昨天的任务" />
-    <option name="LAST_COMMIT_MESSAGE" value="跟进了昨天的任务" />
+    <MESSAGE value="冒泡以及插入排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="冒泡以及插入排序" />
   </component>
 </project>

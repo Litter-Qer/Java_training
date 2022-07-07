@@ -12,13 +12,14 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
-    <dependencies>
 
+    <!-- 所有依赖 -->
+    <dependencies>
         <!-- https://mvnrepository.com/artifact/org.codehaus.groovy/groovy -->
         <dependency>
             <groupId>org.codehaus.groovy</groupId>
             <artifactId>groovy</artifactId>
-            <version>3.0.7</version>
+            <version>3.0.11</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.spockframework/spock-core -->
@@ -28,28 +29,13 @@
             <version>2.1-groovy-3.0</version>
             <scope>test</scope>
         </dependency>
+        <!-- spring spock -->
         <dependency>
             <groupId>org.spockframework</groupId>
             <artifactId>spock-spring</artifactId>
             <version>2.1-groovy-2.5</version>
             <scope>test</scope>
         </dependency>
-        <!-- spock依赖的groovy -->
-        <dependency>
-            <groupId>org.codehaus.groovy</groupId>
-            <artifactId>groovy-all</artifactId>
-            <version>2.5.4</version>
-            <type>pom</type>
-            <exclusions>
-                <exclusion>
-                    <artifactId>groovy-test-junit5</artifactId>
-                    <groupId>org.codehaus.groovy</groupId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>groovy-testng</artifactId>
-                    <groupId>org.codehaus.groovy</groupId>
-                </exclusion>
-            </exclusions>
-        </dependency>
     </dependencies>
+
 </project>

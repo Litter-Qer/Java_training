@@ -33,6 +33,11 @@ public class InsertionSort {
         return arr;
     }
 
+    /**
+     * 改动了i++的位置，其他和sort一样
+     * @param arr unsorted array
+     * @return sorted array
+     */
     public int[] sort1(int[] arr) {
         int len = arr.length;
         for (int i = 1; i < len; i++) {
@@ -48,6 +53,11 @@ public class InsertionSort {
         return arr;
     }
 
+    /**
+     * 改动了判定条件，把>改成了>=
+     * @param arr unsorted array
+     * @return sorted array
+     */
     public int[] sort2(int[] arr) {
         int len = arr.length;
         for (int i = 1; i < len; ++i) {
