@@ -4,15 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="利用JMH对比了不同的实现方法">
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="跟进了昨天的任务">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2605/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2605/src/main/java/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2605/src/main/java/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2605/src/test/java/InsertionSortTest.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_82.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jmh_jmh_core_1_35.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjdk_jmh_jmh_generator_annprocess_1_35.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/src/main/java/task_2604/MultiplicationTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2604/src/main/java/task_2604/MultiplicationTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/classes/task_2604/MultiplicationTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/task_2604/target/classes/task_2604/MultiplicationTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/classes/task_2604/SystemOutCompare.class" beforeDir="false" afterPath="$PROJECT_DIR$/task_2604/target/classes/task_2604/SystemOutCompare.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/classes/task_2604/SystemOutCompare1.class" beforeDir="false" afterPath="$PROJECT_DIR$/task_2604/target/classes/task_2604/SystemOutCompare1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/classes/task_2604/jmh_generated/SystemOutCompare_test2_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/task_2604/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/任务跟进.txt" beforeDir="false" afterPath="$PROJECT_DIR$/task_2604/任务跟进.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld/helloworld.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2604/task_2604.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +38,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Groovy, Spock &amp; Mockito" />
         <option value="Class" />
       </list>
     </option>
@@ -58,40 +75,42 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
     "last_opened_file_path": "C:/github",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MTTest">
-    <configuration name="SystemOutCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="task_2604.SystemOutCompare" />
-      <module name="task_2604" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="task_2604.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="JUnit.InsertionSortTest.test sort">
+    <configuration name="ArrayExes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayExes" />
+      <module name="task_2605" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoopPrintTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_2604" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoopPrintTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BubbleSort" />
+      <module name="task_2605" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoopPrintTest.printSquareTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_2604" />
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InsertionSort" />
+      <module name="task_2605" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertionSortTest.test sort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_2605" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoopPrintTest" />
-      <option name="METHOD_NAME" value="printSquareTest" />
+      <option name="MAIN_CLASS_NAME" value="InsertionSortTest" />
+      <option name="METHOD_NAME" value="test sort" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,17 +126,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SystemOutCompare" />
+      <item itemvalue="Application.BubbleSort" />
+      <item itemvalue="Application.ArrayExes" />
+      <item itemvalue="Application.InsertionSort" />
+      <item itemvalue="JUnit.InsertionSortTest.test sort" />
       <item itemvalue="JUnit.MTTest" />
-      <item itemvalue="JUnit.LoopPrintTest" />
-      <item itemvalue="JUnit.LoopPrintTest.printSquareTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InsertionSortTest.test sort" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.InsertionSort" />
+        <item itemvalue="Application.ArrayExes" />
         <item itemvalue="JUnit.MTTest" />
-        <item itemvalue="Application.SystemOutCompare" />
-        <item itemvalue="JUnit.LoopPrintTest" />
-        <item itemvalue="JUnit.LoopPrintTest.printSquareTest" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +150,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657069872510</updated>
-      <workItem from="1657069873652" duration="11717000" />
+      <workItem from="1657069873652" duration="19564000" />
+      <workItem from="1657092055093" duration="157000" />
+      <workItem from="1657092228280" duration="6382000" />
     </task>
     <task id="LOCAL-00001" summary="利用JMH对比了不同的实现方法">
       <created>1657078465880</created>
@@ -138,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657078465880</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="跟进了昨天的任务">
+      <created>1657083358215</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657083358215</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +188,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="利用JMH对比了不同的实现方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="利用JMH对比了不同的实现方法" />
+    <MESSAGE value="跟进了昨天的任务" />
+    <option name="LAST_COMMIT_MESSAGE" value="跟进了昨天的任务" />
   </component>
 </project>
