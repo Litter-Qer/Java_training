@@ -1,12 +1,13 @@
+import spock.lang.Shared
 import spock.lang.Specification
 
 class InsertionSortTest extends Specification {
-    InsertionSort insertionSort = new InsertionSort()
+    @Shared InsertionSort insertionSort = new InsertionSort()
 
     def "test sort"() {
         expect:
         // a sorted array (in-place)
-        insertionSort.sort(unsorted) == sorted
+        insertionSort.sort(unsorted as int[]) == sorted
 
         where:
         unsorted               || sorted
@@ -16,7 +17,5 @@ class InsertionSortTest extends Specification {
         [8,11,9,7,12,5,6,10]   || [5,6,7,8,9,10,11,12]
     }
 
-    def setup(){
-        println "setting up......."
-    }
+
 }

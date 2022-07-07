@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="冒泡以及插入排序">
-      <change afterPath="$PROJECT_DIR$/task_2605/reflection" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2605/src/main/java/Array2d.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2605/src/main/java/YHTriangle.java" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="task_2605无spock版完成">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_2605/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/task_2605/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2605/src/main/java/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2605/src/main/java/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2605/reflection" beforeDir="false" afterPath="$PROJECT_DIR$/task_2605/reflection" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_2605/src/main/java/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2605/src/main/java/InsertionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_2605/src/test/java/InsertionSortTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/task_2605/src/test/java/InsertionSortTest.groovy" afterDir="false" />
     </list>
@@ -83,16 +80,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InsertionSort" />
+    <configuration name="YHTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="YHTriangle" />
       <module name="task_2605" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="YHTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="YHTriangle" />
+    <configuration name="InsertionSortTest.maximum of two numbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_2605" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InsertionSortTest" />
+      <option name="METHOD_NAME" value="maximum of two numbers" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -111,16 +111,16 @@
       <item itemvalue="Application.Array2d" />
       <item itemvalue="Application.BubbleSort" />
       <item itemvalue="Application.YHTriangle" />
-      <item itemvalue="Application.InsertionSort" />
+      <item itemvalue="JUnit.InsertionSortTest.maximum of two numbers" />
       <item itemvalue="JUnit.InsertionSortTest.test sort" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.InsertionSortTest.test sort" />
+        <item itemvalue="JUnit.InsertionSortTest.maximum of two numbers" />
         <item itemvalue="Application.Array2d" />
         <item itemvalue="Application.YHTriangle" />
         <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.InsertionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +134,7 @@
       <updated>1657069872510</updated>
       <workItem from="1657069873652" duration="19564000" />
       <workItem from="1657092055093" duration="157000" />
-      <workItem from="1657092228280" duration="18640000" />
+      <workItem from="1657092228280" duration="21102000" />
     </task>
     <task id="LOCAL-00001" summary="利用JMH对比了不同的实现方法">
       <created>1657078465880</created>
@@ -157,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657156216316</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="task_2605无spock版完成">
+      <created>1657169956737</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657169956737</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +186,7 @@
     <MESSAGE value="利用JMH对比了不同的实现方法" />
     <MESSAGE value="跟进了昨天的任务" />
     <MESSAGE value="冒泡以及插入排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="冒泡以及插入排序" />
+    <MESSAGE value="task_2605无spock版完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="task_2605无spock版完成" />
   </component>
 </project>
