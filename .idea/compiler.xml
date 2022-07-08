@@ -9,6 +9,7 @@
         <module name="helloworld" />
         <module name="task_2605" />
         <module name="task_2604" />
+        <module name="task_2608" />
       </profile>
     </annotationProcessing>
   </component>
