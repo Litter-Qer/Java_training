@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="使用spock单元测试">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2608/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2608/src/main/java/pojo/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2608/src/test/java/pojo/RestaurantTest.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="一些思考">
+      <change afterPath="$PROJECT_DIR$/task_2608/.reflection_images/fields.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2608/.reflection_images/finalkeyword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2608/.reflection_images/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2608/.reflection_images/substring.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2608/reflection.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2608/src/main/java/FinalExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,17 +79,18 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\github\task_2608\.reflection_images" />
+      <recent name="C:\github\task_2608\imgs" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="pojo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RestaurantTest">
-    <configuration name="InsertionSortTest.test sort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_2605" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="InsertionSortTest" />
-      <option name="METHOD_NAME" value="test sort" />
-      <option name="TEST_OBJECT" value="method" />
+  <component name="RunManager" selected="Application.FinalExample">
+    <configuration name="FinalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FinalExample" />
+      <module name="task_2608" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -158,19 +159,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.FinalExample" />
       <item itemvalue="JUnit.RestaurantTest" />
       <item itemvalue="JUnit.RestaurantTest.multiple rs can receive the same order" />
       <item itemvalue="JUnit.RestaurantTest.one rs can receive multiple orders" />
       <item itemvalue="JUnit.RestaurantTest.one rs can serve multiple orders" />
-      <item itemvalue="JUnit.InsertionSortTest.test sort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FinalExample" />
         <item itemvalue="JUnit.RestaurantTest" />
         <item itemvalue="JUnit.RestaurantTest.multiple rs can receive the same order" />
         <item itemvalue="JUnit.RestaurantTest.one rs can serve multiple orders" />
         <item itemvalue="JUnit.RestaurantTest.one rs can receive multiple orders" />
-        <item itemvalue="JUnit.InsertionSortTest.test sort" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +187,7 @@
       <workItem from="1657092055093" duration="157000" />
       <workItem from="1657092228280" duration="23938000" />
       <workItem from="1657175638018" duration="5390000" />
-      <workItem from="1657238792771" duration="5066000" />
+      <workItem from="1657238792771" duration="9404000" />
     </task>
     <task id="LOCAL-00001" summary="利用JMH对比了不同的实现方法">
       <created>1657078465880</created>
@@ -223,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657172395434</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="taks2608完成">
+      <created>1657244702296</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657244702296</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +255,8 @@
     <MESSAGE value="冒泡以及插入排序" />
     <MESSAGE value="task_2605无spock版完成" />
     <MESSAGE value="使用spock单元测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用spock单元测试" />
+    <MESSAGE value="taks2608完成" />
+    <MESSAGE value="一些思考" />
+    <option name="LAST_COMMIT_MESSAGE" value="一些思考" />
   </component>
 </project>
