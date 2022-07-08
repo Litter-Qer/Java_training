@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="一些思考">
-      <change afterPath="$PROJECT_DIR$/task_2608/.reflection_images/fields.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2608/.reflection_images/finalkeyword.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2608/.reflection_images/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2608/.reflection_images/substring.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2608/reflection.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2608/src/main/java/FinalExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2608/reflection.md" beforeDir="false" afterPath="$PROJECT_DIR$/task_2608/reflection.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +182,7 @@
       <workItem from="1657092055093" duration="157000" />
       <workItem from="1657092228280" duration="23938000" />
       <workItem from="1657175638018" duration="5390000" />
-      <workItem from="1657238792771" duration="9404000" />
+      <workItem from="1657238792771" duration="12316000" />
     </task>
     <task id="LOCAL-00001" summary="利用JMH对比了不同的实现方法">
       <created>1657078465880</created>
@@ -231,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657244702296</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="一些思考">
+      <created>1657250555501</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657250555501</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
