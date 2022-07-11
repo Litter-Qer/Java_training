@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="一些思考">
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="一些新的思考">
+      <change afterPath="$PROJECT_DIR$/task_2608/.reflection_update_images/string_constructor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2608/reflection_update.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2608/src/main/java/StringExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2608/src/main/java/StringExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2608/src/main/java/StringExample3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2608/reflection.md" beforeDir="false" afterPath="$PROJECT_DIR$/task_2608/reflection.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2608/src/main/java/FinalExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2608/src/main/java/FinalExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,46 +50,75 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Workings/Hexo.md&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/github/task_2608/src/main",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="pojo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\github\task_2608\src\main" />
+      <recent name="C:\github\task_2608" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\github\task_2608\src\main\java" />
       <recent name="C:\github\task_2608\.reflection_images" />
       <recent name="C:\github\task_2608\imgs" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="pojo" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.FinalExample">
+  <component name="RunManager" selected="Application.StringExample3">
     <configuration name="FinalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FinalExample" />
+      <module name="task_2608" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringExample1" />
+      <module name="task_2608" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringExample2" />
+      <module name="task_2608" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringExample3" />
       <module name="task_2608" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,68 +139,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestaurantTest.multiple rs can receive the same order" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_2608" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pojo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pojo" />
-      <option name="MAIN_CLASS_NAME" value="pojo.RestaurantTest" />
-      <option name="METHOD_NAME" value="multiple rs can receive the same order" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RestaurantTest.one rs can receive multiple orders" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_2608" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pojo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pojo" />
-      <option name="MAIN_CLASS_NAME" value="pojo.RestaurantTest" />
-      <option name="METHOD_NAME" value="one rs can receive multiple orders" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RestaurantTest.one rs can serve multiple orders" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_2608" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pojo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pojo" />
-      <option name="MAIN_CLASS_NAME" value="pojo.RestaurantTest" />
-      <option name="METHOD_NAME" value="one rs can serve multiple orders" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.StringExample1" />
+      <item itemvalue="Application.StringExample2" />
+      <item itemvalue="Application.StringExample3" />
       <item itemvalue="Application.FinalExample" />
       <item itemvalue="JUnit.RestaurantTest" />
-      <item itemvalue="JUnit.RestaurantTest.multiple rs can receive the same order" />
-      <item itemvalue="JUnit.RestaurantTest.one rs can receive multiple orders" />
-      <item itemvalue="JUnit.RestaurantTest.one rs can serve multiple orders" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringExample3" />
+        <item itemvalue="Application.StringExample2" />
+        <item itemvalue="Application.StringExample1" />
         <item itemvalue="Application.FinalExample" />
         <item itemvalue="JUnit.RestaurantTest" />
-        <item itemvalue="JUnit.RestaurantTest.multiple rs can receive the same order" />
-        <item itemvalue="JUnit.RestaurantTest.one rs can serve multiple orders" />
-        <item itemvalue="JUnit.RestaurantTest.one rs can receive multiple orders" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +168,9 @@
       <workItem from="1657092055093" duration="157000" />
       <workItem from="1657092228280" duration="23938000" />
       <workItem from="1657175638018" duration="5390000" />
-      <workItem from="1657238792771" duration="12316000" />
+      <workItem from="1657238792771" duration="13830000" />
+      <workItem from="1657255286627" duration="19000" />
+      <workItem from="1657258494161" duration="12792000" />
     </task>
     <task id="LOCAL-00001" summary="利用JMH对比了不同的实现方法">
       <created>1657078465880</created>
@@ -233,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657250555501</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="一些新的思考">
+      <created>1657253490641</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657253490641</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +239,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -259,6 +266,7 @@
     <MESSAGE value="使用spock单元测试" />
     <MESSAGE value="taks2608完成" />
     <MESSAGE value="一些思考" />
-    <option name="LAST_COMMIT_MESSAGE" value="一些思考" />
+    <MESSAGE value="一些新的思考" />
+    <option name="LAST_COMMIT_MESSAGE" value="一些新的思考" />
   </component>
 </project>
