@@ -3,16 +3,33 @@ import pojo.*;
 public class Example {
     public static void main(String[] args) {
 //        rchTest();
-        abTest();
+//        abTest();
+//        abTest1();
+        abTest2();
     }
 
-    public static void abTest(){
-        B b = new B();
-        B.print();
-        A.print();
+    public static void abTest() {
+//        B b = new B();
+//        A.print();
+//        B.print();
     }
 
-    public static void rchTest(){
+    public static void abTest1() {
+        A a1 = new A();
+        B b1 = new B();
+        b1 = (B) a1;
+        System.out.println(b1);
+    }
+
+    public static void abTest2() {
+        A a1 = new B();
+        B b1 = new B();
+        b1 = (B) a1;
+        System.out.println(a1);
+        System.out.println(b1);
+    }
+
+    public static void rchTest() {
         // plain class construction
         Hotpot pandaMain = new Hotpot("Panda Hotpot");
         pandaMain.setBranch(0);

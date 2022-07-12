@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="基于上周遗留问题的思考">
-      <change afterPath="$PROJECT_DIR$/task_2609.jobf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2609/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2609/reflection.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2609/src/main/java/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2609/src/main/java/pojo/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2609/src/main/java/pojo/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2609/src/main/java/pojo/Cafeteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2609/src/main/java/pojo/Hotpot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2609/src/main/java/pojo/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="提前保存">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2609/reflection.md" beforeDir="false" afterPath="$PROJECT_DIR$/task_2609/reflection.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2609/src/main/java/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2609/src/main/java/Example.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +161,7 @@
       <workItem from="1657175638018" duration="5390000" />
       <workItem from="1657238792771" duration="13830000" />
       <workItem from="1657255286627" duration="19000" />
-      <workItem from="1657258494161" duration="42620000" />
+      <workItem from="1657258494161" duration="44384000" />
     </task>
     <task id="LOCAL-00001" summary="利用JMH对比了不同的实现方法">
       <created>1657078465880</created>
@@ -235,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657513700568</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="提前保存">
+      <created>1657605662812</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1657605662812</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,6 +273,7 @@
     <MESSAGE value="一些思考" />
     <MESSAGE value="一些新的思考" />
     <MESSAGE value="基于上周遗留问题的思考" />
-    <option name="LAST_COMMIT_MESSAGE" value="基于上周遗留问题的思考" />
+    <MESSAGE value="提前保存" />
+    <option name="LAST_COMMIT_MESSAGE" value="提前保存" />
   </component>
 </project>
