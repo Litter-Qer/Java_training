@@ -4,14 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="一些新的思考">
-      <change afterPath="$PROJECT_DIR$/task_2608/.reflection_update_images/string_constructor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2608/reflection_update.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2608/src/main/java/StringExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2608/src/main/java/StringExample2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2608/src/main/java/StringExample3.java" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="基于上周遗留问题的思考">
+      <change afterPath="$PROJECT_DIR$/task_2609.jobf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2609/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2609/reflection.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2609/src/main/java/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2609/src/main/java/pojo/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2609/src/main/java/pojo/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2609/src/main/java/pojo/Cafeteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2609/src/main/java/pojo/Hotpot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2609/src/main/java/pojo/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2608/src/main/java/FinalExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2608/src/main/java/FinalExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +64,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/github/task_2608/src/main",
+    "last_opened_file_path": "C:/soft/jadx-1.3.1",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -84,6 +89,7 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\github\task_2609" />
       <recent name="C:\github\task_2608\src\main\java" />
       <recent name="C:\github\task_2608\.reflection_images" />
       <recent name="C:\github\task_2608\imgs" />
@@ -95,10 +101,19 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringExample3">
-    <configuration name="FinalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FinalExample" />
-      <module name="task_2608" />
+  <component name="RunManager" selected="Application.Example">
+    <configuration name="Atest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Atest" />
+      <module name="task_2629" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Example" />
+      <module name="task_2609" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,35 +139,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestaurantTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_2608" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pojo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pojo" />
-      <option name="MAIN_CLASS_NAME" value="pojo.RestaurantTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.Atest" />
+      <item itemvalue="Application.Example" />
       <item itemvalue="Application.StringExample1" />
       <item itemvalue="Application.StringExample2" />
       <item itemvalue="Application.StringExample3" />
-      <item itemvalue="Application.FinalExample" />
-      <item itemvalue="JUnit.RestaurantTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Example" />
+        <item itemvalue="Application.Atest" />
         <item itemvalue="Application.StringExample3" />
         <item itemvalue="Application.StringExample2" />
         <item itemvalue="Application.StringExample1" />
-        <item itemvalue="Application.FinalExample" />
-        <item itemvalue="JUnit.RestaurantTest" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +170,7 @@
       <workItem from="1657175638018" duration="5390000" />
       <workItem from="1657238792771" duration="13830000" />
       <workItem from="1657255286627" duration="19000" />
-      <workItem from="1657258494161" duration="12792000" />
+      <workItem from="1657258494161" duration="42620000" />
     </task>
     <task id="LOCAL-00001" summary="利用JMH对比了不同的实现方法">
       <created>1657078465880</created>
@@ -228,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657253490641</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="基于上周遗留问题的思考">
+      <created>1657513700568</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657513700568</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,6 +274,7 @@
     <MESSAGE value="taks2608完成" />
     <MESSAGE value="一些思考" />
     <MESSAGE value="一些新的思考" />
-    <option name="LAST_COMMIT_MESSAGE" value="一些新的思考" />
+    <MESSAGE value="基于上周遗留问题的思考" />
+    <option name="LAST_COMMIT_MESSAGE" value="基于上周遗留问题的思考" />
   </component>
 </project>
