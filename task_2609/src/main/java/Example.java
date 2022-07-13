@@ -1,15 +1,29 @@
 import pojo.*;
 
+import java.util.HashMap;
+import java.util.Hashtable;
+
 public class Example {
     public static void main(String[] args) {
 //        rchTest();
-//        abTest();
+        abTest();
 //        abTest1();
-        abTest2();
+//        abTest2();
+        abTest3();
     }
 
     public static void abTest() {
-//        B b = new B();
+        B b = new B();
+//        A.print();
+//        B.print();
+    }
+
+    public static void abTest3() {
+//        C c = new C();
+        System.out.println("---------");
+        D d = new D();
+        System.out.println("---------");
+        C c1 = new C();
 //        A.print();
 //        B.print();
     }

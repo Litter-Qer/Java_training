@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="提前保存">
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="关于继承的一些思考">
+      <change afterPath="$PROJECT_DIR$/task_2609/.reflection_updates_images/static_block.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2609/reflection_updates.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2609/src/main/java/Example1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2609/src/main/java/pojo/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2609/src/main/java/pojo/D.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2609/reflection.md" beforeDir="false" afterPath="$PROJECT_DIR$/task_2609/reflection.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_2609/src/main/java/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2609/src/main/java/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2609/src/main/java/pojo/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2609/src/main/java/pojo/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2609/src/main/java/pojo/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2609/src/main/java/pojo/B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2609/src/main/java/pojo/Hotpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2609/src/main/java/pojo/Hotpot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2609/src/main/java/pojo/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2609/src/main/java/pojo/Restaurant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,33 +54,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/soft/jadx-1.3.1",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/github/task_2609&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\github\task_2609" />
       <recent name="C:\github\task_2608\src\main" />
       <recent name="C:\github\task_2608" />
     </key>
@@ -89,10 +98,11 @@
       <recent name="pojo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pojo" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Example">
+  <component name="RunManager" selected="Application.Example1">
     <configuration name="Atest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Atest" />
       <module name="task_2629" />
@@ -109,9 +119,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringExample1" />
-      <module name="task_2608" />
+    <configuration name="Example1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Example1" />
+      <module name="task_2609" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,17 +143,17 @@
     <list>
       <item itemvalue="Application.Atest" />
       <item itemvalue="Application.Example" />
-      <item itemvalue="Application.StringExample1" />
+      <item itemvalue="Application.Example1" />
       <item itemvalue="Application.StringExample2" />
       <item itemvalue="Application.StringExample3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Example1" />
         <item itemvalue="Application.Example" />
         <item itemvalue="Application.Atest" />
         <item itemvalue="Application.StringExample3" />
         <item itemvalue="Application.StringExample2" />
-        <item itemvalue="Application.StringExample1" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +171,9 @@
       <workItem from="1657175638018" duration="5390000" />
       <workItem from="1657238792771" duration="13830000" />
       <workItem from="1657255286627" duration="19000" />
-      <workItem from="1657258494161" duration="44384000" />
+      <workItem from="1657258494161" duration="49387000" />
+      <workItem from="1657672710062" duration="11147000" />
+      <workItem from="1657687108295" duration="9610000" />
     </task>
     <task id="LOCAL-00001" summary="利用JMH对比了不同的实现方法">
       <created>1657078465880</created>
@@ -233,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657605662812</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="关于继承的一些思考">
+      <created>1657607432250</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1657607432250</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +293,7 @@
     <MESSAGE value="一些新的思考" />
     <MESSAGE value="基于上周遗留问题的思考" />
     <MESSAGE value="提前保存" />
-    <option name="LAST_COMMIT_MESSAGE" value="提前保存" />
+    <MESSAGE value="关于继承的一些思考" />
+    <option name="LAST_COMMIT_MESSAGE" value="关于继承的一些思考" />
   </component>
 </project>

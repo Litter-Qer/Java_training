@@ -34,6 +34,18 @@ public abstract class Restaurant {
         this.dishes.add(dish);
     }
 
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public HashMap<Integer, ArrayList<String>> getId2Dishes() {
+        return id2Dishes;
+    }
+
     public String getType() {
         return type;
     }

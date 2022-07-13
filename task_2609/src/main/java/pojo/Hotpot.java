@@ -8,6 +8,9 @@ public class Hotpot extends Restaurant {
     private String slogan;
     private int branch;
 
+    public int gu;
+    public String aa;
+
     public Hotpot() {
     }
 
