@@ -4,18 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="TASK 2609 DONE">
-      <change afterPath="$PROJECT_DIR$/jmh-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2610/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2610/reflection.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/apackage/ArrayListExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/apackage/ArrayListExample2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/apackage/ArrayListExample3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/apackage/ArrayListExample4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/pojo/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="关于动态数组的研究和反思">
+      <change afterPath="$PROJECT_DIR$/task_2610/reflection_updates.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/ComputerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/InterfaceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/computer/AMD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/computer/CPU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/computer/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/computer/DISK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/computer/EMS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/computer/Intel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/computer/Kingston.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/computer/Samsung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/computer/WestDigit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/MyAbstractClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/MyInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/MyInterface2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/MyInterface3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/MyInterfaceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2610/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/task_2610/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +33,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Groovy, Spock &amp; Mockito" />
         <option value="Class" />
       </list>
@@ -99,33 +108,14 @@
       <recent name="pojo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="computer" />
+      <recent name="interfaces" />
       <recent name="apackage" />
       <recent name="" />
       <recent name="pojo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayListExample4">
-    <configuration name="ArrayListExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="apackage.ArrayListExample2" />
-      <module name="task_2610" />
-      <option name="VM_PARAMETERS" value="-Xlog:jit+compilation=info -Xmx6144M" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayListExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="apackage.ArrayListExample3" />
-      <module name="task_2610" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apackage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ComputerTest">
     <configuration name="ArrayListExample4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="apackage.ArrayListExample4" />
       <module name="task_2610" />
@@ -139,34 +129,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Example1" />
-      <module name="task_2609" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="apackage.ArrayListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="apackage.ArrayListExample" />
+    <configuration name="ComputerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ComputerTest" />
       <module name="task_2610" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InterfaceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterfaceTest" />
+      <module name="task_2610" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyInterfaceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaces.MyInterfaceImpl" />
+      <module name="task_2610" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComputerTest.test show Info" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_2610" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="computer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="computer" />
+      <option name="MAIN_CLASS_NAME" value="computer.ComputerTest" />
+      <option name="METHOD_NAME" value="test show Info" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.ArrayListExample3" />
       <item itemvalue="Application.ArrayListExample4" />
-      <item itemvalue="Application.apackage.ArrayListExample" />
-      <item itemvalue="Application.ArrayListExample2" />
-      <item itemvalue="Application.Example1" />
+      <item itemvalue="Application.ComputerTest" />
+      <item itemvalue="Application.InterfaceTest" />
+      <item itemvalue="Application.MyInterfaceImpl" />
+      <item itemvalue="JUnit.ComputerTest.test show Info" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComputerTest" />
+        <item itemvalue="JUnit.ComputerTest.test show Info" />
+        <item itemvalue="Application.MyInterfaceImpl" />
+        <item itemvalue="Application.InterfaceTest" />
         <item itemvalue="Application.ArrayListExample4" />
-        <item itemvalue="Application.ArrayListExample3" />
-        <item itemvalue="Application.ArrayListExample2" />
-        <item itemvalue="Application.apackage.ArrayListExample" />
-        <item itemvalue="Application.Example1" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +205,7 @@
       <workItem from="1657255286627" duration="19000" />
       <workItem from="1657258494161" duration="49387000" />
       <workItem from="1657672710062" duration="11147000" />
-      <workItem from="1657687108295" duration="27730000" />
+      <workItem from="1657687108295" duration="38579000" />
     </task>
     <task id="LOCAL-00001" summary="利用JMH对比了不同的实现方法">
       <created>1657078465880</created>
@@ -272,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657697041684</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="关于动态数组的研究和反思">
+      <created>1657777627860</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1657777627860</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,6 +341,7 @@
     <MESSAGE value="提前保存" />
     <MESSAGE value="关于继承的一些思考" />
     <MESSAGE value="TASK 2609 DONE" />
-    <option name="LAST_COMMIT_MESSAGE" value="TASK 2609 DONE" />
+    <MESSAGE value="关于动态数组的研究和反思" />
+    <option name="LAST_COMMIT_MESSAGE" value="关于动态数组的研究和反思" />
   </component>
 </project>
