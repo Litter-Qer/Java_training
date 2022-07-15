@@ -1,6 +1,10 @@
 package pojo;
 
-public class Student {
+import computer.Computer;
+
+import java.util.Comparator;
+
+public class Student implements Comparable, Comparator {
     private final Integer id;
     private String name;
     private String gender;
@@ -37,5 +41,33 @@ public class Student {
 
     public void setGender(String gender) {
         this.gender = gender;
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        // 由于传进来的是一个object所以需要先向下转型
+        Student otherStudent = (Student) o;
+        return Integer.compare(this.id, otherStudent.id);
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", gender='" + gender + '\'' +
+                "}\n";
+    }
+
+
+    @Override
+    public int compare(Object o1, Object o2) {
+        return 0;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        Student otherStudent = (Student) obj;
+        return this.id.equals(otherStudent.id);
     }
 }

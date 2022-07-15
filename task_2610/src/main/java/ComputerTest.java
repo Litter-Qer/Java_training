@@ -11,7 +11,9 @@ public class ComputerTest {
         DISK wd = new WestDigit();
 
         Computer comp = new Computer(amd,kingston,wd);
+        Computer comp2 = new Computer(intel, samsung, wd);
 
         comp.showInfo();
+        comp2.showInfo();
     }
 }

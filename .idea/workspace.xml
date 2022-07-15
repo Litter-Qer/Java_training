@@ -4,26 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="关于动态数组的研究和反思">
-      <change afterPath="$PROJECT_DIR$/task_2610/reflection_updates.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/ComputerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/InterfaceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/computer/AMD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/computer/CPU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/computer/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/computer/DISK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/computer/EMS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/computer/Intel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/computer/Kingston.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/computer/Samsung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/computer/WestDigit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/MyAbstractClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/MyInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/MyInterface2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/MyInterface3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/MyInterfaceImpl.java" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="接口">
+      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/ComparableTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/task_2610/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2610/reflection_updates.md" beforeDir="false" afterPath="$PROJECT_DIR$/task_2610/reflection_updates.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/ComputerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2610/src/main/java/ComputerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/pojo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2610/src/main/java/pojo/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,16 +101,10 @@
       <recent name="pojo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ComputerTest">
-    <configuration name="ArrayListExample4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="apackage.ArrayListExample4" />
+  <component name="RunManager" selected="Application.ComparableTest">
+    <configuration name="ComparableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ComparableTest" />
       <module name="task_2610" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apackage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -173,7 +153,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ArrayListExample4" />
+      <item itemvalue="Application.ComparableTest" />
       <item itemvalue="Application.ComputerTest" />
       <item itemvalue="Application.InterfaceTest" />
       <item itemvalue="Application.MyInterfaceImpl" />
@@ -181,11 +161,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComparableTest" />
         <item itemvalue="Application.ComputerTest" />
         <item itemvalue="JUnit.ComputerTest.test show Info" />
         <item itemvalue="Application.MyInterfaceImpl" />
         <item itemvalue="Application.InterfaceTest" />
-        <item itemvalue="Application.ArrayListExample4" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +185,7 @@
       <workItem from="1657255286627" duration="19000" />
       <workItem from="1657258494161" duration="49387000" />
       <workItem from="1657672710062" duration="11147000" />
-      <workItem from="1657687108295" duration="38579000" />
+      <workItem from="1657687108295" duration="46356000" />
     </task>
     <task id="LOCAL-00001" summary="利用JMH对比了不同的实现方法">
       <created>1657078465880</created>
@@ -298,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657777627860</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="接口">
+      <created>1657852588043</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1657852588043</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,6 +329,7 @@
     <MESSAGE value="关于继承的一些思考" />
     <MESSAGE value="TASK 2609 DONE" />
     <MESSAGE value="关于动态数组的研究和反思" />
-    <option name="LAST_COMMIT_MESSAGE" value="关于动态数组的研究和反思" />
+    <MESSAGE value="接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="接口" />
   </component>
 </project>
