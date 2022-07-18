@@ -1,4 +1,4 @@
-package interfaces;
+package interfaces.plain;
 
 public interface MyInterface {
     // Fields

@@ -1,4 +1,4 @@
-package interfaces;
+package interfaces.plain;
 
 public interface MyInterface2 extends MyInterface {
     // 一个接口可以继承另外一个接口

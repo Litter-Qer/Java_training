@@ -4,11 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="接口">
-      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/ComparableTest.java" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="补充了比较器的部分">
+      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/InterfaceTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/lambda/LambdaImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/lambda/LambdaImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/lambda/LambdaInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/lambda/LambdaInterface2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/methods/MyClassSetName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/methods/MyConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/methods/MyObjectSetName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/methods/MyStaticPower.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_2610/reflection_updates.md" beforeDir="false" afterPath="$PROJECT_DIR$/task_2610/reflection_updates.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/ComputerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2610/src/main/java/ComputerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/ComparableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2610/src/main/java/ComparableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/InterfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2610/src/main/java/InterfaceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/MyAbstractClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/plain/MyAbstractClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/MyInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/plain/MyInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/MyInterface2.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/plain/MyInterface2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/MyInterface3.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/plain/MyInterface3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/MyInterfaceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/plain/MyInterfaceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/pojo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2610/src/main/java/pojo/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,9 +33,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Groovy, Spock &amp; Mockito" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -94,14 +108,14 @@
       <recent name="pojo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="computer" />
-      <recent name="interfaces" />
-      <recent name="apackage" />
+      <recent name="interfaces.methods" />
       <recent name="" />
-      <recent name="pojo" />
+      <recent name="interfaces" />
+      <recent name="computer" />
+      <recent name="apackage" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ComparableTest">
+  <component name="RunManager" selected="Application.InterfaceTest2">
     <configuration name="ComparableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ComparableTest" />
       <module name="task_2610" />
@@ -123,15 +137,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyInterfaceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfaces.MyInterfaceImpl" />
+    <configuration name="InterfaceTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterfaceTest2" />
       <module name="task_2610" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,16 +164,16 @@
       <item itemvalue="Application.ComparableTest" />
       <item itemvalue="Application.ComputerTest" />
       <item itemvalue="Application.InterfaceTest" />
-      <item itemvalue="Application.MyInterfaceImpl" />
+      <item itemvalue="Application.InterfaceTest2" />
       <item itemvalue="JUnit.ComputerTest.test show Info" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InterfaceTest2" />
+        <item itemvalue="Application.InterfaceTest" />
         <item itemvalue="Application.ComparableTest" />
         <item itemvalue="Application.ComputerTest" />
         <item itemvalue="JUnit.ComputerTest.test show Info" />
-        <item itemvalue="Application.MyInterfaceImpl" />
-        <item itemvalue="Application.InterfaceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +193,7 @@
       <workItem from="1657255286627" duration="19000" />
       <workItem from="1657258494161" duration="49387000" />
       <workItem from="1657672710062" duration="11147000" />
-      <workItem from="1657687108295" duration="46356000" />
+      <workItem from="1657687108295" duration="65471000" />
     </task>
     <task id="LOCAL-00001" summary="利用JMH对比了不同的实现方法">
       <created>1657078465880</created>
@@ -285,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657852588043</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="补充了比较器的部分">
+      <created>1657865588571</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1657865588571</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +345,7 @@
     <MESSAGE value="TASK 2609 DONE" />
     <MESSAGE value="关于动态数组的研究和反思" />
     <MESSAGE value="接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="接口" />
+    <MESSAGE value="补充了比较器的部分" />
+    <option name="LAST_COMMIT_MESSAGE" value="补充了比较器的部分" />
   </component>
 </project>

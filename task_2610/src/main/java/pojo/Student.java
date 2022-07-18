@@ -5,22 +5,31 @@ import computer.Computer;
 import java.util.Comparator;
 
 public class Student implements Comparable, Comparator {
-    private final Integer id;
+    private int id;
     private String name;
     private String gender;
 
     public Student() {
-        this.id = 10000;
+
     }
 
-    public Student(String name) {
+    public Student(int id) {
         this();
+        this.id = id;
+    }
+
+    public Student(int id, String name) {
+        this(id);
         this.name = name;
     }
 
-    public Student(String name, String gender) {
-        this(name);
+    public Student(int id, String name, String gender) {
+        this(id, name);
         this.gender = gender;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public Integer getId() {
@@ -59,7 +68,6 @@ public class Student implements Comparable, Comparator {
                 "}\n";
     }
 
-
     @Override
     public int compare(Object o1, Object o2) {
         return 0;
@@ -68,6 +76,6 @@ public class Student implements Comparable, Comparator {
     @Override
     public boolean equals(Object obj) {
         Student otherStudent = (Student) obj;
-        return this.id.equals(otherStudent.id);
+        return this.id == otherStudent.id;
     }
 }

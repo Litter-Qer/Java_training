@@ -1,4 +1,4 @@
-package interfaces;
+package interfaces.plain;
 
 public class MyInterfaceImpl extends MyAbstractClass {
     public static void main(String[] args) {

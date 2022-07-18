@@ -87,4 +87,153 @@ API，且无法修改类的内容的话，比较器就提供了一个完美的�
 - comparable可以看成是自比用的，比如钱本身可以对比价值。也就是类中属性的对比。
 - comparator则是认为的对比，比如两首歌，认为的认定谁好谁坏这样。更多情况下是主观对比，根据需求进行修改。
 
-## lambda
+## 关于comparator的补充
+
+由于comparator被定义为了函数式方法，所以其实真正需要实现的只有compare这一个抽象方法。但是因为大部分情况下实现equals也会比较有用，
+所以一般也会选择实现。
+
+## lambda 表达式
+
+关于函数式编程我还是有一定了解的，刚学完基础的prolog和haskell，也用这两个写过两个小的项目。Java中的一个函数式编程我个人的理解更像是为了简化编程，
+其实可读性反而没有传统的函数式语言可读。在Java中函数式编程，实质上就是传递一个代码块。
+
+### 核心原则
+
+可推导则可省略 <br>
+当我们具体实现某一个接口的方法的时候，其实我们并不是很关心它的一个对象，反而我们更关注对数据进行了什么样的操作。
+因此我们完全可以通过某种方式省略对象，直接对数据进行操作，也就是所谓的把方法当作参数。
+
+### 基本格式
+
+```shell
+(paramters)->{
+  expression1;
+  expression2;
+  ...
+ };
+```
+
+一般可替换成代码块的接口必须是函数式接口，由```@FunctionalInterface```注释来声明。并且一般一个函数式接口只有一个方法。
+它的实现类也必须只实现这个一个方法。如果以上条件都满足，则可以通过lambda表达式的办法来实例化一个实现类。并且直接使用。不过源码中也提到，
+如果不注解，compiler也会自动把符合的interface作为一个函数式接口来使用。注释了的话会更严格一点，如果写的不对则会直接报错。
+
+### 反编译结果
+
+```shell
+// 通过实例化的方式
+ 0 new #7 <interfaces/LambdaImpl>
+ 3 dup
+ 4 invokespecial #9 <interfaces/LambdaImpl.<init> : ()V>
+ 7 astore_1
+ 8 aload_1
+ 9 invokevirtual #10 <interfaces/LambdaImpl.compare : ()V>
+
+// lambda表达式的方式
+ 0 invokedynamic #7 <compare, BootstrapMethods #0>
+ 5 astore_1
+ 6 aload_1
+ 7 invokeinterface #11 <interfaces/LambdaInterface.compare : ()V> count 1
+12 return
+```
+
+非常明显地，实例化的方式需要先通过new来获取一个实例。然后在通过```invokespecial```在编译时期就确定要调用init，
+再通过```invokevirtual```动态调用compare。<br>
+如果使用lambda就会发现。实际上，我们并没有实例化一个实现类，相反的java告诉JVM使用```invokedynamic```来进行动态语言的调用，
+也就是直接调用某一个调用点所连接的语句。那么我们虽然没有在这里看到一个实例化的结果，但是JVM会不会在后台自动实例化了呢？
+这里继续查看反编译文件，发现了下面这段代码
+
+```shell
+0 getstatic #20 <java/lang/System.out : Ljava/io/PrintStream;>
+3 ldc #34 <通过lambda表达式实现的compare>
+5 invokevirtual #28 <java/io/PrintStream.println : (Ljava/lang/String;)V>
+8 return
+```
+
+的确，JVM会在后台自动把lambda表达式中的代码编译，但是并没有实例化，这里其实就是直接打开了Stream。如此就可以证明，使用lambda表达式的便捷性，
+因为没有实例化，所以在内存中也不需要分配很大的空间，而且现在反编译结果中，行数也相对少一些。
+
+### 参数与返回值
+
+实际上写法没有什么太大的区别，要注意的就是如果又返回值则需要定义return的对象。
+
+### 一些限制
+
+1. 已经实例化的对象无法在通过lambda表达式改写方法。
+2. 可以直接改写非实例化的对象（这里比较有意思，因为通过lambda表达式，实际编译中，JVM是指向了某一个调用点，所以通给非实例化的对象二次改写
+   lambda表达式，可以直接运行）具体参考下面的代码
+
+```shell
+// 通过lambda表达式实现的compare
+LambdaInterface lpl1 = ()->{
+  System.out.println("通过lambda表达式实现的compare");
+};
+lpl1.compare();
+
+// 通过直接赋值的方式来改写compare
+lpl1 = ()->{
+  System.out.println("通过lambda表达式实现的compare --- 2");
+};
+lpl1.compare();
+```
+
+3. 只有一个参数的时候，可以省略小括号。
+4. 方法体只有一句话的时候可以省略大括号。
+5. 如果返回值类型可以确定（也就是只有一个表达式）。那么可以省略return
+6. lambda表达式中的变量必须为一个常量
+
+## 方法调用
+
+### object::instanceMethod
+
+直接调用对象的实例方法。还是和之前一样要注意接口最好是注解一下，然后只能有一个method。
+下面就是具体的使用方法，其实这种使用方式就是相当于简化了一个本来复杂的实现过程，在本次任务的代码可能不能完全体现，
+但是如果结合java的一些特性比如stream，foreach之类的，就可以很优雅的解决一些问题。
+
+```shell
+Student a = new Student();
+// 使用object::instanceMethod 来简写
+MyObjectSetName myObjectSetName2 = a::setName;
+myObjectSetName2.set("c");
+System.out.println(a.getName());
+```
+
+本次实现中可以看到，我可以通过创建不同的MyObjectSetName接口的lambda对象来进行不同的操作。
+
+### Class::staticMethod
+
+和方法调用的名字一致，这里实际上就是尝试直接通过lambda调用静态方法。主要需要注意的就是在类里面要规定静态方法，不然就无法调用。
+
+### Class::instanceMethod
+
+这种方式的引用可以说是比较不一样的，因为对于java来说如果想调用非静态方法，则必须实例化一个对象。然而这里通过lambda表达式，
+就可以在没有对象的情况下直接调用非静态方法，这样做的好处也比较明显，通过某一个特殊的接口，我就可以设计一套流程，在我需要对某个特定对象
+进行操作的时候，直接调用接口的方法就可以实现结果。
+
+```shell
+Student a = new Student();
+MyClassSetName myClassSetName = Student::setName;
+myClassSetName.set(a,"abc");
+System.out.println(a.getName());
+```
+
+但是在编写这个的时候也需要注意一些细节。这里由于是直接调用非静态方法，其实最终还是需要一个实例化对象的。那么java提供一种不需要把
+对象写在lambda表达式，但是却可以作为的参数的方式，这种方式类似于隐式参数。在规定接口方法的时候，要注意第一个参数必须是想要传入的对象，
+然后后面的参数为想要处理的值。在写lambda表达式的时候，由于对象会被隐式的传入方法中（类似于this），所以直接声明调用的方法。
+但是最终使用的时候，仍然需要声明要修改的对象。
+
+### 一些特殊的用法
+既然一个lambda表达式既可以使用static又可以使用non-static那么是否我们也可以通过一些方法来直接调用构造器呢。
+答案显然是可以的
+```shell
+MyConstructor stuNew = Student::new;
+Student a = stuNew.StudentNew();
+System.out.println(a);
+```
+当然这里比较有意思的是虽然我使用的是无参的构造器，但是即便要使用有参的构造器，lambda表达式并不会改变。只需在接口方法中定义参数就好了。
+扩展一下，既然都可以直接调用构造器，那么直接使用this::method当然也是可以的。不过要记得和之前一样在接口方法中定义传入的对象为参数。
+
+### 常用的接口
+JDK真的太良心了！！！！居然有提供一大堆常用的接口，我粗略过了一下大概有10个左右，基本上就是已经帮我们写好了方法，规定了参数数量和返回值。
+直接用lambda实现即可。感觉最常用的就是Runnable, Function, Predicate这几个。
+
+## 内部类
