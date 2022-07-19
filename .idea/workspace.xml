@@ -4,26 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="补充了比较器的部分">
-      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/InterfaceTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/lambda/LambdaImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/lambda/LambdaImpl2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/lambda/LambdaInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/lambda/LambdaInterface2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/methods/MyClassSetName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/methods/MyConstructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/methods/MyObjectSetName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/methods/MyStaticPower.java" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="补充了lambda表达式的部分">
+      <change afterPath="$PROJECT_DIR$/.idea/markdown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2610_SUPPLEMENT/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2610_SUPPLEMENT/reflection.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2610_SUPPLEMENT/src/main/java/innerClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2610_SUPPLEMENT/src/main/java/pojo/OuterClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2610_SUPPLEMENT/src/main/java/pojo/OuterClass2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2610_SUPPLEMENT/src/main/java/pojo/OuterClass3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2610_SUPPLEMENT/src/main/java/pojo/TalkingClock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2610_SUPPLEMENT/src/main/java/pojo/TimerPrinterDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jmh-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2609.jobf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/task_2610/reflection_updates.md" beforeDir="false" afterPath="$PROJECT_DIR$/task_2610/reflection_updates.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/ComparableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2610/src/main/java/ComparableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/InterfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2610/src/main/java/InterfaceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/MyAbstractClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/plain/MyAbstractClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/MyInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/plain/MyInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/MyInterface2.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/plain/MyInterface2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/MyInterface3.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/plain/MyInterface3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/MyInterfaceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/plain/MyInterfaceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/pojo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2610/src/main/java/pojo/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +30,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Groovy, Spock &amp; Mockito" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -72,9 +68,9 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/github/task_2610",
+    "last_opened_file_path": "C:/github/task_2610_SUPPLEMENT",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
@@ -90,10 +86,11 @@
       <recent name="pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\github\task_2610_SUPPLEMENT" />
+      <recent name="C:\github" />
       <recent name="C:\github\task_2610" />
       <recent name="C:\github\task_2609" />
       <recent name="C:\github\task_2608\src\main" />
-      <recent name="C:\github\task_2608" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -108,14 +105,14 @@
       <recent name="pojo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pojo" />
       <recent name="interfaces.methods" />
       <recent name="" />
       <recent name="interfaces" />
       <recent name="computer" />
-      <recent name="apackage" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InterfaceTest2">
+  <component name="RunManager" selected="Application.innerClassTest">
     <configuration name="ComparableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ComparableTest" />
       <module name="task_2610" />
@@ -144,36 +141,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComputerTest.test show Info" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_2610" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="computer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="computer" />
-      <option name="MAIN_CLASS_NAME" value="computer.ComputerTest" />
-      <option name="METHOD_NAME" value="test show Info" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="innerClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="innerClassTest" />
+      <module name="task_2610_SUPPLEMENT" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.innerClassTest" />
       <item itemvalue="Application.ComparableTest" />
       <item itemvalue="Application.ComputerTest" />
       <item itemvalue="Application.InterfaceTest" />
       <item itemvalue="Application.InterfaceTest2" />
-      <item itemvalue="JUnit.ComputerTest.test show Info" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.innerClassTest" />
         <item itemvalue="Application.InterfaceTest2" />
         <item itemvalue="Application.InterfaceTest" />
         <item itemvalue="Application.ComparableTest" />
         <item itemvalue="Application.ComputerTest" />
-        <item itemvalue="JUnit.ComputerTest.test show Info" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +183,8 @@
       <workItem from="1657255286627" duration="19000" />
       <workItem from="1657258494161" duration="49387000" />
       <workItem from="1657672710062" duration="11147000" />
-      <workItem from="1657687108295" duration="65471000" />
+      <workItem from="1657687108295" duration="69050000" />
+      <workItem from="1658117649572" duration="20064000" />
     </task>
     <task id="LOCAL-00001" summary="利用JMH对比了不同的实现方法">
       <created>1657078465880</created>
@@ -300,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657865588571</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="补充了lambda表达式的部分">
+      <created>1658113742005</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1658113742005</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,6 +344,7 @@
     <MESSAGE value="关于动态数组的研究和反思" />
     <MESSAGE value="接口" />
     <MESSAGE value="补充了比较器的部分" />
-    <option name="LAST_COMMIT_MESSAGE" value="补充了比较器的部分" />
+    <MESSAGE value="补充了lambda表达式的部分" />
+    <option name="LAST_COMMIT_MESSAGE" value="补充了lambda表达式的部分" />
   </component>
 </project>

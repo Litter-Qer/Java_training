@@ -222,18 +222,24 @@ System.out.println(a.getName());
 但是最终使用的时候，仍然需要声明要修改的对象。
 
 ### 一些特殊的用法
+
 既然一个lambda表达式既可以使用static又可以使用non-static那么是否我们也可以通过一些方法来直接调用构造器呢。
 答案显然是可以的
+
 ```shell
 MyConstructor stuNew = Student::new;
 Student a = stuNew.StudentNew();
 System.out.println(a);
 ```
+
 当然这里比较有意思的是虽然我使用的是无参的构造器，但是即便要使用有参的构造器，lambda表达式并不会改变。只需在接口方法中定义参数就好了。
 扩展一下，既然都可以直接调用构造器，那么直接使用this::method当然也是可以的。不过要记得和之前一样在接口方法中定义传入的对象为参数。
 
 ### 常用的接口
+
 JDK真的太良心了！！！！居然有提供一大堆常用的接口，我粗略过了一下大概有10个左右，基本上就是已经帮我们写好了方法，规定了参数数量和返回值。
 直接用lambda实现即可。感觉最常用的就是Runnable, Function, Predicate这几个。
 
-## 内部类
+
+
+
