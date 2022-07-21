@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="helloworld" />
         <module name="task_2610" />
+        <module name="task_2612" />
         <module name="task_2610_SUPPLEMENT" />
         <module name="task_2611" />
         <module name="task_2605" />
