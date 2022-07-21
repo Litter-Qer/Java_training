@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="内部类的反思 Done">
-      <change afterPath="$PROJECT_DIR$/task_2611/.reflection_images/Exceptions.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2611/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2611/reflection.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2611/src/main/java/MyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2611/src/main/java/SimpleMath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2611/src/test/java/SimpleMathTest.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="异常机制的基础">
+      <change afterPath="$PROJECT_DIR$/task_2611/reflection_updates.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2611/src/main/java/OuterClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2611/src/main/java/ReflectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2611/src/test/java/SimpleStackWalkerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2611/src/main/java/SimpleMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2611/src/main/java/SimpleMath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2611/src/test/java/SimpleMathTest.groovy" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +60,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
+    "last_directory_selection": "C:/github/task_2611/src/test/java",
     "last_opened_file_path": "C:/github/task_2611",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
@@ -99,28 +98,14 @@
       <recent name="pojo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="pojo" />
       <recent name="interfaces.methods" />
-      <recent name="" />
       <recent name="interfaces" />
       <recent name="computer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SimpleMath">
-    <configuration name="ComparableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ComparableTest" />
-      <module name="task_2610" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InterfaceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterfaceTest" />
-      <module name="task_2610" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ReflectionTest">
     <configuration name="InterfaceTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InterfaceTest2" />
       <module name="task_2610" />
@@ -128,8 +113,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReflectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReflectionTest" />
+      <module name="task_2611" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SimpleMath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SimpleMath" />
+      <module name="task_2611" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleStackWalkerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SimpleStackWalkerTest" />
       <module name="task_2611" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,19 +144,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ReflectionTest" />
+      <item itemvalue="Application.SimpleStackWalkerTest" />
       <item itemvalue="Application.SimpleMath" />
       <item itemvalue="Application.innerClassTest" />
-      <item itemvalue="Application.ComparableTest" />
-      <item itemvalue="Application.InterfaceTest" />
       <item itemvalue="Application.InterfaceTest2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReflectionTest" />
+        <item itemvalue="Application.SimpleStackWalkerTest" />
         <item itemvalue="Application.SimpleMath" />
         <item itemvalue="Application.innerClassTest" />
         <item itemvalue="Application.InterfaceTest2" />
-        <item itemvalue="Application.InterfaceTest" />
-        <item itemvalue="Application.ComparableTest" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +177,8 @@
       <workItem from="1657258494161" duration="49387000" />
       <workItem from="1657672710062" duration="11147000" />
       <workItem from="1657687108295" duration="69050000" />
-      <workItem from="1658117649572" duration="41640000" />
+      <workItem from="1658117649572" duration="46317000" />
+      <workItem from="1658302252990" duration="13391000" />
     </task>
     <task id="LOCAL-00001" summary="利用JMH对比了不同的实现方法">
       <created>1657078465880</created>
@@ -299,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658202732587</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="异常机制的基础">
+      <created>1658295769006</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1658295769006</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,6 +354,7 @@
     <MESSAGE value="补充了比较器的部分" />
     <MESSAGE value="补充了lambda表达式的部分" />
     <MESSAGE value="内部类的反思 Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="内部类的反思 Done" />
+    <MESSAGE value="异常机制的基础" />
+    <option name="LAST_COMMIT_MESSAGE" value="异常机制的基础" />
   </component>
 </project>
