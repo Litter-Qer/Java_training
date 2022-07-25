@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="三个问题解决">
-      <change afterPath="$PROJECT_DIR$/task_2612/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2612/reflection.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2612/src/main/java/GenericDesign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2612/src/main/java/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2612/src/main/java/pojo/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_2612/src/main/java/pojo/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="关于泛型的反思">
+      <change afterPath="$PROJECT_DIR$/helloworld/Hexo.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2612/reflection_updates.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task_2612/src/main/java/collectionExample/ListExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_2612/src/main/java/pojo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2612/src/main/java/pojo/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +21,7 @@
       <list>
         <option value="Interface" />
         <option value="Groovy, Spock &amp; Mockito" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -82,10 +79,10 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\github\task_2612" />
+      <recent name="C:\github\helloworld" />
       <recent name="C:\github\task_2611" />
       <recent name="C:\github\task_2610_SUPPLEMENT" />
       <recent name="C:\github" />
-      <recent name="C:\github\task_2610" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -180,7 +177,7 @@
       <workItem from="1657672710062" duration="11147000" />
       <workItem from="1657687108295" duration="69050000" />
       <workItem from="1658117649572" duration="46317000" />
-      <workItem from="1658302252990" duration="25688000" />
+      <workItem from="1658302252990" duration="51636000" />
     </task>
     <task id="LOCAL-00001" summary="利用JMH对比了不同的实现方法">
       <created>1657078465880</created>
@@ -315,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658370653329</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="关于泛型的反思">
+      <created>1658386433017</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1658386433017</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,6 +369,7 @@
     <MESSAGE value="内部类的反思 Done" />
     <MESSAGE value="异常机制的基础" />
     <MESSAGE value="三个问题解决" />
-    <option name="LAST_COMMIT_MESSAGE" value="三个问题解决" />
+    <MESSAGE value="关于泛型的反思" />
+    <option name="LAST_COMMIT_MESSAGE" value="关于泛型的反思" />
   </component>
 </project>
