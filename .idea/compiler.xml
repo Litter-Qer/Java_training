@@ -15,6 +15,7 @@
         <module name="task_2604" />
         <module name="task_2609" />
         <module name="task_2608" />
+        <module name="sql" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

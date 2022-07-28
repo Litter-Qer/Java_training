@@ -4,14 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="Hexo初探">
-      <change afterPath="$PROJECT_DIR$/.mysql_alter_images/4条数据.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mysql_alter_images/空表.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mysql_alter_images/空表对比.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mysql_alter_images/空表对比alter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mysql_alter_images/非空表_alter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mysql_alter_images/非空表alter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql_alter.md" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="mySql的尝试">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/.sql研究进度_images/change结果.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/.sql研究进度_images/元数据改动.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/.sql研究进度_images/反转1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/.sql研究进度_images/大表new数据变化结果.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/.sql研究进度_images/大表多次操作change结果.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/.sql研究进度_images/大表数据表.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/.sql研究进度_images/大表表头.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/.sql研究进度_images/并发结果.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/.sql研究进度_images/时间.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/.sql研究进度_images/静态alter结果.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/.sql研究进度_images/静态修改对比.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/sql研究进度.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/src/main/java/insertDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/src/main/java/mapper/TestMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/src/main/resources/mapper/TestMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,39 +67,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/github/task_2611/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/github/task_2612&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.css.dialects&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_directory_selection": "C:/github/task_2611/src/test/java",
+    "last_opened_file_path": "C:/github/sql/src/main/resources/mapper",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "settings.css.dialects"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="mapper" />
       <recent name="pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\github\sql\src\main\resources\mapper" />
       <recent name="C:\github\task_2612" />
       <recent name="C:\github\helloworld" />
       <recent name="C:\github\task_2611" />
       <recent name="C:\github\task_2610_SUPPLEMENT" />
-      <recent name="C:\github" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -107,7 +122,12 @@
       <recent name="computer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenericDesign">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="id" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.insertDemo">
     <configuration name="GenericDesign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GenericDesign" />
       <module name="task_2612" />
@@ -136,29 +156,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="innerClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="17" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="innerClassTest" />
-      <module name="task_2610_SUPPLEMENT" />
+    <configuration name="insertDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="insertDemo" />
+      <module name="sql" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.insertDemo" />
       <item itemvalue="Application.GenericDesign" />
       <item itemvalue="Application.ReflectionTest" />
       <item itemvalue="Application.SimpleStackWalkerTest" />
       <item itemvalue="Application.SimpleMath" />
-      <item itemvalue="Application.innerClassTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.insertDemo" />
         <item itemvalue="Application.GenericDesign" />
         <item itemvalue="Application.ReflectionTest" />
         <item itemvalue="Application.SimpleStackWalkerTest" />
         <item itemvalue="Application.SimpleMath" />
-        <item itemvalue="Application.innerClassTest" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +200,10 @@
       <workItem from="1658117649572" duration="46317000" />
       <workItem from="1658302252990" duration="52746000" />
       <workItem from="1658722793576" duration="6000" />
-      <workItem from="1658722842320" duration="35512000" />
+      <workItem from="1658722842320" duration="36709000" />
+      <workItem from="1658902277302" duration="24000" />
+      <workItem from="1658902322274" duration="2033000" />
+      <workItem from="1658966733956" duration="15642000" />
     </task>
     <task id="LOCAL-00001" summary="利用JMH对比了不同的实现方法">
       <created>1657078465880</created>
@@ -345,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658817628301</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="mySql的尝试">
+      <created>1658899914486</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1658899914486</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,6 +427,7 @@
     <MESSAGE value="集合的反思" />
     <MESSAGE value="SQL和参数反射" />
     <MESSAGE value="Hexo初探" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hexo初探" />
+    <MESSAGE value="mySql的尝试" />
+    <option name="LAST_COMMIT_MESSAGE" value="mySql的尝试" />
   </component>
 </project>
