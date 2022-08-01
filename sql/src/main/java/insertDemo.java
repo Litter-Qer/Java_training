@@ -17,10 +17,10 @@ public class insertDemo {
 
         TestMapper testMapper = sqlSession.getMapper(TestMapper.class);
 
-        for (int i = 0; i < 10000; i++) {
+        for (int i = 0; i < 1000; i++) {
             for (int j = 0; j < 1000; j++) {
                 testMapper.add();
-                testMapper.read();
+//                testMapper.read();
             }
             sqlSession.commit();
         }

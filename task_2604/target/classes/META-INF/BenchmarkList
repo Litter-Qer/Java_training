@@ -1,2 +1,0 @@
-JMH S 26 task_2604.SystemOutCompare S 54 task_2604.jmh_generated.SystemOutCompare_test1_jmhTest S 5 test1 S 10 Throughput E A 1 1 1 E E E E E E E I 1 1 I 1 2 E E E E E U 11 NANOSECONDS E E 
-JMH S 27 task_2604.SystemOutCompare1 S 55 task_2604.jmh_generated.SystemOutCompare1_test2_jmhTest S 5 test2 S 10 Throughput E A 1 1 1 E E E E E E E I 1 1 I 1 2 E E E E E U 11 NANOSECONDS E E 
