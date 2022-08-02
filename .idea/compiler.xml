@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="helloworld" />
+        <module name="TASK_2614" />
         <module name="TASK_2613" />
         <module name="task_2610" />
         <module name="task_2612" />

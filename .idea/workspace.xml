@@ -4,80 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="新表">
-      <change afterPath="$PROJECT_DIR$/TASK_2613/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2613/src/main/java/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2613/src/main/java/mainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2613/src/main/java/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2613/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2613/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2613/thread_1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/tables/1.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/tables/old tables/2.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/tables/old tables/record_test_1.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/tables/old tables/record_test_1_12123.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/tables/old tables/test1_big_data.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/tables/old tables/test1_big_data_alter.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/tables/old tables/test1_big_data_alter_change.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/tables/old tables/test1_big_data_new" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/tables/old tables/test1_big_data_new_alter_change" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/tables/old tables/test1_data.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/tables/old tables/test1_data_alter.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/tables/old tables/test1_data_new.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/tables/old tables/test1_table.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/tables/old tables/test1_table_alter.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/tables/old tables/不改变情况下alter.ibd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/tables/old tables/新表.ibd" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="初识线程">
+      <change afterPath="$PROJECT_DIR$/TASK_2614/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2614/src/main/java/test/CreateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2614/src/main/java/test/ExecuteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2614/src/main/java/test/RunStartTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2614/src/main/java/test/SigMulTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2614/src/main/java/test/frameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2614/src/main/java/threads/addThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2614/src/main/java/threads/addThread1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2614/src/main/java/threads/addThread2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2614/src/main/java/threads/addThread3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2614/src/main/java/threads/addThread4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2614/线程进阶1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/markdown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/target/classes/task_2603/HelloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/target/test-classes/HelloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql_alter.md" beforeDir="false" afterPath="$PROJECT_DIR$/sql/mysql_alter.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/src/main/java/insertDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/sql/src/main/java/insertDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/tables/2.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/sql/tables/2.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/tables/record_test_1.ibd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/tables/record_test_1_12123.ibd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/tables/test1_big_data.ibd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/tables/test1_big_data_alter.ibd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/tables/test1_big_data_alter_change.ibd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/tables/test1_big_data_new" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/tables/test1_big_data_new_alter_change" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/tables/test1_data.ibd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/tables/test1_data_alter.ibd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/tables/test1_data_new.ibd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/tables/test1_table.ibd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/tables/test1_table_alter.ibd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/tables/不改变情况下alter.ibd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/tables/新表.ibd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/classes/META-INF/BenchmarkList" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/classes/META-INF/CompilerHints" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/classes/pojo/Parallelogram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/classes/pojo/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/classes/pojo/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/classes/pojo/Square.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/classes/pojo/Trapezoid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/classes/pojo/Triangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/classes/task_2604/LoopPrint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/classes/task_2604/MultiplicationTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/classes/task_2604/NumPyramid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/classes/task_2604/SystemOutCompare.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/classes/task_2604/SystemOutCompare1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/classes/task_2604/jmh_generated/SystemOutCompare1_jmhType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/classes/task_2604/jmh_generated/SystemOutCompare1_jmhType_B1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/classes/task_2604/jmh_generated/SystemOutCompare1_jmhType_B2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/classes/task_2604/jmh_generated/SystemOutCompare1_jmhType_B3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/classes/task_2604/jmh_generated/SystemOutCompare1_test2_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/classes/task_2604/jmh_generated/SystemOutCompare_jmhType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/classes/task_2604/jmh_generated/SystemOutCompare_jmhType_B1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/classes/task_2604/jmh_generated/SystemOutCompare_jmhType_B2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/classes/task_2604/jmh_generated/SystemOutCompare_jmhType_B3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/classes/task_2604/jmh_generated/SystemOutCompare_test1_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/test-classes/LoopPrintTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/test-classes/MTTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/test-classes/NumPyramidTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +33,7 @@
         <option value="Interface" />
         <option value="Groovy, Spock &amp; Mockito" />
         <option value="package-info" />
+        <option value="JUnit4 &amp; Mockito" />
         <option value="Class" />
       </list>
     </option>
@@ -136,7 +80,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
@@ -170,11 +114,11 @@
       <recent name="pojo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test" />
       <recent name="" />
       <recent name="pojo" />
       <recent name="interfaces.methods" />
       <recent name="interfaces" />
-      <recent name="computer" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -182,56 +126,80 @@
       <command value="id" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.mainTest">
-    <configuration name="GenericDesign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GenericDesign" />
-      <module name="task_2612" />
+  <component name="RunManager" selected="Application.RunStartTest">
+    <configuration name="CreateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.CreateTest" />
+      <module name="TASK_2614" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReflectionTest" />
-      <module name="task_2611" />
+    <configuration name="ExecuteTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.ExecuteTest" />
+      <module name="TASK_2614" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleStackWalkerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SimpleStackWalkerTest" />
-      <module name="task_2611" />
+    <configuration name="RunStartTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.RunStartTest" />
+      <module name="TASK_2614" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="insertDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="insertDemo" />
-      <module name="sql" />
+    <configuration name="SigMulTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.SigMulTest" />
+      <module name="TASK_2614" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mainTest" />
-      <module name="TASK_2613" />
+    <configuration name="frameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.frameTest" />
+      <module name="TASK_2614" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.insertDemo" />
-      <item itemvalue="Application.mainTest" />
-      <item itemvalue="Application.GenericDesign" />
-      <item itemvalue="Application.ReflectionTest" />
-      <item itemvalue="Application.SimpleStackWalkerTest" />
+      <item itemvalue="Application.CreateTest" />
+      <item itemvalue="Application.ExecuteTest" />
+      <item itemvalue="Application.RunStartTest" />
+      <item itemvalue="Application.SigMulTest" />
+      <item itemvalue="Application.frameTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.mainTest" />
-        <item itemvalue="Application.insertDemo" />
-        <item itemvalue="Application.GenericDesign" />
-        <item itemvalue="Application.ReflectionTest" />
-        <item itemvalue="Application.SimpleStackWalkerTest" />
+        <item itemvalue="Application.RunStartTest" />
+        <item itemvalue="Application.frameTest" />
+        <item itemvalue="Application.ExecuteTest" />
+        <item itemvalue="Application.CreateTest" />
+        <item itemvalue="Application.SigMulTest" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +227,8 @@
       <workItem from="1658902277302" duration="24000" />
       <workItem from="1658902322274" duration="2033000" />
       <workItem from="1658966733956" duration="42182000" />
-      <workItem from="1659312895295" duration="19774000" />
+      <workItem from="1659312895295" duration="31753000" />
+      <workItem from="1659410764741" duration="13902000" />
     </task>
     <task id="LOCAL-00001" summary="利用JMH对比了不同的实现方法">
       <created>1657078465880</created>
@@ -450,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658988797711</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="初识线程">
+      <created>1659336614068</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1659336614068</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -481,7 +457,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="冒泡以及插入排序" />
     <MESSAGE value="task_2605无spock版完成" />
     <MESSAGE value="使用spock单元测试" />
     <MESSAGE value="taks2608完成" />
@@ -506,7 +481,15 @@
     <MESSAGE value="mySQL注释的研究" />
     <MESSAGE value="表的备份" />
     <MESSAGE value="新表" />
-    <option name="LAST_COMMIT_MESSAGE" value="新表" />
+    <MESSAGE value="初识线程" />
+    <option name="LAST_COMMIT_MESSAGE" value="初识线程" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-defaults>
+        <breakpoint suspend="THREAD" type="java-line" />
+      </breakpoints-defaults>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
