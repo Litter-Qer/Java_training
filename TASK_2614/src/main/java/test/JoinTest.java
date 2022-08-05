@@ -2,11 +2,10 @@ package test;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.concurrent.ExecutionException;
-import java.util.concurrent.FutureTask;
 import java.util.concurrent.TimeUnit;
 
 @Slf4j
-public class joinTest {
+public class JoinTest {
     static int a = 0;
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {

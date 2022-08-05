@@ -3,7 +3,7 @@ package test;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class sleepTest {
+public class SleepTest {
     public static void main(String[] args) throws InterruptedException {
 //        test1();
         test2();

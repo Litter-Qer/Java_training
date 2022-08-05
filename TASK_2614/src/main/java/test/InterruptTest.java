@@ -1,11 +1,10 @@
 package test;
-import lombok.extern.slf4j.Slf4j;
 
+import lombok.extern.slf4j.Slf4j;
 import java.util.concurrent.ExecutionException;
-import java.util.concurrent.TimeUnit;
 
 @Slf4j
-public class interruptTest {
+public class InterruptTest {
 
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         test1();

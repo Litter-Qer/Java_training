@@ -1,8 +1,6 @@
 package test;
 
-import javax.sound.midi.Soundbank;
-
-public class frameTest {
+public class FrameTest {
     public static void main(String[] args) {
         Thread t1 = new Thread(()->{
             method1(20);
