@@ -8,17 +8,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="helloworld" />
+        <module name="task_2605" />
+        <module name="task_2604" />
+        <module name="task_2609" />
+        <module name="task_2608" />
+        <module name="sql" />
+        <module name="TASK_2615" />
         <module name="TASK_2614" />
         <module name="TASK_2613" />
         <module name="task_2610" />
         <module name="task_2612" />
         <module name="task_2610_SUPPLEMENT" />
         <module name="task_2611" />
-        <module name="task_2605" />
-        <module name="task_2604" />
-        <module name="task_2609" />
-        <module name="task_2608" />
-        <module name="sql" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -4,25 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="线程进阶2">
-      <change afterPath="$PROJECT_DIR$/TASK_2614/.线程进阶3_images/java线程状态.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2614/.线程进阶3_images/系统线程状态.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2614/src/main/java/pojo/Helper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2614/src/main/java/pojo/TwoPhaseTermination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2614/src/main/java/test/DaemonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2614/src/main/java/test/ExerciseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2614/src/main/java/test/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2614/src/main/java/test/ParkTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2614/src/main/java/test/StateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2614/src/main/java/test/TwoPhaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2614/线程进阶3.md" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="线程进阶3">
+      <change afterPath="$PROJECT_DIR$/TASK_2615/.线程进阶4_images/JMM内存分配.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2615/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2615/src/main/java/helper/Helper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2615/src/main/java/test/SynchronizedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2615/src/main/java/test/ThreadUnsafeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2615/线程进阶4.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/src/main/java/test/frameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TASK_2614/src/main/java/test/FrameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/src/main/java/test/interruptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TASK_2614/src/main/java/test/InterruptTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/src/main/java/test/joinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TASK_2614/src/main/java/test/JoinTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/src/main/java/test/sleepTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TASK_2614/src/main/java/test/SleepTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/线程进阶2.md" beforeDir="false" afterPath="$PROJECT_DIR$/TASK_2614/线程进阶2.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +69,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/github/task_2611/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/github/TASK_2614&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/github/TASK_2615&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
@@ -97,11 +89,11 @@
       <recent name="pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\github\TASK_2615" />
       <recent name="C:\github\TASK_2614" />
       <recent name="C:\github\sql\src\main\resources\mapper" />
       <recent name="C:\github\task_2612" />
       <recent name="C:\github\helloworld" />
-      <recent name="C:\github\task_2611" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -118,10 +110,10 @@
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="test" />
+      <recent name="helper" />
       <recent name="" />
       <recent name="pojo" />
       <recent name="interfaces.methods" />
-      <recent name="interfaces" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -129,7 +121,7 @@
       <command value="id" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExerciseTest">
+  <component name="RunManager" selected="Application.SynchronizedTest">
     <configuration name="DaemonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.DaemonTest" />
       <module name="TASK_2614" />
@@ -156,32 +148,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.MainTest" />
-      <module name="TASK_2614" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParkTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.ParkTest" />
-      <module name="TASK_2614" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.StateTest" />
       <module name="TASK_2614" />
@@ -195,20 +161,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SynchronizedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.SynchronizedTest" />
+      <module name="TASK_2615" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadUnsafeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.ThreadUnsafeTest" />
+      <module name="TASK_2615" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ExerciseTest" />
       <item itemvalue="Application.StateTest" />
+      <item itemvalue="Application.SynchronizedTest" />
+      <item itemvalue="Application.ThreadUnsafeTest" />
       <item itemvalue="Application.DaemonTest" />
-      <item itemvalue="Application.MainTest" />
-      <item itemvalue="Application.ParkTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SynchronizedTest" />
+        <item itemvalue="Application.ThreadUnsafeTest" />
         <item itemvalue="Application.ExerciseTest" />
         <item itemvalue="Application.StateTest" />
         <item itemvalue="Application.DaemonTest" />
-        <item itemvalue="Application.MainTest" />
-        <item itemvalue="Application.ParkTest" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +231,9 @@
       <workItem from="1659312895295" duration="31753000" />
       <workItem from="1659410764741" duration="36364000" />
       <workItem from="1659571575487" duration="25334000" />
-      <workItem from="1659659255903" duration="5519000" />
+      <workItem from="1659659255903" duration="20443000" />
+      <workItem from="1659684421734" duration="2784000" />
+      <workItem from="1659916350186" duration="8148000" />
     </task>
     <task id="LOCAL-00001" summary="利用JMH对比了不同的实现方法">
       <created>1657078465880</created>
@@ -451,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659511524185</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="线程进阶3">
+      <created>1659666931614</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1659666931614</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,7 +483,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="taks2608完成" />
     <MESSAGE value="一些思考" />
     <MESSAGE value="一些新的思考" />
     <MESSAGE value="基于上周遗留问题的思考" />
@@ -507,7 +507,8 @@
     <MESSAGE value="初识线程" />
     <MESSAGE value="线程进阶1" />
     <MESSAGE value="线程进阶2" />
-    <option name="LAST_COMMIT_MESSAGE" value="线程进阶2" />
+    <MESSAGE value="线程进阶3" />
+    <option name="LAST_COMMIT_MESSAGE" value="线程进阶3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
