@@ -94,5 +94,12 @@
             <artifactId>jmh-generator-annprocess</artifactId>
             <version>1.35</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.openjdk.jol</groupId>
+            <artifactId>jol-core</artifactId>
+            <version>0.16</version>
+        </dependency>
+
     </dependencies>
 </project>
