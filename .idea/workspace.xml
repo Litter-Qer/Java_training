@@ -4,19 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="JMM初步分析和理解">
-      <change afterPath="$PROJECT_DIR$/JM-pars.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2615/.线程进阶5_images/Monitor概览.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2615/.线程进阶5_images/轻量级锁.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2615/.线程进阶5_images/锁膨胀.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2615/src/main/java/test/BiasedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2615/src/main/java/test/LocalVarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2615/src/main/java/test/SellTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2615/src/main/java/test/TransferTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2615/线程进阶5.md" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="线程进阶5">
+      <change afterPath="$PROJECT_DIR$/TASK_2617/.线程进阶6_images/wait流程.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2617/.线程进阶6_images/方法一.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2617/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2617/src/main/java/GuardedObjectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2617/src/main/java/MsgQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2617/src/main/java/SaleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2617/src/main/java/WaitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2617/线程进阶6.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2615/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TASK_2615/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2615/src/main/java/test/SynchronizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TASK_2615/src/main/java/test/SynchronizedTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +72,7 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
     "last_directory_selection": "C:/github/task_2611/src/test/java",
-    "last_opened_file_path": "C:/github/TASK_2615",
+    "last_opened_file_path": "C:/github/TASK_2617/src/main/java",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -92,11 +92,11 @@
       <recent name="pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\github\TASK_2617\src\main\java" />
+      <recent name="C:\github\TASK_2617" />
       <recent name="C:\github\TASK_2615" />
       <recent name="C:\github\TASK_2614" />
       <recent name="C:\github\sql\src\main\resources\mapper" />
-      <recent name="C:\github\task_2612" />
-      <recent name="C:\github\helloworld" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -112,9 +112,9 @@
       <recent name="pojo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="test" />
       <recent name="helper" />
-      <recent name="" />
       <recent name="pojo" />
       <recent name="interfaces.methods" />
     </key>
@@ -124,7 +124,7 @@
       <command value="id" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.BiasedTest">
+  <component name="RunManager" selected="Application.MsgQueueTest">
     <configuration name="BiasedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.BiasedTest" />
       <module name="TASK_2615" />
@@ -139,72 +139,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocalVarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.LocalVarTest" />
-      <module name="TASK_2615" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="GuardedObjectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GuardedObjectTest" />
+      <module name="TASK_2617" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SellTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.SellTest" />
-      <module name="TASK_2615" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="MsgQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MsgQueueTest" />
+      <module name="TASK_2617" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynchronizedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.SynchronizedTest" />
-      <module name="TASK_2615" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="SaleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SaleTest" />
+      <module name="TASK_2617" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransferTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.TransferTest" />
-      <module name="TASK_2615" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="WaitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WaitTest" />
+      <module name="TASK_2617" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.GuardedObjectTest" />
+      <item itemvalue="Application.MsgQueueTest" />
+      <item itemvalue="Application.SaleTest" />
+      <item itemvalue="Application.WaitTest" />
       <item itemvalue="Application.BiasedTest" />
-      <item itemvalue="Application.LocalVarTest" />
-      <item itemvalue="Application.SellTest" />
-      <item itemvalue="Application.TransferTest" />
-      <item itemvalue="Application.SynchronizedTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MsgQueueTest" />
+        <item itemvalue="Application.GuardedObjectTest" />
+        <item itemvalue="Application.WaitTest" />
+        <item itemvalue="Application.SaleTest" />
         <item itemvalue="Application.BiasedTest" />
-        <item itemvalue="Application.TransferTest" />
-        <item itemvalue="Application.SellTest" />
-        <item itemvalue="Application.LocalVarTest" />
-        <item itemvalue="Application.SynchronizedTest" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +213,9 @@
       <workItem from="1659571575487" duration="25334000" />
       <workItem from="1659659255903" duration="20443000" />
       <workItem from="1659684421734" duration="2784000" />
-      <workItem from="1659916350186" duration="63548000" />
+      <workItem from="1659916350186" duration="70076000" />
+      <workItem from="1660111197972" duration="3026000" />
+      <workItem from="1660116599553" duration="47468000" />
     </task>
     <task id="LOCAL-00001" summary="利用JMH对比了不同的实现方法">
       <created>1657078465880</created>
@@ -470,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660013973674</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="线程进阶5">
+      <created>1660102166132</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1660102166132</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,7 +486,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="基于上周遗留问题的思考" />
     <MESSAGE value="提前保存" />
     <MESSAGE value="关于继承的一些思考" />
     <MESSAGE value="TASK 2609 DONE" />
@@ -526,10 +510,18 @@
     <MESSAGE value="线程进阶3" />
     <MESSAGE value="线程进阶4" />
     <MESSAGE value="JMM初步分析和理解" />
-    <option name="LAST_COMMIT_MESSAGE" value="JMM初步分析和理解" />
+    <MESSAGE value="线程进阶5" />
+    <option name="LAST_COMMIT_MESSAGE" value="线程进阶5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/TASK_2617/src/main/java/SaleTest.java</url>
+          <line>159</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-defaults>
         <breakpoint suspend="THREAD" type="java-line" />
       </breakpoints-defaults>

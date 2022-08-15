@@ -20,6 +20,7 @@
         <module name="task_2612" />
         <module name="task_2610_SUPPLEMENT" />
         <module name="task_2611" />
+        <module name="TASK_2617" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
