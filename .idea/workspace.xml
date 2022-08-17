@@ -4,16 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="线程进阶6">
-      <change afterPath="$PROJECT_DIR$/TASK_2618/.线程进阶7_images/jconsole死锁.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2618/.线程进阶7_images/线程状态进阶.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2618/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2618/src/main/java/DeadLockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2618/src/main/java/DiningTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2618/src/main/java/LiveLockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2618/src/main/java/OfficeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2618/src/main/java/ParkTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2618/线程进阶7.md" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="线程进阶7">
+      <change afterPath="$PROJECT_DIR$/TASK_2619/.线程进阶8_images/条件变量.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2619/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2619/src/main/java/AlterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2619/src/main/java/AlterTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2619/src/main/java/AlterTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2619/src/main/java/CondTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2619/src/main/java/DiningTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2619/src/main/java/LockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2619/src/main/java/OrderPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2619/src/main/java/OrderRLTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2619/src/main/java/OrderWnTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2619/线程进阶8.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -41,6 +44,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-17.0.3.1/lib/src.zip!/java.base/java/lang/StringBuilder.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-17.0.3.1/lib/src.zip!/java.base/java/lang/Thread.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-17.0.3.1/lib/src.zip!/java.base/java/util/concurrent/locks/ReentrantLock.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -73,7 +77,7 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
     "last_directory_selection": "C:/github/task_2611/src/test/java",
-    "last_opened_file_path": "C:/github/TASK_2618",
+    "last_opened_file_path": "C:/github/TASK_2619/src/main/java",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -93,11 +97,11 @@
       <recent name="pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\github\TASK_2619\src\main\java" />
+      <recent name="C:\github\TASK_2619" />
       <recent name="C:\github\TASK_2618" />
       <recent name="C:\github\TASK_2617\src\main\java" />
       <recent name="C:\github\TASK_2617" />
-      <recent name="C:\github\TASK_2615" />
-      <recent name="C:\github\TASK_2614" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -125,56 +129,56 @@
       <command value="id" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.LiveLockTest">
-    <configuration name="DeadLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DeadLockTest" />
-      <module name="TASK_2618" />
+  <component name="RunManager" selected="Application.AlterTest3">
+    <configuration name="AlterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AlterTest" />
+      <module name="TASK_2619" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiningTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DiningTest" />
-      <module name="TASK_2618" />
+    <configuration name="AlterTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AlterTest3" />
+      <module name="TASK_2619" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LiveLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LiveLockTest" />
-      <module name="TASK_2618" />
+    <configuration name="OrderPTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OrderPTest" />
+      <module name="TASK_2619" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OfficeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OfficeTest" />
-      <module name="TASK_2618" />
+    <configuration name="OrderRLTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OrderRLTest" />
+      <module name="TASK_2619" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParkTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ParkTest" />
-      <module name="TASK_2618" />
+    <configuration name="OrderWnTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OrderWnTest" />
+      <module name="TASK_2619" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DeadLockTest" />
-      <item itemvalue="Application.DiningTest" />
-      <item itemvalue="Application.LiveLockTest" />
-      <item itemvalue="Application.OfficeTest" />
-      <item itemvalue="Application.ParkTest" />
+      <item itemvalue="Application.AlterTest" />
+      <item itemvalue="Application.AlterTest3" />
+      <item itemvalue="Application.OrderPTest" />
+      <item itemvalue="Application.OrderRLTest" />
+      <item itemvalue="Application.OrderWnTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LiveLockTest" />
-        <item itemvalue="Application.DiningTest" />
-        <item itemvalue="Application.DeadLockTest" />
-        <item itemvalue="Application.OfficeTest" />
-        <item itemvalue="Application.ParkTest" />
+        <item itemvalue="Application.AlterTest3" />
+        <item itemvalue="Application.AlterTest" />
+        <item itemvalue="Application.OrderPTest" />
+        <item itemvalue="Application.OrderRLTest" />
+        <item itemvalue="Application.OrderWnTest" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +213,7 @@
       <workItem from="1659684421734" duration="2784000" />
       <workItem from="1659916350186" duration="70076000" />
       <workItem from="1660111197972" duration="3026000" />
-      <workItem from="1660116599553" duration="71504000" />
+      <workItem from="1660116599553" duration="105248000" />
     </task>
     <task id="LOCAL-00001" summary="利用JMH对比了不同的实现方法">
       <created>1657078465880</created>
@@ -456,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660539377448</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="线程进阶7">
+      <created>1660625957372</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1660625957372</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,7 +498,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="关于继承的一些思考" />
     <MESSAGE value="TASK 2609 DONE" />
     <MESSAGE value="关于动态数组的研究和反思" />
     <MESSAGE value="接口" />
@@ -512,7 +522,8 @@
     <MESSAGE value="JMM初步分析和理解" />
     <MESSAGE value="线程进阶5" />
     <MESSAGE value="线程进阶6" />
-    <option name="LAST_COMMIT_MESSAGE" value="线程进阶6" />
+    <MESSAGE value="线程进阶7" />
+    <option name="LAST_COMMIT_MESSAGE" value="线程进阶7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -531,5 +542,8 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/github$OrderRLTest.ic" NAME="OrderRLTest Coverage Results" MODIFIED="1660706838905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
