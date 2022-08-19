@@ -4,22 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="线程进阶7">
-      <change afterPath="$PROJECT_DIR$/TASK_2619/.线程进阶8_images/条件变量.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2619/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2619/src/main/java/AlterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2619/src/main/java/AlterTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2619/src/main/java/AlterTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2619/src/main/java/CondTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2619/src/main/java/DiningTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2619/src/main/java/LockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2619/src/main/java/OrderPTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2619/src/main/java/OrderRLTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2619/src/main/java/OrderWnTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2619/线程进阶8.md" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="线程进阶8">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/target.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2620.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2620/JMM2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2620/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2620/src/main/java/AtomicTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2620/src/main/java/DoubleCheckedLocking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2620/src/main/java/Exercise1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2620/src/main/java/Exercise2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2620/src/main/java/ReorderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2620/src/main/java/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2620/src/main/java/TwoPhaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2620/线程进阶9.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reordering/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reordering/src/main/java/aututech/jon/ConcurrencyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,13 +81,13 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
     "last_directory_selection": "C:/github/task_2611/src/test/java",
-    "last_opened_file_path": "C:/github/TASK_2619/src/main/java",
+    "last_opened_file_path": "C:/github/reordering/pom.xml",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.editor"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -97,21 +101,21 @@
       <recent name="pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\github\TASK_2620" />
       <recent name="C:\github\TASK_2619\src\main\java" />
       <recent name="C:\github\TASK_2619" />
       <recent name="C:\github\TASK_2618" />
       <recent name="C:\github\TASK_2617\src\main\java" />
-      <recent name="C:\github\TASK_2617" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\github\ordering\target\classes" />
       <recent name="C:\github\sql" />
       <recent name="C:\github\task_2609" />
       <recent name="C:\github\task_2608\src\main\java" />
       <recent name="C:\github\task_2608\.reflection_images" />
-      <recent name="C:\github\task_2608\imgs" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="pojo" />
@@ -129,7 +133,7 @@
       <command value="id" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.AlterTest3">
+  <component name="RunManager" selected="Application.TwoPhaseTest">
     <configuration name="AlterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AlterTest" />
       <module name="TASK_2619" />
@@ -144,6 +148,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AtomicTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AtomicTest" />
+      <module name="TASK_2620" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderPTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OrderPTest" />
       <module name="TASK_2619" />
@@ -151,16 +162,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderRLTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OrderRLTest" />
-      <module name="TASK_2619" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderWnTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OrderWnTest" />
-      <module name="TASK_2619" />
+    <configuration name="TwoPhaseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoPhaseTest" />
+      <module name="TASK_2620" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -168,17 +172,17 @@
     <list>
       <item itemvalue="Application.AlterTest" />
       <item itemvalue="Application.AlterTest3" />
+      <item itemvalue="Application.AtomicTest" />
       <item itemvalue="Application.OrderPTest" />
-      <item itemvalue="Application.OrderRLTest" />
-      <item itemvalue="Application.OrderWnTest" />
+      <item itemvalue="Application.TwoPhaseTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoPhaseTest" />
+        <item itemvalue="Application.AtomicTest" />
         <item itemvalue="Application.AlterTest3" />
         <item itemvalue="Application.AlterTest" />
         <item itemvalue="Application.OrderPTest" />
-        <item itemvalue="Application.OrderRLTest" />
-        <item itemvalue="Application.OrderWnTest" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +217,10 @@
       <workItem from="1659684421734" duration="2784000" />
       <workItem from="1659916350186" duration="70076000" />
       <workItem from="1660111197972" duration="3026000" />
-      <workItem from="1660116599553" duration="105248000" />
+      <workItem from="1660116599553" duration="130323000" />
+      <workItem from="1660808266661" duration="971000" />
+      <workItem from="1660809266856" duration="4776000" />
+      <workItem from="1660868839301" duration="6917000" />
     </task>
     <task id="LOCAL-00001" summary="利用JMH对比了不同的实现方法">
       <created>1657078465880</created>
@@ -467,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660625957372</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="线程进阶8">
+      <created>1660716896554</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1660716896554</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,7 +512,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="TASK 2609 DONE" />
     <MESSAGE value="关于动态数组的研究和反思" />
     <MESSAGE value="接口" />
     <MESSAGE value="补充了比较器的部分" />
@@ -523,7 +536,8 @@
     <MESSAGE value="线程进阶5" />
     <MESSAGE value="线程进阶6" />
     <MESSAGE value="线程进阶7" />
-    <option name="LAST_COMMIT_MESSAGE" value="线程进阶7" />
+    <MESSAGE value="线程进阶8" />
+    <option name="LAST_COMMIT_MESSAGE" value="线程进阶8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
