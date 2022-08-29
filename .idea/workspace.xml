@@ -4,24 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="线程进阶10">
-      <change afterPath="$PROJECT_DIR$/TASK_2621/src/main/java/DataFormatTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2621/src/main/java/UnsafeAccessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2621/src/main/java/UnsafeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2621/src/main/java/UnsafeTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2621/src/main/java/exercises/Pool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2621/src/main/java/exercises/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2622/.线程进阶11_images/线程池初级.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2622/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2622/src/main/java/PoolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2622/src/main/java/ThreadPoolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2622/src/main/java/ThreadPoolTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2622/src/main/java/ThreadPoolTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2622/src/main/java/ThreadPoolTest4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TASK_2622/线程进阶11.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="线程进阶11">
+      <change afterPath="$PROJECT_DIR$/TASK_2622/.并发补充文档_images/ReentrantLock继承关系.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2622/.并发补充文档_images/非公平锁.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2622/.并发补充文档_images/非公平锁2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2622/src/main/java/AQSTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2622/src/main/java/CHMTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2622/src/main/java/CountDownLatchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2622/src/main/java/ForkJoinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2622/src/main/java/ReentrantLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2622/src/main/java/ScheduledExecutorServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2622/src/main/java/SemaphoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2622/src/main/java/StampedLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2622/src/main/java/TimerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2622/src/main/java/WriteTmp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TASK_2622/并发补充文档.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +40,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="asdazxc" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,30 +71,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_directory_selection": "C:/github/task_2611/src/test/java",
-    "last_opened_file_path": "C:/github/TASK_2622",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/github/task_2611/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/github/TASK_2622&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="mapper" />
@@ -114,11 +111,11 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\github\TASK_2622\tmp" />
+      <recent name="C:\github\TASK_2622" />
+      <recent name="C:\github\TASK_2622\src\main\java" />
       <recent name="C:\github\ordering\target\classes" />
       <recent name="C:\github\sql" />
-      <recent name="C:\github\task_2609" />
-      <recent name="C:\github\task_2608\src\main\java" />
-      <recent name="C:\github\task_2608\.reflection_images" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="pojo" />
@@ -136,56 +133,56 @@
       <command value="id" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadPoolTest4">
-    <configuration name="PoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PoolTest" />
+  <component name="RunManager" selected="Application.CHMTest">
+    <configuration name="CHMTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CHMTest" />
       <module name="TASK_2622" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadPoolTest" />
+    <configuration name="CountDownLatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountDownLatchTest" />
       <module name="TASK_2622" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPoolTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadPoolTest2" />
+    <configuration name="ReentrantLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReentrantLockTest" />
       <module name="TASK_2622" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPoolTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadPoolTest3" />
+    <configuration name="SemaphoreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SemaphoreTest" />
       <module name="TASK_2622" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPoolTest4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadPoolTest4" />
+    <configuration name="StampedLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StampedLockTest" />
       <module name="TASK_2622" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PoolTest" />
-      <item itemvalue="Application.ThreadPoolTest" />
-      <item itemvalue="Application.ThreadPoolTest2" />
-      <item itemvalue="Application.ThreadPoolTest3" />
-      <item itemvalue="Application.ThreadPoolTest4" />
+      <item itemvalue="Application.CHMTest" />
+      <item itemvalue="Application.CountDownLatchTest" />
+      <item itemvalue="Application.ReentrantLockTest" />
+      <item itemvalue="Application.SemaphoreTest" />
+      <item itemvalue="Application.StampedLockTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadPoolTest4" />
-        <item itemvalue="Application.ThreadPoolTest3" />
-        <item itemvalue="Application.ThreadPoolTest2" />
-        <item itemvalue="Application.ThreadPoolTest" />
-        <item itemvalue="Application.PoolTest" />
+        <item itemvalue="Application.CHMTest" />
+        <item itemvalue="Application.CountDownLatchTest" />
+        <item itemvalue="Application.SemaphoreTest" />
+        <item itemvalue="Application.StampedLockTest" />
+        <item itemvalue="Application.ReentrantLockTest" />
       </list>
     </recent_temporary>
   </component>
@@ -227,6 +224,8 @@
       <workItem from="1661127591861" duration="13848000" />
       <workItem from="1661144282679" duration="53000" />
       <workItem from="1661144346756" duration="76381000" />
+      <workItem from="1661409691400" duration="35230000" />
+      <workItem from="1661746522904" duration="4468000" />
     </task>
     <task id="LOCAL-00001" summary="利用JMH对比了不同的实现方法">
       <created>1657078465880</created>
