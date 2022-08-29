@@ -7,30 +7,32 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="helloworld" />
-        <module name="reordering" />
-        <module name="task_2605" />
-        <module name="task_2604" />
-        <module name="TASK_2622" />
-        <module name="task_2609" />
-        <module name="TASK_2621" />
-        <module name="task_2608" />
-        <module name="sql" />
-        <module name="TASK_2620" />
-        <module name="TASK_2615" />
-        <module name="TASK_2614" />
-        <module name="TASK_2613" />
-        <module name="task_2610" />
-        <module name="TASK_2619" />
-        <module name="task_2612" />
-        <module name="TASK_2618" />
-        <module name="task_2610_SUPPLEMENT" />
-        <module name="task_2611" />
-        <module name="TASK_2617" />
+        <module name="Java-Basics" />
+        <module name="Java-Concurrency" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="helloworld" target="17" />
       <module name="ordering" target="1.8" />
+      <module name="reordering" target="1.8" />
+      <module name="sql" target="17" />
+      <module name="task_2604" target="17" />
+      <module name="task_2605" target="17" />
+      <module name="task_2608" target="17" />
+      <module name="task_2609" target="17" />
+      <module name="task_2610" target="17" />
+      <module name="task_2610_SUPPLEMENT" target="17" />
+      <module name="task_2611" target="17" />
+      <module name="task_2612" target="17" />
+      <module name="TASK_2613" target="17" />
+      <module name="TASK_2614" target="17" />
+      <module name="TASK_2615" target="17" />
+      <module name="TASK_2617" target="17" />
+      <module name="TASK_2618" target="17" />
+      <module name="TASK_2619" target="17" />
+      <module name="TASK_2620" target="17" />
+      <module name="TASK_2621" target="17" />
+      <module name="TASK_2622" target="17" />
       <module name="task_2629" target="17" />
     </bytecodeTargetLevel>
   </component>

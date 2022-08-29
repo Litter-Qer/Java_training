@@ -4,28 +4,10 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/task_2604/pom.xml" />
-        <option value="$PROJECT_DIR$/helloworld/pom.xml" />
-        <option value="$PROJECT_DIR$/task_2605/pom.xml" />
-        <option value="$PROJECT_DIR$/task_2608/pom.xml" />
         <option value="$PROJECT_DIR$/task_2629/pom.xml" />
-        <option value="$PROJECT_DIR$/task_2609/pom.xml" />
-        <option value="$PROJECT_DIR$/task_2610/pom.xml" />
-        <option value="$PROJECT_DIR$/task_2610_SUPPLEMENT/pom.xml" />
-        <option value="$PROJECT_DIR$/task_2611/pom.xml" />
-        <option value="$PROJECT_DIR$/task_2612/pom.xml" />
-        <option value="$PROJECT_DIR$/sql/pom.xml" />
-        <option value="$PROJECT_DIR$/TASK_2613/pom.xml" />
-        <option value="$PROJECT_DIR$/TASK_2614/pom.xml" />
-        <option value="$PROJECT_DIR$/TASK_2615/pom.xml" />
-        <option value="$PROJECT_DIR$/TASK_2617/pom.xml" />
-        <option value="$PROJECT_DIR$/TASK_2618/pom.xml" />
-        <option value="$PROJECT_DIR$/TASK_2619/pom.xml" />
-        <option value="$PROJECT_DIR$/TASK_2620/pom.xml" />
         <option value="$PROJECT_DIR$/ordering/pom.xml" />
-        <option value="$PROJECT_DIR$/reordering/pom.xml" />
-        <option value="$PROJECT_DIR$/TASK_2621/pom.xml" />
-        <option value="$PROJECT_DIR$/TASK_2622/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-Basics/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-Concurrency/pom.xml" />
       </list>
     </option>
   </component>
