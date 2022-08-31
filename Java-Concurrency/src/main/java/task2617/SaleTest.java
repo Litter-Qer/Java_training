@@ -5,6 +5,7 @@ import java.util.Objects;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class SaleTest {
     static final int value = 100000;
@@ -138,8 +139,7 @@ class LockTransfer1 {
     }
 
     private static String getKey(Account sender, Account receiver) {
-        return List.of(sender, receiver)
-                .stream().map(Objects::toString)
+        return Stream.of(sender, receiver).map(Objects::toString)
                 .sorted().collect(Collectors.joining());
     }
 }

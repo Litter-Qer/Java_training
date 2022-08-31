@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Java-Basics" />
+        <module name="Java-JVM" />
         <module name="Java-Concurrency" />
       </profile>
     </annotationProcessing>

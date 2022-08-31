@@ -1,6 +1,6 @@
 package task2614.test;
 
-import pojo.TwoPhaseTermination;
+import task2614.pojo.TwoPhaseTermination;
 
 
 public class TwoPhaseTest {

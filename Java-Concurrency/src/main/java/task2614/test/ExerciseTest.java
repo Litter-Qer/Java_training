@@ -1,6 +1,6 @@
 package task2614.test;
 import lombok.extern.slf4j.Slf4j;
-import pojo.Helper;
+import task2615.helper.Helper;
 
 import java.util.concurrent.ExecutionException;
 

@@ -1,7 +1,7 @@
 package task2615.test;
 
-import helper.Helper;
 import lombok.extern.slf4j.Slf4j;
+import task2615.helper.Helper;
 
 @Slf4j
 public class SynchronizedTest {

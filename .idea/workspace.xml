@@ -4,311 +4,101 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="补充了一些细节">
-      <change afterPath="$PROJECT_DIR$/Java-Basics/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/mysql/insertDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/mysql/mapper/TestMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Concurrency/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflections/.sql研究进度_images/change结果.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflections/.sql研究进度_images/元数据改动.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflections/.sql研究进度_images/反转1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflections/.sql研究进度_images/大表new数据变化结果.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflections/.sql研究进度_images/大表多次操作change结果.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflections/.sql研究进度_images/大表数据表.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflections/.sql研究进度_images/大表表头.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflections/.sql研究进度_images/并发结果.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflections/.sql研究进度_images/时间.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflections/.sql研究进度_images/静态alter结果.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflections/.sql研究进度_images/静态修改对比.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflections/mysql_alter.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflections/sql研究进度.md" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="重新修改了项目结构">
+      <change afterPath="$PROJECT_DIR$/Java-JVM/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter1/HeapOOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter1/SOF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-Basics/JavaWeb.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-JVM/.images/对象访问定位.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-JVM/.images/对象访问定位2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-JVM/.images/思考问题1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-JVM/.images/运行数据.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-JVM/JVM1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-JVM/JVM2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/classes.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/count.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/dom.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/graph.direct.body" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/graph.direct.head" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/graph.reverse.body" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/graph.reverse.head" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/offsets.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/remap.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/retained.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/shallow.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/classes.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/count.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/dom.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/graph.direct.body" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/graph.direct.head" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/graph.reverse.body" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/graph.reverse.head" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/offsets.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/remap.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/retained.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/shallow.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/github.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/github.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/target.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mysql_alter_images/4条数据.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflections/.mysql_alter_images/4条数据.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mysql_alter_images/空表.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflections/.mysql_alter_images/空表.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mysql_alter_images/空表对比.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflections/.mysql_alter_images/空表对比.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mysql_alter_images/空表对比alter.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflections/.mysql_alter_images/空表对比alter.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mysql_alter_images/非空表_alter.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflections/.mysql_alter_images/非空表_alter.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mysql_alter_images/非空表alter.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflections/.mysql_alter_images/非空表alter.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JM-pars.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Reflections/paras.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2613/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2613/src/main/java/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2613/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2613/src/main/java/mainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2613/mainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2613/src/main/java/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2613/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2613/src/main/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2613/src/main/resources/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2613/thread_1.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/thread_1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/.线程进阶2_images/CPU调度.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/.线程进阶2_images/CPU调度.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/.线程进阶3_images/java线程状态.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/.线程进阶3_images/java线程状态.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/.线程进阶3_images/系统线程状态.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/.线程进阶3_images/系统线程状态.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/src/main/java/pojo/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/pojo/Helper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/src/main/java/pojo/TwoPhaseTermination.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/pojo/TwoPhaseTermination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/src/main/java/test/CreateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/test/CreateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/src/main/java/test/DaemonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/test/DaemonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/src/main/java/test/ExecuteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/test/ExecuteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/src/main/java/test/ExerciseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/test/ExerciseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/src/main/java/test/FrameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/test/FrameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/src/main/java/test/InterruptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/test/InterruptTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/src/main/java/test/JoinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/test/JoinTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/src/main/java/test/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/test/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/src/main/java/test/ParkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/test/ParkTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/src/main/java/test/RunStartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/test/RunStartTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/src/main/java/test/SigMulTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/test/SigMulTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/src/main/java/test/SleepTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/test/SleepTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/src/main/java/test/StateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/test/StateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/src/main/java/test/TwoPhaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/test/TwoPhaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/src/main/java/threads/addThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/threads/addThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/src/main/java/threads/addThread1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/threads/addThread1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/src/main/java/threads/addThread2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/threads/addThread2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/src/main/java/threads/addThread3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/threads/addThread3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/src/main/java/threads/addThread4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/threads/addThread4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/线程进阶1.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/线程进阶1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/线程进阶2.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/线程进阶2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2614/线程进阶3.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/线程进阶3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2615/.JMM1_images/堆栈模型.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/.JMM1_images/堆栈模型.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2615/.JMM1_images/硬件内存.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/.JMM1_images/硬件内存.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2615/.JMM1_images/硬件内存交互.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/.JMM1_images/硬件内存交互.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2615/.线程进阶4_images/JMM内存分配.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/.线程进阶4_images/JMM内存分配.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2615/.线程进阶5_images/JVM局部变量.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/.线程进阶5_images/JVM局部变量.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2615/.线程进阶5_images/Monitor概览.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/.线程进阶5_images/Monitor概览.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2615/.线程进阶5_images/轻量级锁.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/.线程进阶5_images/轻量级锁.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2615/.线程进阶5_images/锁膨胀.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/.线程进阶5_images/锁膨胀.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2615/JMM1.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/JMM1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2615/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2615/src/main/java/helper/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2615/helper/Helper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2615/src/main/java/test/BiasedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2615/test/BiasedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2615/src/main/java/test/LocalVarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2615/test/LocalVarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2615/src/main/java/test/SellTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2615/test/SellTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2615/src/main/java/test/SynchronizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2615/test/SynchronizedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2615/src/main/java/test/ThreadUnsafeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2615/test/ThreadUnsafeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2615/src/main/java/test/TransferTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2615/test/TransferTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2615/线程进阶4.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/线程进阶4.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2615/线程进阶5.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/线程进阶5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2617/.线程进阶6_images/wait流程.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/.线程进阶6_images/wait流程.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2617/.线程进阶6_images/方法一.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/.线程进阶6_images/方法一.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2617/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2617/src/main/java/GuardedObjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2617/GuardedObjectTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2617/src/main/java/MsgQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2617/MsgQueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2617/src/main/java/SaleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2617/SaleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2617/src/main/java/WaitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2617/WaitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2617/线程进阶6.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/线程进阶6.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2618/.线程进阶7_images/jconsole死锁.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/.线程进阶7_images/jconsole死锁.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2618/.线程进阶7_images/线程状态进阶.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/.线程进阶7_images/线程状态进阶.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2618/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2618/src/main/java/DeadLockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2618/DeadLockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2618/src/main/java/DiningTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2618/DiningTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2618/src/main/java/LiveLockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2618/LiveLockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2618/src/main/java/OfficeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2618/OfficeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2618/src/main/java/ParkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2618/ParkTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2618/线程进阶7.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/线程进阶7.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2619/.线程进阶8_images/条件变量.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/.线程进阶8_images/条件变量.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2619/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2619/src/main/java/AlterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2619/AlterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2619/src/main/java/AlterTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2619/AlterTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2619/src/main/java/AlterTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2619/AlterTest3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2619/src/main/java/CondTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2619/CondTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2619/src/main/java/DiningTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2619/DiningTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2619/src/main/java/LockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2619/LockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2619/src/main/java/OrderPTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2619/OrderPTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2619/src/main/java/OrderRLTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2619/OrderRLTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2619/src/main/java/OrderWnTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2619/OrderWnTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2619/线程进阶8.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/线程进阶8.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2620/JMM2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2620/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2620/src/main/java/AtomicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2620/AtomicTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2620/src/main/java/DoubleCheckedLocking.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2620/DoubleCheckedLocking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2620/src/main/java/Exercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2620/Exercise1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2620/src/main/java/Exercise2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2620/Exercise2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2620/src/main/java/ReorderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2620/ReorderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2620/src/main/java/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2620/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2620/src/main/java/TwoPhaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2620/TwoPhaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2620/线程进阶9.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/线程进阶9.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2621/.线程进阶10_images/Striped64.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/.线程进阶10_images/Striped64.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2621/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2621/src/main/java/ABATest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2621/ABATest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2621/src/main/java/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2621/AccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2621/src/main/java/AccountTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2621/AccountTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2621/src/main/java/AdderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2621/AdderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2621/src/main/java/AtomicArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2621/AtomicArrayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2621/src/main/java/AtomicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2621/AtomicTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2621/src/main/java/DataFormatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2621/DataFormatTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2621/src/main/java/LockCas.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2621/LockCas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2621/src/main/java/ReferenceFieldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2621/ReferenceFieldTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2621/src/main/java/UnsafeAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2621/UnsafeAccessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2621/src/main/java/UnsafeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2621/UnsafeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2621/src/main/java/UnsafeTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2621/UnsafeTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2621/src/main/java/exercises/Pool.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2621/exercises/Pool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2621/src/main/java/exercises/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2621/exercises/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2621/线程进阶10.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/线程进阶10.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2622/.并发补充文档_images/ReentrantLock继承关系.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/.并发补充文档_images/ReentrantLock继承关系.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2622/.并发补充文档_images/非公平锁.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/.并发补充文档_images/非公平锁.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2622/.并发补充文档_images/非公平锁2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/.并发补充文档_images/非公平锁2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2622/.线程进阶11_images/线程池初级.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/.线程进阶11_images/线程池初级.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2622/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2622/src/main/java/AQSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2622/AQSTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2622/src/main/java/CHMTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2622/CHMTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2622/src/main/java/CountDownLatchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2622/CountDownLatchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2622/src/main/java/ForkJoinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2622/ForkJoinTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2622/src/main/java/PoolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2622/PoolTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2622/src/main/java/ReentrantLockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2622/ReentrantLockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2622/src/main/java/ScheduledExecutorServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2622/ScheduledExecutorServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2622/src/main/java/SemaphoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2622/SemaphoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2622/src/main/java/StampedLockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2622/StampedLockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2622/src/main/java/ThreadPoolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2622/ThreadPoolTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2622/src/main/java/ThreadPoolTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2622/ThreadPoolTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2622/src/main/java/ThreadPoolTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2622/ThreadPoolTest3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2622/src/main/java/ThreadPoolTest4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2622/ThreadPoolTest4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2622/src/main/java/TimerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2622/TimerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2622/src/main/java/WriteTmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2622/WriteTmp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2622/并发补充文档.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/并发补充文档.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2622/线程进阶11.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/线程进阶11.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reordering/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reordering/src/main/java/aututech/jon/ConcurrencyTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/reflection.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Reflections/reflection.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/src/main/java/pojo/Parallelogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2604/pojo/Parallelogram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/src/main/java/pojo/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2604/pojo/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/src/main/java/pojo/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2604/pojo/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/src/main/java/pojo/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2604/pojo/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/src/main/java/pojo/Trapezoid.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2604/pojo/Trapezoid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/src/main/java/pojo/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2604/pojo/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/src/main/java/task_2604/LoopPrint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/src/main/java/task_2604/MultiplicationTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2604/task_2604/MultiplicationTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/src/main/java/task_2604/NumPyramid.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2604/task_2604/NumPyramid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/src/main/java/task_2604/SystemOutCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2604/task_2604/SystemOutCompare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/src/main/java/task_2604/SystemOutCompare1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2604/task_2604/SystemOutCompare1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/src/test/java/LoopPrintTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/test/java/task2604/LoopPrintTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/src/test/java/MTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/test/java/task2604/MTTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/src/test/java/NumPyramidTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/test/java/task2604/NumPyramidTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/generated-sources/annotations/task_2604/jmh_generated/SystemOutCompare1_jmhType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/generated-sources/annotations/task_2604/jmh_generated/SystemOutCompare1_jmhType_B1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/generated-sources/annotations/task_2604/jmh_generated/SystemOutCompare1_jmhType_B2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/generated-sources/annotations/task_2604/jmh_generated/SystemOutCompare1_jmhType_B3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/generated-sources/annotations/task_2604/jmh_generated/SystemOutCompare1_test2_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/generated-sources/annotations/task_2604/jmh_generated/SystemOutCompare_jmhType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/generated-sources/annotations/task_2604/jmh_generated/SystemOutCompare_jmhType_B1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/generated-sources/annotations/task_2604/jmh_generated/SystemOutCompare_jmhType_B2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/generated-sources/annotations/task_2604/jmh_generated/SystemOutCompare_jmhType_B3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/generated-sources/annotations/task_2604/jmh_generated/SystemOutCompare_test1_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/surefire-reports/LoopPrintTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/surefire-reports/MTTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/surefire-reports/NumPyramidTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/surefire-reports/TEST-LoopPrintTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/surefire-reports/TEST-MTTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/surefire-reports/TEST-NumPyramidTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/target/task_2604-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2604/任务跟进.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Reflections/任务跟进.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2605/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2605/reflection" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2605/src/main/java/Array2d.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2605/Array2d.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2605/src/main/java/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2605/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2605/src/main/java/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2605/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2605/src/main/java/YHTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2605/YHTriangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2605/src/test/java/InsertionSortTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/test/java/task2605/InsertionSortTest.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2608/.reflection_images/fields.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflections/.reflection_images/fields.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2608/.reflection_images/finalkeyword.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflections/.reflection_images/finalkeyword.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2608/.reflection_images/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflections/.reflection_images/img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2608/.reflection_images/substring.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflections/.reflection_images/substring.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2608/.reflection_update_images/string_constructor.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflections/.reflection_update_images/string_constructor.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2608/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2608/reflection.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflections/reflection.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2608/reflection_update.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflections/reflection_update.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2608/src/main/java/FinalExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2608/FinalExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2608/src/main/java/StringExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2608/StringExample1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2608/src/main/java/StringExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2608/StringExample2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2608/src/main/java/StringExample3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2608/StringExample3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2608/src/main/java/pojo/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2608/pojo/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2608/src/test/java/pojo/RestaurantTest.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2609/.reflection_updates_images/static_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflections/.reflection_updates_images/static_block.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2609/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2609/reflection.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflections/reflection2609.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2609/reflection_updates.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflections/reflection_updates2609.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2609/src/main/java/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2609/Example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2609/src/main/java/Example1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2609/Example1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2609/src/main/java/pojo/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2609/pojo/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2609/src/main/java/pojo/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2609/pojo/B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2609/src/main/java/pojo/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2609/pojo/C.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2609/src/main/java/pojo/Cafeteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2609/pojo/Cafeteria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2609/src/main/java/pojo/D.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2609/pojo/D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2609/src/main/java/pojo/Hotpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2609/pojo/Hotpot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2609/src/main/java/pojo/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2609/pojo/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/reflection.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflections/reflection2610.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/reflection_updates.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflections/reflection_updates2610.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/ComparableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/ComparableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/ComputerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/ComputerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/InterfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/InterfaceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/InterfaceTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/InterfaceTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/apackage/ArrayListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/apackage/ArrayListExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/apackage/ArrayListExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/apackage/ArrayListExample2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/apackage/ArrayListExample3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/apackage/ArrayListExample3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/apackage/ArrayListExample4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/apackage/ArrayListExample4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/computer/AMD.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/computer/AMD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/computer/CPU.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/computer/CPU.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/computer/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/computer/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/computer/DISK.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/computer/DISK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/computer/EMS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/computer/EMS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/computer/Intel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/computer/Intel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/computer/Kingston.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/computer/Kingston.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/computer/Samsung.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/computer/Samsung.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/computer/WestDigit.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/computer/WestDigit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/lambda/LambdaImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/interfaces/lambda/LambdaImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/lambda/LambdaImpl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/interfaces/lambda/LambdaImpl2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/lambda/LambdaInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/interfaces/lambda/LambdaInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/lambda/LambdaInterface2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/interfaces/lambda/LambdaInterface2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/methods/MyClassSetName.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/interfaces/methods/MyClassSetName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/methods/MyConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/interfaces/methods/MyConstructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/methods/MyObjectSetName.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/interfaces/methods/MyObjectSetName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/methods/MyStaticPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/interfaces/methods/MyStaticPower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/plain/MyAbstractClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/interfaces/plain/MyAbstractClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/plain/MyInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/interfaces/plain/MyInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/plain/MyInterface2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/interfaces/plain/MyInterface2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/plain/MyInterface3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/interfaces/plain/MyInterface3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/interfaces/plain/MyInterfaceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/interfaces/plain/MyInterfaceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610/src/main/java/pojo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/pojo/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610_SUPPLEMENT/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610_SUPPLEMENT/reflection.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflections/reflection2610_supplement.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610_SUPPLEMENT/src/main/java/innerClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/innerClassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610_SUPPLEMENT/src/main/java/pojo/OuterClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/pojo/OuterClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610_SUPPLEMENT/src/main/java/pojo/OuterClass2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/pojo/OuterClass2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610_SUPPLEMENT/src/main/java/pojo/OuterClass3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/pojo/OuterClass3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610_SUPPLEMENT/src/main/java/pojo/TalkingClock.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/pojo/TalkingClock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2610_SUPPLEMENT/src/main/java/pojo/TimerPrinterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2610/pojo/TimerPrinterDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2611/.reflection_images/Exceptions.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflections/.reflection_images/Exceptions.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2611/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2611/reflection.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflections/reflection2611.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2611/reflection_updates.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflections/reflection_updates2611.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2611/src/main/java/MyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2611/MyException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2611/src/main/java/OuterClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2611/OuterClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2611/src/main/java/ReflectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2611/ReflectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2611/src/main/java/SimpleMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2611/SimpleMath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2611/src/test/java/SimpleStackWalkerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2612/a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2612/mysql_reflection.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflections/mysql_reflection.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2612/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2612/reflection.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflections/reflection2612.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2612/reflection_updates.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflections/reflection_updates2612.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2612/src/main/java/GenericDesign.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2612/GenericDesign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2612/src/main/java/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2612/Pair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2612/src/main/java/collectionExample/ListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2612/collectionExample/ListExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2612/src/main/java/pojo/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2612/pojo/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2612/src/main/java/pojo/StringList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2612/pojo/StringList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2612/src/main/java/pojo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2612/pojo/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Concurrency/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2613/mainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2613/mainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/test/ExerciseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/test/ExerciseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/test/SigMulTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/test/SigMulTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/test/TwoPhaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/test/TwoPhaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2615/test/SynchronizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2615/test/SynchronizedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2617/SaleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2617/SaleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2621/UnsafeAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2621/UnsafeAccessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2621/UnsafeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2621/UnsafeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2621/UnsafeTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2621/UnsafeTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/.Hexo_images/hexo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.Hexo_images/hexo2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/.Hexo_images/hexo3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.Hexo_images/hexo3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/.Hexo_images/hexo_init.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.Hexo_images/hexo_init.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/.mysql_alter_images/4条数据.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.mysql_alter_images/4条数据.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/.mysql_alter_images/空表.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.mysql_alter_images/空表.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/.mysql_alter_images/空表对比.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.mysql_alter_images/空表对比.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/.mysql_alter_images/空表对比alter.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.mysql_alter_images/空表对比alter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/.mysql_alter_images/非空表_alter.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.mysql_alter_images/非空表_alter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/.mysql_alter_images/非空表alter.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.mysql_alter_images/非空表alter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/.reflection_images/Exceptions.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.reflection_images/Exceptions.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/.reflection_images/fields.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.reflection_images/fields.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/.reflection_images/finalkeyword.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.reflection_images/finalkeyword.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/.reflection_images/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.reflection_images/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/.reflection_images/substring.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.reflection_images/substring.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/.reflection_update_images/string_constructor.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.reflection_update_images/string_constructor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/.reflection_updates_images/static_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.reflection_updates_images/static_block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/.sql研究进度_images/change结果.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.sql研究进度_images/change结果.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/.sql研究进度_images/元数据改动.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.sql研究进度_images/元数据改动.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/.sql研究进度_images/反转1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.sql研究进度_images/反转1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/.sql研究进度_images/大表new数据变化结果.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.sql研究进度_images/大表new数据变化结果.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/.sql研究进度_images/大表多次操作change结果.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.sql研究进度_images/大表多次操作change结果.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/.sql研究进度_images/大表数据表.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.sql研究进度_images/大表数据表.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/.sql研究进度_images/大表表头.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.sql研究进度_images/大表表头.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/.sql研究进度_images/并发结果.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.sql研究进度_images/并发结果.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/.sql研究进度_images/时间.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.sql研究进度_images/时间.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/.sql研究进度_images/静态alter结果.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.sql研究进度_images/静态alter结果.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/.sql研究进度_images/静态修改对比.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.sql研究进度_images/静态修改对比.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/Hexo.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/Hexo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/mysql_alter.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/mysql_alter.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/mysql_reflection.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/mysql_reflection.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/paras.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/paras.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/reflection.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/reflection.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/reflection.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/reflection.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/reflection2609.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/reflection2609.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/reflection2610.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/reflection2610.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/reflection2610_supplement.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/reflection2610_supplement.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/reflection2611.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/reflection2611.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/reflection2612.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/reflection2612.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/reflection_update.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/reflection_update.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/reflection_updates2609.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/reflection_updates2609.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/reflection_updates2610.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/reflection_updates2610.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/reflection_updates2611.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/reflection_updates2611.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/reflection_updates2612.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/reflection_updates2612.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/sql研究进度.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/sql研究进度.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflections/任务跟进.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/任务跟进.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -339,6 +129,9 @@
     <setting file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-17.0.3.1/lib/src.zip!/java.base/java/lang/Thread.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-17.0.3.1/lib/src.zip!/java.base/java/util/concurrent/locks/ReentrantLock.java" root0="SKIP_INSPECTION" />
   </component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="mock:///JavaWeb.md" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -350,7 +143,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2BY4qCwJPEFB3dPbGYSqGNv39m6" />
   <component name="ProjectLevelVcsManager">
@@ -370,9 +163,9 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
     "last_directory_selection": "C:/github/task_2611/src/test/java",
-    "last_opened_file_path": "C:/github/Java-Basics/src/main/java/mysql",
+    "last_opened_file_path": "C:/github/Reflection-JVM",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
@@ -390,31 +183,31 @@
       <recent name="pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\github\Java-Basics\src\main\java\mysql" />
+      <recent name="C:\github\Reflection-JVM" />
+      <recent name="C:\github\Java-JVM" />
       <recent name="C:\github\Reflections" />
+      <recent name="C:\github\Java-Basics\src\main\java\mysql" />
       <recent name="C:\github\Java-Concurrency\src\main\java\task2622" />
-      <recent name="C:\github\Reflection-concurrency" />
-      <recent name="C:\github\Java-Concurrency\src\main\java\task2621" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\github\Reflection-JVM" />
       <recent name="C:\github\TASK_2622\tmp" />
       <recent name="C:\github\TASK_2622" />
       <recent name="C:\github\TASK_2622\src\main\java" />
       <recent name="C:\github\ordering\target\classes" />
-      <recent name="C:\github\sql" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="pojo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="chapter1" />
       <recent name="task2605" />
       <recent name="" />
       <recent name="exercises" />
       <recent name="test" />
-      <recent name="helper" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -422,58 +215,41 @@
       <command value="id" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.CHMTest">
-    <configuration name="CHMTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CHMTest" />
-      <module name="TASK_2622" />
+  <component name="RunManager" selected="Application.SOF">
+    <configuration name="HeapOOM" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="chapter1.HeapOOM" />
+      <module name="Java-JVM" />
+      <option name="VM_PARAMETERS" value="-Xms20M -Xmx20M -XX:+HeapDumpOnOutOfMemoryError" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountDownLatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CountDownLatchTest" />
-      <module name="TASK_2622" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReentrantLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReentrantLockTest" />
-      <module name="TASK_2622" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SemaphoreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SemaphoreTest" />
-      <module name="TASK_2622" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StampedLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StampedLockTest" />
-      <module name="TASK_2622" />
+    <configuration name="SOF" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter1.SOF" />
+      <module name="Java-JVM" />
+      <option name="VM_PARAMETERS" value="-Xss180k" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CHMTest" />
-      <item itemvalue="Application.CountDownLatchTest" />
-      <item itemvalue="Application.ReentrantLockTest" />
-      <item itemvalue="Application.SemaphoreTest" />
-      <item itemvalue="Application.StampedLockTest" />
+      <item itemvalue="Application.SOF" />
+      <item itemvalue="Application.HeapOOM" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.CHMTest" />
-        <item itemvalue="Application.CountDownLatchTest" />
-        <item itemvalue="Application.SemaphoreTest" />
-        <item itemvalue="Application.StampedLockTest" />
-        <item itemvalue="Application.ReentrantLockTest" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -514,7 +290,8 @@
       <workItem from="1661144282679" duration="53000" />
       <workItem from="1661144346756" duration="76381000" />
       <workItem from="1661409691400" duration="35230000" />
-      <workItem from="1661746522904" duration="6015000" />
+      <workItem from="1661746522904" duration="30666000" />
+      <workItem from="1661843795040" duration="8463000" />
     </task>
     <task id="LOCAL-00001" summary="利用JMH对比了不同的实现方法">
       <created>1657078465880</created>
@@ -796,7 +573,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661751049918</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="重新修改了项目结构">
+      <created>1661752646409</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1661752646409</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -827,7 +611,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="补充了lambda表达式的部分" />
     <MESSAGE value="内部类的反思 Done" />
     <MESSAGE value="异常机制的基础" />
     <MESSAGE value="三个问题解决" />
@@ -852,7 +635,8 @@
     <MESSAGE value="线程进阶9" />
     <MESSAGE value="线程进阶10" />
     <MESSAGE value="补充了一些细节" />
-    <option name="LAST_COMMIT_MESSAGE" value="补充了一些细节" />
+    <MESSAGE value="重新修改了项目结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="重新修改了项目结构" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -862,11 +646,21 @@
           <line>159</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/test/FrameTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
         <breakpoint suspend="THREAD" type="java-line" />
       </breakpoints-defaults>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.lang.Thread" memberName="parkBlocker" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

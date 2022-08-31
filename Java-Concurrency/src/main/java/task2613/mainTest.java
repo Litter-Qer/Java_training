@@ -1,7 +1,7 @@
 package task2613;
 
 import lombok.extern.slf4j.Slf4j;
-import pojo.User;
+import task2613.pojo.User;
 
 @Slf4j(topic = "c.mainTest")
 public class mainTest {
