@@ -7,6 +7,10 @@ public class SOF {
     private int stackLength = 1;
 
     public void stackLeak() {
+        if (stackLength == 1000) {
+            System.out.println("good");
+            System.gc();
+        }
         stackLength++;
         stackLeak();
     }

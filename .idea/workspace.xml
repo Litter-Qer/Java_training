@@ -4,101 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="重新修改了项目结构">
-      <change afterPath="$PROJECT_DIR$/Java-JVM/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter1/HeapOOM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter1/SOF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-Basics/JavaWeb.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-JVM/.images/对象访问定位.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-JVM/.images/对象访问定位2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-JVM/.images/思考问题1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-JVM/.images/运行数据.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-JVM/JVM1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-JVM/JVM2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/classes.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/count.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/dom.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/graph.direct.body" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/graph.direct.head" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/graph.reverse.body" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/graph.reverse.head" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/offsets.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/remap.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/retained.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/shallow.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/classes.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/count.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/dom.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/graph.direct.body" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/graph.direct.head" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/graph.reverse.body" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/graph.reverse.head" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/offsets.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/remap.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/retained.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/shallow.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/github.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/github.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/target.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="JVM1">
+      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter2/testAllocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter2/testAllocation2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter2/testAllocation3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter2/testAllocation4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-JVM/.images/GC标记过程.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-JVM/.images/堆结构.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Concurrency/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2613/mainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2613/mainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/test/ExerciseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/test/ExerciseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/test/SigMulTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/test/SigMulTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/test/TwoPhaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/test/TwoPhaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2615/test/SynchronizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2615/test/SynchronizedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2617/SaleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2617/SaleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2621/UnsafeAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2621/UnsafeAccessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2621/UnsafeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2621/UnsafeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2621/UnsafeTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/src/main/java/task2621/UnsafeTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/.Hexo_images/hexo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.Hexo_images/hexo2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/.Hexo_images/hexo3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.Hexo_images/hexo3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/.Hexo_images/hexo_init.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.Hexo_images/hexo_init.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/.mysql_alter_images/4条数据.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.mysql_alter_images/4条数据.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/.mysql_alter_images/空表.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.mysql_alter_images/空表.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/.mysql_alter_images/空表对比.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.mysql_alter_images/空表对比.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/.mysql_alter_images/空表对比alter.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.mysql_alter_images/空表对比alter.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/.mysql_alter_images/非空表_alter.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.mysql_alter_images/非空表_alter.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/.mysql_alter_images/非空表alter.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.mysql_alter_images/非空表alter.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/.reflection_images/Exceptions.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.reflection_images/Exceptions.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/.reflection_images/fields.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.reflection_images/fields.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/.reflection_images/finalkeyword.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.reflection_images/finalkeyword.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/.reflection_images/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.reflection_images/img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/.reflection_images/substring.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.reflection_images/substring.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/.reflection_update_images/string_constructor.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.reflection_update_images/string_constructor.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/.reflection_updates_images/static_block.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.reflection_updates_images/static_block.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/.sql研究进度_images/change结果.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.sql研究进度_images/change结果.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/.sql研究进度_images/元数据改动.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.sql研究进度_images/元数据改动.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/.sql研究进度_images/反转1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.sql研究进度_images/反转1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/.sql研究进度_images/大表new数据变化结果.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.sql研究进度_images/大表new数据变化结果.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/.sql研究进度_images/大表多次操作change结果.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.sql研究进度_images/大表多次操作change结果.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/.sql研究进度_images/大表数据表.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.sql研究进度_images/大表数据表.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/.sql研究进度_images/大表表头.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.sql研究进度_images/大表表头.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/.sql研究进度_images/并发结果.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.sql研究进度_images/并发结果.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/.sql研究进度_images/时间.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.sql研究进度_images/时间.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/.sql研究进度_images/静态alter结果.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.sql研究进度_images/静态alter结果.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/.sql研究进度_images/静态修改对比.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/.sql研究进度_images/静态修改对比.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/Hexo.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/Hexo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/mysql_alter.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/mysql_alter.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/mysql_reflection.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/mysql_reflection.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/paras.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/paras.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/reflection.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/reflection.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/reflection.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/reflection.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/reflection2609.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/reflection2609.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/reflection2610.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/reflection2610.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/reflection2610_supplement.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/reflection2610_supplement.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/reflection2611.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/reflection2611.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/reflection2612.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/reflection2612.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/reflection_update.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/reflection_update.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/reflection_updates2609.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/reflection_updates2609.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/reflection_updates2610.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/reflection_updates2610.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/reflection_updates2611.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/reflection_updates2611.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/reflection_updates2612.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/reflection_updates2612.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/sql研究进度.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/sql研究进度.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflections/任务跟进.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/任务跟进.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter1/SOF.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter1/SOF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-JVM/JVM2.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-JVM/JVM2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/classes.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/count.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/dom.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/graph.direct.body" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/graph.direct.head" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/graph.reverse.body" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/graph.reverse.head" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/offsets.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/remap.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/retained.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/shallow.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/thread_1.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/线程入门.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/classes.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/count.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/dom.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/graph.direct.body" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/graph.direct.head" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/graph.reverse.body" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/graph.reverse.head" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/offsets.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/remap.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/retained.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/shallow.index" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +82,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2BY4qCwJPEFB3dPbGYSqGNv39m6" />
   <component name="ProjectLevelVcsManager">
@@ -203,11 +142,11 @@
       <recent name="pojo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="chapter2" />
       <recent name="chapter1" />
       <recent name="task2605" />
       <recent name="" />
       <recent name="exercises" />
-      <recent name="test" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -215,7 +154,7 @@
       <command value="id" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.SOF">
+  <component name="RunManager" selected="Application.testAllocation4">
     <configuration name="HeapOOM" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -246,10 +185,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testAllocation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter2.testAllocation" />
+      <module name="Java-JVM" />
+      <option name="VM_PARAMETERS" value="-verbose:gc -Xms20M -Xmx20M -Xmn10M -Xlog:gc* -XX:SurvivorRatio=8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testAllocation2" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter2.testAllocation2" />
+      <module name="Java-JVM" />
+      <option name="VM_PARAMETERS" value="-verbose:gc -Xms20M -Xmx20M -Xmn10M -Xlog:gc* -XX:SurvivorRatio=8 -XX:PretenureSizeThreshold=3145728" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testAllocation3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter2.testAllocation3" />
+      <module name="Java-JVM" />
+      <option name="VM_PARAMETERS" value="-verbose:gc -Xms20M -Xmx20M -Xmn10M -Xlog:gc* -XX:SurvivorRatio=8 -XX:MaxTenuringThreshold=1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testAllocation4" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter2.testAllocation4" />
+      <module name="Java-JVM" />
+      <option name="VM_PARAMETERS" value="-verbose:gc -Xms20M -Xmx20M -Xmn10M -Xlog:gc* -XX:SurvivorRatio=8 -XX:MaxTenuringThreshold=15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.testAllocation4" />
+      <item itemvalue="Application.testAllocation2" />
       <item itemvalue="Application.SOF" />
       <item itemvalue="Application.HeapOOM" />
+      <item itemvalue="Application.testAllocation3" />
+      <item itemvalue="Application.testAllocation" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.testAllocation3" />
+        <item itemvalue="Application.testAllocation" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -291,7 +296,7 @@
       <workItem from="1661144346756" duration="76381000" />
       <workItem from="1661409691400" duration="35230000" />
       <workItem from="1661746522904" duration="30666000" />
-      <workItem from="1661843795040" duration="8463000" />
+      <workItem from="1661843795040" duration="62045000" />
     </task>
     <task id="LOCAL-00001" summary="利用JMH对比了不同的实现方法">
       <created>1657078465880</created>
@@ -580,7 +585,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661752646409</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="整理之前的代码">
+      <created>1661910364975</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1661910364975</updated>
+    </task>
+    <task id="LOCAL-00043" summary="JVM1">
+      <created>1661910383511</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1661910383511</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -611,8 +630,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="内部类的反思 Done" />
-    <MESSAGE value="异常机制的基础" />
     <MESSAGE value="三个问题解决" />
     <MESSAGE value="关于泛型的反思" />
     <MESSAGE value="集合的反思" />
@@ -636,7 +653,9 @@
     <MESSAGE value="线程进阶10" />
     <MESSAGE value="补充了一些细节" />
     <MESSAGE value="重新修改了项目结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="重新修改了项目结构" />
+    <MESSAGE value="整理之前的代码" />
+    <MESSAGE value="JVM1" />
+    <option name="LAST_COMMIT_MESSAGE" value="JVM1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -650,6 +669,16 @@
           <url>file://$PROJECT_DIR$/Java-Concurrency/src/main/java/task2614/test/FrameTest.java</url>
           <line>21</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-JVM/src/main/java/chapter2/testAllocation3.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/Java-JVM/src/main/java/chapter2/testAllocation4.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
