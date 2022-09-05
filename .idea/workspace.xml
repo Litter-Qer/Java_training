@@ -4,40 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="JVM1">
-      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter2/testAllocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter2/testAllocation2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter2/testAllocation3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter2/testAllocation4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-JVM/.images/GC标记过程.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-JVM/.images/堆结构.png" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="JVM2">
+      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter3/BTraceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter3/DeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter3/JHSDBTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter3/LiveLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter3/OOMObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-JVM/JVM3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-JVM/JVM4.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter1/SOF.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter1/SOF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-JVM/JVM2.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-JVM/JVM2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/classes.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/count.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/dom.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/graph.direct.body" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/graph.direct.head" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/graph.reverse.body" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/graph.reverse.head" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/offsets.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/remap.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/retained.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-JVM/java_pid15788.hprof.hqo8d.b.ij/shallow.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/thread_1.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-concurrency/线程入门.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/classes.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/count.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/dom.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/graph.direct.body" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/graph.direct.head" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/graph.reverse.body" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/graph.reverse.head" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/offsets.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/remap.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/retained.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_pid15788.hprof.hqo8d.b.ij/shallow.index" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,11 +117,11 @@
       <recent name="pojo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="chapter3" />
       <recent name="chapter2" />
       <recent name="chapter1" />
       <recent name="task2605" />
       <recent name="" />
-      <recent name="exercises" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -154,7 +129,33 @@
       <command value="id" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.testAllocation4">
+  <component name="RunManager" selected="Application.BTraceTest">
+    <configuration name="BTraceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter3.BTraceTest" />
+      <module name="Java-JVM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter3.DeadLock" />
+      <module name="Java-JVM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HeapOOM" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -171,13 +172,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SOF" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter1.SOF" />
+    <configuration name="JHSDBTest" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter3.JHSDBTest" />
       <module name="Java-JVM" />
-      <option name="VM_PARAMETERS" value="-Xss180k" />
+      <option name="VM_PARAMETERS" value="-Xmx10m -XX:+UseSerialGC -XX:-UseCompressedOops" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter1.*" />
+          <option name="PATTERN" value="chapter3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,13 +186,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testAllocation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter2.testAllocation" />
+    <configuration name="LiveLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter3.LiveLock" />
       <module name="Java-JVM" />
-      <option name="VM_PARAMETERS" value="-verbose:gc -Xms20M -Xmx20M -Xmn10M -Xlog:gc* -XX:SurvivorRatio=8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter2.*" />
+          <option name="PATTERN" value="chapter3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OOMObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter3.OOMObject" />
+      <module name="Java-JVM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SOF" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter1.SOF" />
+      <module name="Java-JVM" />
+      <option name="VM_PARAMETERS" value="-Xss180k" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -242,17 +269,24 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.JHSDBTest" />
       <item itemvalue="Application.testAllocation4" />
       <item itemvalue="Application.testAllocation2" />
       <item itemvalue="Application.SOF" />
       <item itemvalue="Application.HeapOOM" />
+      <item itemvalue="Application.BTraceTest" />
+      <item itemvalue="Application.DeadLock" />
+      <item itemvalue="Application.LiveLock" />
+      <item itemvalue="Application.OOMObject" />
       <item itemvalue="Application.testAllocation3" />
-      <item itemvalue="Application.testAllocation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BTraceTest" />
+        <item itemvalue="Application.DeadLock" />
+        <item itemvalue="Application.LiveLock" />
+        <item itemvalue="Application.OOMObject" />
         <item itemvalue="Application.testAllocation3" />
-        <item itemvalue="Application.testAllocation" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +330,7 @@
       <workItem from="1661144346756" duration="76381000" />
       <workItem from="1661409691400" duration="35230000" />
       <workItem from="1661746522904" duration="30666000" />
-      <workItem from="1661843795040" duration="62045000" />
+      <workItem from="1661843795040" duration="83560000" />
     </task>
     <task id="LOCAL-00001" summary="利用JMH对比了不同的实现方法">
       <created>1657078465880</created>
@@ -599,7 +633,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661910383511</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="JVM2">
+      <created>1662099605132</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1662099605132</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -630,7 +671,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="三个问题解决" />
     <MESSAGE value="关于泛型的反思" />
     <MESSAGE value="集合的反思" />
     <MESSAGE value="SQL和参数反射" />
@@ -655,7 +695,8 @@
     <MESSAGE value="重新修改了项目结构" />
     <MESSAGE value="整理之前的代码" />
     <MESSAGE value="JVM1" />
-    <option name="LAST_COMMIT_MESSAGE" value="JVM1" />
+    <MESSAGE value="JVM2" />
+    <option name="LAST_COMMIT_MESSAGE" value="JVM2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -678,7 +719,7 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/Java-JVM/src/main/java/chapter2/testAllocation4.java</url>
           <line>15</line>
-          <option name="timeStamp" value="23" />
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
