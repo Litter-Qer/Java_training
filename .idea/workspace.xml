@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="JVM2">
-      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter3/BTraceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter3/DeadLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter3/JHSDBTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter3/LiveLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter3/OOMObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-JVM/JVM3.md" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="JVM3">
+      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter4/TestClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter4/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-JVM/.JVM4_images/LocalVariableTable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-JVM/.JVM4_images/字段表-单一字段.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-JVM/.images/class文件.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Reflection-JVM/JVM4.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -77,7 +76,7 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
     "last_directory_selection": "C:/github/task_2611/src/test/java",
-    "last_opened_file_path": "C:/github/Reflection-JVM",
+    "last_opened_file_path": "C:/aututech",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
@@ -330,7 +329,7 @@
       <workItem from="1661144346756" duration="76381000" />
       <workItem from="1661409691400" duration="35230000" />
       <workItem from="1661746522904" duration="30666000" />
-      <workItem from="1661843795040" duration="83560000" />
+      <workItem from="1661843795040" duration="105030000" />
     </task>
     <task id="LOCAL-00001" summary="利用JMH对比了不同的实现方法">
       <created>1657078465880</created>
@@ -640,7 +639,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662099605132</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="JVM3">
+      <created>1662358490260</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1662358490260</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -671,7 +677,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="关于泛型的反思" />
     <MESSAGE value="集合的反思" />
     <MESSAGE value="SQL和参数反射" />
     <MESSAGE value="Hexo初探" />
@@ -696,7 +701,8 @@
     <MESSAGE value="整理之前的代码" />
     <MESSAGE value="JVM1" />
     <MESSAGE value="JVM2" />
-    <option name="LAST_COMMIT_MESSAGE" value="JVM2" />
+    <MESSAGE value="JVM3" />
+    <option name="LAST_COMMIT_MESSAGE" value="JVM3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
