@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="JVM3">
-      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter4/TestClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter4/TestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-JVM/.JVM4_images/LocalVariableTable.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-JVM/.JVM4_images/字段表-单一字段.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-JVM/.images/class文件.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-JVM/JVM4.md" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="JVM4">
+      <change afterPath="$PROJECT_DIR$/Reflection-JVM/JVM5.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter4/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter4/TestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-JVM/.JVM4_images/LocalVariableTable.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-JVM/.images/LocalVariableTable.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-JVM/.JVM4_images/字段表-单一字段.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-JVM/.images/字段表-单一字段.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-JVM/JVM4.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-JVM/JVM4.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../soft/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\soft\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -76,13 +77,13 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
     "last_directory_selection": "C:/github/task_2611/src/test/java",
-    "last_opened_file_path": "C:/aututech",
+    "last_opened_file_path": "C:/github/Reflection-JVM/.images",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "MavenSettings"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -96,11 +97,11 @@
       <recent name="pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\github\Reflection-JVM\.images" />
       <recent name="C:\github\Reflection-JVM" />
       <recent name="C:\github\Java-JVM" />
       <recent name="C:\github\Reflections" />
       <recent name="C:\github\Java-Basics\src\main\java\mysql" />
-      <recent name="C:\github\Java-Concurrency\src\main\java\task2622" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -329,7 +330,8 @@
       <workItem from="1661144346756" duration="76381000" />
       <workItem from="1661409691400" duration="35230000" />
       <workItem from="1661746522904" duration="30666000" />
-      <workItem from="1661843795040" duration="105030000" />
+      <workItem from="1661843795040" duration="105669000" />
+      <workItem from="1662513851675" duration="8513000" />
     </task>
     <task id="LOCAL-00001" summary="利用JMH对比了不同的实现方法">
       <created>1657078465880</created>
@@ -646,7 +648,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662358490260</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="JVM4">
+      <created>1662445145364</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1662445145364</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -677,7 +686,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="集合的反思" />
     <MESSAGE value="SQL和参数反射" />
     <MESSAGE value="Hexo初探" />
     <MESSAGE value="mySql的尝试" />
@@ -702,7 +710,8 @@
     <MESSAGE value="JVM1" />
     <MESSAGE value="JVM2" />
     <MESSAGE value="JVM3" />
-    <option name="LAST_COMMIT_MESSAGE" value="JVM3" />
+    <MESSAGE value="JVM4" />
+    <option name="LAST_COMMIT_MESSAGE" value="JVM4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

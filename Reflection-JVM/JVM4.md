@@ -82,7 +82,7 @@ super_class也是一样，0x0002就是第二个常量。第三位的interface则
 
 字段表中每一个字段前8个字节是固定存在的，主要格式可以参考下图
 
-![](.JVM4_images/字段表-单一字段.png)
+![](.images/字段表-单一字段.png)
 
 前4个部分每个占2字节。已上文的class文件为例，00 02 00 0b 00 0c 00 00。第一个02表示了这个字段是一个private的，0b表示这个字段的简单名称，就是变量名。
 0c则是描述符，用来描述字段的数据类型。比如这里就是指向了int。最后的attributes则是这个字段所包含的attribute数量，如果不是0的话，后面就会跟上它所使用的attribute，这里因为没有，所有就直接省略了。
@@ -138,7 +138,7 @@ super_class也是一样，0x0002就是第二个常量。第三位的interface则
 继续往后面看，`000f`告诉我们这个是一个本地变量表。那么观察结构，前8位是固定的name_index,length和local_variable_length。这三个前面讨论过了，直接来看最后的info部分。
 其实info代表的是栈帧和源码中的局部变量的关联。一个info的结构如下
 
-![](.JVM4_images/LocalVariableTable.png)
+![](.images/LocalVariableTable.png)
 
 前面4个都已经讨论过了，直接看index。index表示的是栈帧在局部变量表中slots的位置。因为其实这里只有一个栈帧，所以它就是起始位置也就是0。
 
