@@ -4,14 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="JVM4">
-      <change afterPath="$PROJECT_DIR$/Reflection-JVM/JVM5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="JVM5">
+      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter4/ClassLoaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter4/DeadLoopClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter4/NotInitialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter4/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter4/Subclass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter4/SuperClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-Basics/.images/test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-Basics/performace_schema.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-JVM/.images/类加载生命周期.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-JVM/JVM6.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter4/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter4/TestClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-JVM/.JVM4_images/LocalVariableTable.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-JVM/.images/LocalVariableTable.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-JVM/.JVM4_images/字段表-单一字段.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-JVM/.images/字段表-单一字段.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-JVM/JVM4.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-JVM/JVM4.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-JVM/JVM5.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-JVM/JVM5.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,10 +26,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Groovy, Spock &amp; Mockito" />
         <option value="package-info" />
         <option value="JUnit4 &amp; Mockito" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -38,9 +43,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-17.0.3.1/lib/src.zip!/java.base/java/lang/Class.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-17.0.3.1/lib/src.zip!/java.base/java/lang/ClassLoader.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-17.0.3.1/lib/src.zip!/java.base/java/lang/StringBuilder.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-17.0.3.1/lib/src.zip!/java.base/java/lang/Thread.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-17.0.3.1/lib/src.zip!/java.base/java/util/concurrent/locks/ReentrantLock.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-17.0.3.1/lib/src.zip!/java.base/jdk/internal/perf/PerfCounter.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="HttpClientSelectedEnvironments">
     <file url="mock:///JavaWeb.md" />
@@ -77,9 +85,9 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
     "last_directory_selection": "C:/github/task_2611/src/test/java",
-    "last_opened_file_path": "C:/github/Reflection-JVM/.images",
+    "last_opened_file_path": "C:/github/Reflection-JVM",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
@@ -97,8 +105,8 @@
       <recent name="pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\github\Reflection-JVM\.images" />
       <recent name="C:\github\Reflection-JVM" />
+      <recent name="C:\github\Reflection-JVM\.images" />
       <recent name="C:\github\Java-JVM" />
       <recent name="C:\github\Reflections" />
       <recent name="C:\github\Java-Basics\src\main\java\mysql" />
@@ -129,13 +137,13 @@
       <command value="id" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.BTraceTest">
-    <configuration name="BTraceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter3.BTraceTest" />
+  <component name="RunManager" selected="Application.ClassLoaderTest">
+    <configuration name="ClassLoaderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter4.ClassLoaderTest" />
       <module name="Java-JVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter3.*" />
+          <option name="PATTERN" value="chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter3.DeadLock" />
+    <configuration name="DeadLoopClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter4.DeadLoopClassTest" />
       <module name="Java-JVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter3.*" />
+          <option name="PATTERN" value="chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,15 +164,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapOOM" type="Application" factoryName="Application" nameIsGenerated="true">
+    <configuration name="NotInit2" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chapter1.HeapOOM" />
+      <option name="MAIN_CLASS_NAME" value="chapter4.NotInitialization" />
       <module name="Java-JVM" />
-      <option name="VM_PARAMETERS" value="-Xms20M -Xmx20M -XX:+HeapDumpOnOutOfMemoryError" />
+      <option name="VM_PARAMETERS" value="-Xlog:class+init" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotInitialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter4.NotInitialization" />
+      <module name="Java-JVM" />
+      <option name="VM_PARAMETERS" value="-Xlog:class+load=info -Xlog:class+init=info" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter1.*" />
+          <option name="PATTERN" value="chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,95 +188,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JHSDBTest" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter3.JHSDBTest" />
-      <module name="Java-JVM" />
-      <option name="VM_PARAMETERS" value="-Xmx10m -XX:+UseSerialGC -XX:-UseCompressedOops" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LiveLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter3.LiveLock" />
+    <configuration name="Parent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter4.Parent" />
       <module name="Java-JVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OOMObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter3.OOMObject" />
-      <module name="Java-JVM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SOF" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter1.SOF" />
-      <module name="Java-JVM" />
-      <option name="VM_PARAMETERS" value="-Xss180k" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testAllocation2" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter2.testAllocation2" />
-      <module name="Java-JVM" />
-      <option name="VM_PARAMETERS" value="-verbose:gc -Xms20M -Xmx20M -Xmn10M -Xlog:gc* -XX:SurvivorRatio=8 -XX:PretenureSizeThreshold=3145728" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testAllocation3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter2.testAllocation3" />
-      <module name="Java-JVM" />
-      <option name="VM_PARAMETERS" value="-verbose:gc -Xms20M -Xmx20M -Xmn10M -Xlog:gc* -XX:SurvivorRatio=8 -XX:MaxTenuringThreshold=1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testAllocation4" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter2.testAllocation4" />
-      <module name="Java-JVM" />
-      <option name="VM_PARAMETERS" value="-verbose:gc -Xms20M -Xmx20M -Xmn10M -Xlog:gc* -XX:SurvivorRatio=8 -XX:MaxTenuringThreshold=15" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter2.*" />
+          <option name="PATTERN" value="chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -269,24 +202,18 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.JHSDBTest" />
-      <item itemvalue="Application.testAllocation4" />
-      <item itemvalue="Application.testAllocation2" />
-      <item itemvalue="Application.SOF" />
-      <item itemvalue="Application.HeapOOM" />
-      <item itemvalue="Application.BTraceTest" />
-      <item itemvalue="Application.DeadLock" />
-      <item itemvalue="Application.LiveLock" />
-      <item itemvalue="Application.OOMObject" />
-      <item itemvalue="Application.testAllocation3" />
+      <item itemvalue="Application.NotInit2" />
+      <item itemvalue="Application.ClassLoaderTest" />
+      <item itemvalue="Application.DeadLoopClassTest" />
+      <item itemvalue="Application.Parent" />
+      <item itemvalue="Application.NotInitialization" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BTraceTest" />
-        <item itemvalue="Application.DeadLock" />
-        <item itemvalue="Application.LiveLock" />
-        <item itemvalue="Application.OOMObject" />
-        <item itemvalue="Application.testAllocation3" />
+        <item itemvalue="Application.ClassLoaderTest" />
+        <item itemvalue="Application.DeadLoopClassTest" />
+        <item itemvalue="Application.Parent" />
+        <item itemvalue="Application.NotInitialization" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +258,9 @@
       <workItem from="1661409691400" duration="35230000" />
       <workItem from="1661746522904" duration="30666000" />
       <workItem from="1661843795040" duration="105669000" />
-      <workItem from="1662513851675" duration="8513000" />
+      <workItem from="1662513851675" duration="14286000" />
+      <workItem from="1662595978871" duration="27199000" />
+      <workItem from="1662691029885" duration="30130000" />
     </task>
     <task id="LOCAL-00001" summary="利用JMH对比了不同的实现方法">
       <created>1657078465880</created>
@@ -655,7 +584,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662445145364</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="JVM5">
+      <created>1662528742206</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1662528742206</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -686,7 +622,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="SQL和参数反射" />
     <MESSAGE value="Hexo初探" />
     <MESSAGE value="mySql的尝试" />
     <MESSAGE value="mySQL注释的研究" />
@@ -711,7 +646,8 @@
     <MESSAGE value="JVM2" />
     <MESSAGE value="JVM3" />
     <MESSAGE value="JVM4" />
-    <option name="LAST_COMMIT_MESSAGE" value="JVM4" />
+    <MESSAGE value="JVM5" />
+    <option name="LAST_COMMIT_MESSAGE" value="JVM5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
