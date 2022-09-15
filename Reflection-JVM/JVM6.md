@@ -345,4 +345,3 @@ JDK 9实现了[JSR-277](https://jcp.org/en/jsr/detail?id=277)中提出的想法�
 JDK 9后，对于上述的一些类加载器其实也做出了一些改动，比如Extension ClassLoader也直接改成了Platform ClassLoader。因为整个JDK都已经被模块化了，
 所以java类库就足够表述所有的可拓展需求。所以lib\ext就没有意义了。由于模块的打包变得容易了，所以连原先存在的JRE目录也直接去除了。这个部分在之前的**JEP-261**中都可以查到。
 如果细看还会发现其中分别规定了不同的加载器需要handle的任务。
-
