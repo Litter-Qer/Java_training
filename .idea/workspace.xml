@@ -4,19 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="Performance Schema 入门">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/cjc20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter5/Dispatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter5/DynamicDispatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter5/InvokeDynamicTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter5/LocalVar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter5/MethodHandleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter5/StaticDispatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter5/gcTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-JVM/.images/栈帧详图.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-JVM/JVM7.md" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="JVM 7">
+      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter6/GenericTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter6/NameChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter6/NameCheckerProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter6/syntaxsugar/sugar1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter6/syntaxsugar/sugar2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter6/testInlineTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter6/wrapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-JVM/.images/分层编译.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-JVM/.images/计数器流程.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-JVM/JVM8.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-JVM/JVM6.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-JVM/JVM6.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +29,7 @@
         <option value="package-info" />
         <option value="JUnit4 &amp; Mockito" />
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -101,6 +101,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="chapter6" />
       <recent name="mapper" />
       <recent name="pojo" />
     </key>
@@ -125,11 +126,11 @@
       <recent name="pojo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="chapter6.syntaxsugar" />
       <recent name="chapter5" />
       <recent name="chapter3" />
       <recent name="chapter2" />
       <recent name="chapter1" />
-      <recent name="task2605" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -137,65 +138,13 @@
       <command value="id" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.InvokeDynamicTest">
-    <configuration name="Dispatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter5.Dispatch" />
+  <component name="RunManager" selected="Application.testAllocation4">
+    <configuration name="GenericTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter6.GenericTest" />
       <module name="Java-JVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DynamicDispatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter5.DynamicDispatch" />
-      <module name="Java-JVM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InvokeDynamicTest$ClassA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter5.InvokeDynamicTest$ClassA" />
-      <module name="Java-JVM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InvokeDynamicTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter5.InvokeDynamicTest" />
-      <module name="Java-JVM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MethodHandleTest$ClassA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter5.MethodHandleTest$ClassA" />
-      <module name="Java-JVM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter5.*" />
+          <option name="PATTERN" value="chapter6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -227,22 +176,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="sugar2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter6.syntaxsugar.sugar2" />
+      <module name="Java-JVM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter6.syntaxsugar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testAllocation4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter2.testAllocation4" />
+      <module name="Java-JVM" />
+      <option name="VM_PARAMETERS" value="-verbose:gc -Xms20M -Xmx20M -Xmn10M -XX:SurvivorRatio=8 -XX:MaxTenuringThreshold=15 -XX:NativeMemoryTracking=detail" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wrapperTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter6.wrapperTest" />
+      <module name="Java-JVM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.gcTest" />
       <item itemvalue="Application.NotInit2" />
-      <item itemvalue="Application.Dispatch" />
-      <item itemvalue="Application.DynamicDispatch" />
-      <item itemvalue="Application.InvokeDynamicTest" />
-      <item itemvalue="Application.InvokeDynamicTest$ClassA" />
-      <item itemvalue="Application.MethodHandleTest$ClassA" />
+      <item itemvalue="Application.testAllocation4" />
+      <item itemvalue="Application.wrapperTest" />
+      <item itemvalue="Application.GenericTest" />
+      <item itemvalue="Application.sugar2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InvokeDynamicTest" />
-        <item itemvalue="Application.InvokeDynamicTest$ClassA" />
-        <item itemvalue="Application.MethodHandleTest$ClassA" />
-        <item itemvalue="Application.Dispatch" />
-        <item itemvalue="Application.DynamicDispatch" />
+        <item itemvalue="Application.testAllocation4" />
+        <item itemvalue="Application.wrapperTest" />
+        <item itemvalue="Application.sugar2" />
+        <item itemvalue="Application.GenericTest" />
       </list>
     </recent_temporary>
   </component>
@@ -289,14 +276,10 @@
       <workItem from="1661843795040" duration="105669000" />
       <workItem from="1662513851675" duration="14286000" />
       <workItem from="1662595978871" duration="27199000" />
-      <workItem from="1662691029885" duration="71259000" />
-    </task>
-    <task id="LOCAL-00001" summary="利用JMH对比了不同的实现方法">
-      <created>1657078465880</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1657078465880</updated>
+      <workItem from="1662691029885" duration="79139000" />
+      <workItem from="1663213576881" duration="29000" />
+      <workItem from="1663213675738" duration="9642000" />
+      <workItem from="1663228681518" duration="17964000" />
     </task>
     <task id="LOCAL-00002" summary="跟进了昨天的任务">
       <created>1657083358215</created>
@@ -634,7 +617,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662969473811</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="JVM 7">
+      <created>1663205498107</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1663205498107</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -665,7 +655,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="mySQL注释的研究" />
     <MESSAGE value="表的备份" />
     <MESSAGE value="新表" />
     <MESSAGE value="初识线程" />
@@ -690,7 +679,8 @@
     <MESSAGE value="JVM5" />
     <MESSAGE value="JVM6" />
     <MESSAGE value="Performance Schema 入门" />
-    <option name="LAST_COMMIT_MESSAGE" value="Performance Schema 入门" />
+    <MESSAGE value="JVM 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="JVM 7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -713,7 +703,7 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/Java-JVM/src/main/java/chapter2/testAllocation4.java</url>
           <line>15</line>
-          <option name="timeStamp" value="24" />
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
