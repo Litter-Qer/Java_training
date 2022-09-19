@@ -22,7 +22,7 @@ java会统一转成unicode处理，类似于向下兼容。也就是说，其实
 String s = new String(new char[] {'a','b','c'});
 String s2 = new String(s);
 ```
-![](.reflection_update_images/string_constructor.png)
+![](images/string_constructor.png)
 <br>以上的源码中就能发现，当一个新创建的string是某一个已经存在的String的时候，java实际上只是将已有的value，coder和hash赋给这个新的string。
 并不是添加一个完全新的string。
 

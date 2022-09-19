@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="JVM 8">
-      <change afterPath="$PROJECT_DIR$/Java-JVM/src/main/java/chapter7/VolatileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-JVM/JVM9.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TASK_2620.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="JVM 9 完结" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -288,14 +283,7 @@
       <workItem from="1663213576881" duration="29000" />
       <workItem from="1663213675738" duration="9642000" />
       <workItem from="1663228681518" duration="18799000" />
-      <workItem from="1663546037738" duration="12423000" />
-    </task>
-    <task id="LOCAL-00003" summary="冒泡以及插入排序">
-      <created>1657156216316</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1657156216316</updated>
+      <workItem from="1663546037738" duration="13389000" />
     </task>
     <task id="LOCAL-00004" summary="task_2605无spock版完成">
       <created>1657169956737</created>
@@ -633,7 +621,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663312729360</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="JVM 9 完结">
+      <created>1663565383497</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1663565383498</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -664,7 +659,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="新表" />
     <MESSAGE value="初识线程" />
     <MESSAGE value="线程进阶1" />
     <MESSAGE value="线程进阶2" />
@@ -689,7 +683,8 @@
     <MESSAGE value="Performance Schema 入门" />
     <MESSAGE value="JVM 7" />
     <MESSAGE value="JVM 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="JVM 8" />
+    <MESSAGE value="JVM 9 完结" />
+    <option name="LAST_COMMIT_MESSAGE" value="JVM 9 完结" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

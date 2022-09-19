@@ -7,7 +7,7 @@ fields在java class中基本类似于一个类的properties。
 大部分情况下，每一个field都定义了这个类的不同属性。比如本次实现的
 餐厅类中
 > 名字、种类、地址等都是餐厅本身具备的属性
-> ![img.png](.reflection_images/img.png)
+> ![img.png](images/img.png)
 
 定义fields的时候一般使用private作为access modifier，这里主要的
 原因是封装。外部无法直接调用和修改一个类的变量，只能通过setter和getter
@@ -23,14 +23,14 @@ fields在java class中基本类似于一个类的properties。
 > 所以实际上并没有影响final所限制的reference，因此不会报错。但是当我使用primitive类型的变量时，
 > 在内存空间中，改变这个变量的值就类似于改变地址，所以final关键字会限制改动。
 > 以下截图证明了primitive类型和其他类型的区别：
-> ![](.reflection_images/finalkeyword.png) <br>
+> ![](images/finalkeyword.png) <br>
 > 很明显，primitive类型的变量被final修饰后就不肯更改，而array和string任然可以被更改。
 
 但是final修饰的类中，String是比较特别的。String的源码中虽然被final修饰但是仍然可以被修改，但是其实string并不是被修改了。
 而是被替换了指向的地址——也就是创建了一个新的String。我尝试通过反编译的方法去看，是否创建了新的string，但是结果表明反编译不能直接看出String的地址变化。
 所以我尝试找源码中的一些线索。比如下面这张图中的substring源码，我们会发现其实使用substring并不是改变了string本身的值，
 而是创建了一个新的string，并且把老的变量指向这个新的string。
-![](.reflection_images/substring.png)
+![](images/substring.png)
 
 b) methods
 
