@@ -10,6 +10,7 @@
         <module name="Java-Basics" />
         <module name="Java-JVM" />
         <module name="Java-Concurrency" />
+        <module name="Java-Spring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +18,7 @@
       <module name="ordering" target="1.8" />
       <module name="reordering" target="1.8" />
       <module name="sql" target="17" />
+      <module name="Sql-session" target="17" />
       <module name="task_2604" target="17" />
       <module name="task_2605" target="17" />
       <module name="task_2608" target="17" />
@@ -35,6 +37,7 @@
       <module name="TASK_2621" target="17" />
       <module name="TASK_2622" target="17" />
       <module name="task_2629" target="17" />
+      <module name="tomcat-demo1" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

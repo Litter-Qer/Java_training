@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       https://www.springframework.org/schema/context/spring-context.xsd">
+    
+    <!-- 开启context命名空间 -->
+    <!-- 使用context空间加载properties文件 -->
+    <context:property-placeholder location="classpath*:*.properties" system-properties-mode="NEVER"/>
+    
+    <!-- 管理DruidDataSource -->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+    
+    <!-- 导入坐标 -->
+    <!-- <bean id="bookDao" class="spring1.dao.impl.BookDaoImpl"/> -->
+    
+    <bean id="bookDao3" class="spring1.dao.impl.BookDaoImpl3">
+        <property name="name" value="${jdbc.driver}"/>
+    </bean>
+    
+    <!-- <bean id="bookDao2" class="spring1.dao.impl.BookDaoImpl2"> -->
+    <!--     <property name="array"> -->
+    <!--         <array> -->
+    <!--             <value>10</value> -->
+    <!--         </array> -->
+    <!--     </property> -->
+    <!--     <property name="list"> -->
+    <!--         <array> -->
+    <!--             <value>zxca</value> -->
+    <!--             <value>qwe</value> -->
+    <!--         </array> -->
+    <!--     </property> -->
+    <!--     <property name="set"> -->
+    <!--         <array> -->
+    <!--             <value>zxcqw</value> -->
+    <!--             <value>30</value> -->
+    <!--         </array> -->
+    <!--     </property> -->
+    <!--     <property name="map"> -->
+    <!--         <map> -->
+    <!--             <entry key="gugu" value="tttt"/> -->
+    <!--             <entry key="zxc" value="awdzxc"/> -->
+    <!--         </map> -->
+    <!--     </property> -->
+    <!--     <property name="properties"> -->
+    <!--         <props> -->
+    <!--             <prop key="country">australia</prop> -->
+    <!--             <prop key="asd">zxc</prop> -->
+    <!--         </props> -->
+    <!--     </property> -->
+    <!-- </bean> -->
+    
+    <!-- <bean id="bookService" class="spring1.dao.service.impl.BookServiceImpl" autowire="byName"/> -->
+    
+    <!-- 管理DruidDataSource -->
+    <!-- <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"> -->
+    <!--     <property name="driverClassName" value="${jdbc.driver}"/> -->
+    <!--     <property name="url" value="${jdbc.url}"/> -->
+    <!--     <property name="username" value="${jdbc.username}"/> -->
+    <!--     <property name="password" value="${jdbc.password}"/> -->
+    <!-- </bean> -->
+    
+    <!-- <bean id="c3po" class="com.mchange.v2.c3p0.ComboPooledDataSource"> -->
+    <!--     <property name="driverClass" value="com.mysql.jdbc.Driver"/> -->
+    <!--     <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/spring_db"/> -->
+    <!--     <property name="user" value="root"/> -->
+    <!--     <property name="password" value="Qwe123"/> -->
+    <!-- </bean> -->
+    <!-- 导入工厂 -->
+    <!-- <bean id="orderDao" class="spring1.factory.OrderDaoFactory" factory-method="getOrderDao"/> -->
+    <!-- <bean id="orderDaoFactory" class="spring1.factory.OrderDaoFactory"/> -->
+    <!-- <bean id="orderDao" factory-method="getOrderDao" factory-bean="orderDaoFactory"/> -->
+    
+    <!-- <bean id="userDaoFactory" class="spring1.factory.UserDaoFactoryBean"/> -->
+    <!-- <bean id="userDao" class="spring1.factory.UserDaoFactoryBean"/> -->
+
+</beans>

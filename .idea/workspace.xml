@@ -4,7 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="JVM 9 完结" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="整理文件">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/AppLifeCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/dao/impl/BookDaoImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/dao/impl/BookDaoImpl3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/dao/impl/OrderDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/dao/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/dao/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/factory/OrderDaoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/factory/UserDaoFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-Spring/.images/bean生命周期.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-Spring/spring1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Basics/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Basics/src/main/java/mysql/insertDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/mysql/insertDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Concurrency/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-Basics/JavaWeb.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/JavaWeb.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +53,7 @@
         <option value="JUnit4 &amp; Mockito" />
         <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -41,6 +77,11 @@
   <component name="HttpClientSelectedEnvironments">
     <file url="mock:///JavaWeb.md" />
   </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -63,30 +104,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/github/task_2611/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/github/Reflection-JVM&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_directory_selection": "C:/github/task_2611/src/test/java",
+    "last_opened_file_path": "C:/github/Reflection-JVM",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "8cfd9acd44ff5ae1fc1d5933ee9201e5"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="chapter6" />
@@ -104,21 +146,21 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\github\Reflection-Basics\images" />
+      <recent name="C:\github\Reflection-concurrency\images" />
       <recent name="C:\github\Reflection-JVM\.images" />
       <recent name="C:\github\Reflection-JVM" />
       <recent name="C:\github\TASK_2622\tmp" />
-      <recent name="C:\github\TASK_2622" />
-      <recent name="C:\github\TASK_2622\src\main\java" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="pojo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="spring1.dao.impl" />
+      <recent name="spring1.apps" />
+      <recent name="spring1" />
+      <recent name="spring1.dao" />
       <recent name="chapter6.syntaxsugar" />
-      <recent name="chapter5" />
-      <recent name="chapter3" />
-      <recent name="chapter2" />
-      <recent name="chapter1" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -126,13 +168,78 @@
       <command value="id" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.VolatileTest">
-    <configuration name="GenericTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter6.GenericTest" />
-      <module name="Java-JVM" />
+  <component name="RunManager" selected="Application.App7">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spring1.App" />
+      <module name="Java-Spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter6.*" />
+          <option name="PATTERN" value="spring1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spring1.apps.App2" />
+      <module name="Java-Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spring1.apps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spring1.apps.App5" />
+      <module name="Java-Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spring1.apps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spring1.apps.App6" />
+      <module name="Java-Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spring1.apps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spring1.apps.App7" />
+      <module name="Java-Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spring1.apps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppLifeCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spring1.apps.AppLifeCycle" />
+      <module name="Java-Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spring1.apps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,19 +253,6 @@
       <option name="MAIN_CLASS_NAME" value="chapter4.NotInitialization" />
       <module name="Java-JVM" />
       <option name="VM_PARAMETERS" value="-Xlog:class+init" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VolatileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter7.VolatileTest" />
-      <module name="Java-JVM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -177,62 +271,143 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sugar2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter6.syntaxsugar.sugar2" />
-      <module name="Java-JVM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter6.syntaxsugar.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Tomcat10" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.23" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="tomcat-demo1:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/tomcat_demo1_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="60139595-411d-48c7-849f-45732f2e715c" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56436" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Debug with VisualVM">
+        <option name="DEBUG_PORT" value="56437" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug with VisualVM">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run with VisualVM">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testAllocation4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter2.testAllocation4" />
-      <module name="Java-JVM" />
-      <option name="VM_PARAMETERS" value="-verbose:gc -Xms20M -Xmx20M -Xmn10M -XX:SurvivorRatio=8 -XX:MaxTenuringThreshold=15 -XX:NativeMemoryTracking=detail" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="wrapperTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter6.wrapperTest" />
-      <module name="Java-JVM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="tomcat-demo1:war" />
+        </option>
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.gcTest" />
       <item itemvalue="Application.NotInit2" />
-      <item itemvalue="Application.VolatileTest" />
-      <item itemvalue="Application.testAllocation4" />
-      <item itemvalue="Application.wrapperTest" />
-      <item itemvalue="Application.GenericTest" />
-      <item itemvalue="Application.sugar2" />
+      <item itemvalue="Application.App2" />
+      <item itemvalue="Application.App5" />
+      <item itemvalue="Application.App6" />
+      <item itemvalue="Application.App7" />
+      <item itemvalue="Application.AppLifeCycle" />
+      <item itemvalue="Tomcat Server.Tomcat10" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.VolatileTest" />
-        <item itemvalue="Application.testAllocation4" />
-        <item itemvalue="Application.wrapperTest" />
-        <item itemvalue="Application.sugar2" />
-        <item itemvalue="Application.GenericTest" />
+        <item itemvalue="Application.App7" />
+        <item itemvalue="Application.App6" />
+        <item itemvalue="Application.AppLifeCycle" />
+        <item itemvalue="Application.App5" />
+        <item itemvalue="Application.App2" />
       </list>
     </recent_temporary>
   </component>
@@ -283,14 +458,8 @@
       <workItem from="1663213576881" duration="29000" />
       <workItem from="1663213675738" duration="9642000" />
       <workItem from="1663228681518" duration="18799000" />
-      <workItem from="1663546037738" duration="13389000" />
-    </task>
-    <task id="LOCAL-00004" summary="task_2605无spock版完成">
-      <created>1657169956737</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1657169956737</updated>
+      <workItem from="1663546037738" duration="24431000" />
+      <workItem from="1663648873802" duration="29886000" />
     </task>
     <task id="LOCAL-00005" summary="使用spock单元测试">
       <created>1657172395434</created>
@@ -628,7 +797,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663565383498</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="整理文件">
+      <created>1663566565283</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1663566565283</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -651,6 +827,11 @@
                   </entry>
                 </map>
               </option>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Space.CommitStatus.ColumnIdWidth" value="38" />
+                </map>
+              </option>
             </State>
           </value>
         </entry>
@@ -659,7 +840,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="初识线程" />
     <MESSAGE value="线程进阶1" />
     <MESSAGE value="线程进阶2" />
     <MESSAGE value="线程进阶3" />
@@ -684,7 +864,8 @@
     <MESSAGE value="JVM 7" />
     <MESSAGE value="JVM 8" />
     <MESSAGE value="JVM 9 完结" />
-    <option name="LAST_COMMIT_MESSAGE" value="JVM 9 完结" />
+    <MESSAGE value="整理文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="整理文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -719,6 +900,13 @@
         <PinnedItemInfo parentTag="java.lang.Thread" memberName="parkBlocker" />
       </pinned-members>
     </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((String)((BookDaoImpl)((BookServiceImpl)bookService).bookDao).name).value[0]" custom="spring1.service.impl.BookServiceImpl,spring1.dao.impl.BookDaoImpl,java.lang.String" />
+        <watch expression="((BookDaoImpl)((BookServiceImpl)bookService).bookDao).name" custom="spring1.service.impl.BookServiceImpl,spring1.dao.impl.BookDaoImpl" />
+        <watch expression="((BookDaoImpl2)bookDao2).list" custom="spring1.dao.impl.BookDaoImpl2" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

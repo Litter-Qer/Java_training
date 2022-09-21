@@ -7,6 +7,10 @@
     <file url="file://$PROJECT_DIR$/Java-Concurrency/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Java-JVM/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Java-JVM/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-Spring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-Spring/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Sql-session/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Sql-session/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/TASK_2613/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/TASK_2613/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/TASK_2614/src/main/java" charset="UTF-8" />
@@ -34,5 +38,7 @@
     <file url="file://$PROJECT_DIR$/reordering/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sql/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sql/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tomcat-demo1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tomcat-demo1/src/main/resources" charset="UTF-8" />
   </component>
 </project>

@@ -1,6 +1,6 @@
 package mysql;
 
-import mapper.TestMapper;
+import mysql.mapper.TestMapper;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
