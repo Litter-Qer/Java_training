@@ -4,41 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="整理文件">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/AppLifeCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/dao/OrderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/dao/impl/BookDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/dao/impl/BookDaoImpl2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/dao/impl/BookDaoImpl3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/dao/impl/OrderDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/dao/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/dao/service/impl/BookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/factory/OrderDaoFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/factory/UserDaoFactoryBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-Spring/.images/bean生命周期.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-Spring/spring1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="更新之前的pom文件">
+      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring2/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring2/AppForAnnot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring2/config/JDBCConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring2/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring2/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring2/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring2/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring2/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/resources/spring1.config/applicationContext2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-Spring/spring2.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Basics/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Basics/src/main/java/mysql/insertDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/mysql/insertDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Concurrency/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Concurrency/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-Basics/JavaWeb.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Basics/JavaWeb.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App5.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App6.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App7.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/AppLifeCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/AppLifeCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/src/main/resources/spring1.config/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/src/main/resources/jdbc.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +39,9 @@
         <option value="Groovy, Spock &amp; Mockito" />
         <option value="package-info" />
         <option value="JUnit4 &amp; Mockito" />
-        <option value="Interface" />
         <option value="AnnotationType" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -114,14 +102,14 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
     "last_directory_selection": "C:/github/task_2611/src/test/java",
-    "last_opened_file_path": "C:/github/Reflection-JVM",
+    "last_opened_file_path": "C:/github/Java-Spring/src/main/java/spring2/congfig",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Facets",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "8cfd9acd44ff5ae1fc1d5933ee9201e5"
+    "spring.configuration.checksum": "f6d151d591da13d61a181fd4f0241889"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -136,31 +124,34 @@
       <recent name="pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\github\Java-Spring\src\main\java\spring2\congfig" />
+      <recent name="C:\github\Java-Spring\src\main\resources" />
+      <recent name="C:\github\Java-Spring\src\main\java\spring2" />
+      <recent name="C:\github\Reflection-Spring" />
       <recent name="C:\github\Reflection-JVM" />
-      <recent name="C:\github\Reflection-JVM\.images" />
-      <recent name="C:\github\Java-JVM" />
-      <recent name="C:\github\Reflections" />
-      <recent name="C:\github\Java-Basics\src\main\java\mysql" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\github\Java-Spring\src\main\resources" />
+      <recent name="C:\github\Java-Spring\src\main\resources\spring1.config" />
       <recent name="C:\github\Reflection-Basics\images" />
       <recent name="C:\github\Reflection-concurrency\images" />
       <recent name="C:\github\Reflection-JVM\.images" />
-      <recent name="C:\github\Reflection-JVM" />
-      <recent name="C:\github\TASK_2622\tmp" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="spring2" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="pojo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="spring2.config" />
+      <recent name="" />
+      <recent name="spring2.service.impl" />
       <recent name="spring1.dao.impl" />
       <recent name="spring1.apps" />
-      <recent name="spring1" />
-      <recent name="spring1.dao" />
-      <recent name="chapter6.syntaxsugar" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -168,39 +159,13 @@
       <command value="id" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.App7">
+  <component name="RunManager" selected="Application.AppForAnnot">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spring1.App" />
+      <option name="MAIN_CLASS_NAME" value="spring2.App" />
       <module name="Java-Spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spring1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="App2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spring1.apps.App2" />
-      <module name="Java-Spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spring1.apps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="App5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spring1.apps.App5" />
-      <module name="Java-Spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spring1.apps.*" />
+          <option name="PATTERN" value="spring2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,6 +195,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppForAnnot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spring2.AppForAnnot" />
+      <module name="Java-Spring" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -394,20 +366,20 @@
     <list>
       <item itemvalue="Application.gcTest" />
       <item itemvalue="Application.NotInit2" />
-      <item itemvalue="Application.App2" />
-      <item itemvalue="Application.App5" />
+      <item itemvalue="Application.App" />
       <item itemvalue="Application.App6" />
       <item itemvalue="Application.App7" />
+      <item itemvalue="Application.AppForAnnot" />
       <item itemvalue="Application.AppLifeCycle" />
       <item itemvalue="Tomcat Server.Tomcat10" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AppForAnnot" />
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.App7" />
         <item itemvalue="Application.App6" />
         <item itemvalue="Application.AppLifeCycle" />
-        <item itemvalue="Application.App5" />
-        <item itemvalue="Application.App2" />
       </list>
     </recent_temporary>
   </component>
@@ -459,21 +431,8 @@
       <workItem from="1663213675738" duration="9642000" />
       <workItem from="1663228681518" duration="18799000" />
       <workItem from="1663546037738" duration="24431000" />
-      <workItem from="1663648873802" duration="29886000" />
-    </task>
-    <task id="LOCAL-00005" summary="使用spock单元测试">
-      <created>1657172395434</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1657172395434</updated>
-    </task>
-    <task id="LOCAL-00006" summary="taks2608完成">
-      <created>1657244702296</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1657244702296</updated>
+      <workItem from="1663648873802" duration="36170000" />
+      <workItem from="1664149770898" duration="2453000" />
     </task>
     <task id="LOCAL-00007" summary="一些思考">
       <created>1657250555501</created>
@@ -804,7 +763,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663566565283</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Spring 1">
+      <created>1663742083614</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1663742083614</updated>
+    </task>
+    <task id="LOCAL-00055" summary="更新之前的pom文件">
+      <created>1663742116709</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1663742116709</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -840,8 +813,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="线程进阶1" />
-    <MESSAGE value="线程进阶2" />
     <MESSAGE value="线程进阶3" />
     <MESSAGE value="线程进阶4" />
     <MESSAGE value="JMM初步分析和理解" />
@@ -865,7 +836,9 @@
     <MESSAGE value="JVM 8" />
     <MESSAGE value="JVM 9 完结" />
     <MESSAGE value="整理文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="整理文件" />
+    <MESSAGE value="Spring 1" />
+    <MESSAGE value="更新之前的pom文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新之前的pom文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

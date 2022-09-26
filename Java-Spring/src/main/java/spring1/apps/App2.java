@@ -8,7 +8,7 @@ public class App2 {
 
     public static void main(String[] args) {
         // 获取IoC容器
-        ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
+        ApplicationContext ctx = new ClassPathXmlApplicationContext("spring1.config/applicationContext.xml");
         BookDao bookService1 = (BookDao) ctx.getBean("bookDao");
 
         bookService1.save();

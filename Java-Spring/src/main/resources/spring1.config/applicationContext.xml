@@ -21,7 +21,7 @@
     </bean>
     
     <!-- 导入坐标 -->
-    <!-- <bean id="bookDao" class="spring1.dao.impl.BookDaoImpl"/> -->
+    <!-- <bean id="bookDao" class="spring1.dao.impl.BookServiceImpl"/> -->
     
     <bean id="bookDao3" class="spring1.dao.impl.BookDaoImpl3">
         <property name="name" value="${jdbc.driver}"/>
