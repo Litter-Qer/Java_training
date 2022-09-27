@@ -4,29 +4,70 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="更新之前的pom文件">
-      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring2/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring2/AppForAnnot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring2/config/JDBCConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring2/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring2/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring2/dao/impl/BookDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring2/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring2/service/impl/BookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/src/main/resources/spring1.config/applicationContext2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-Spring/spring2.md" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="spring 2">
+      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-AOP/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-AOP/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-AOP/src/main/java/com/jon/aop/MyAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-AOP/src/main/java/com/jon/config/JdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-AOP/src/main/java/com/jon/config/MybatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-AOP/src/main/java/com/jon/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-AOP/src/main/java/com/jon/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-AOP/src/main/java/com/jon/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-AOP/src/main/java/com/jon/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-AOP/src/main/java/com/jon/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-AOP/src/main/java/com/jon/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-AOP/src/main/java/com/jon/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-AOP/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-AOP/src/test/java/AccountServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring3/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring3/config/JdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring3/config/MybatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring3/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring3/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring3/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring3/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring3/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/test/java/AccountServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-Spring/spring3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App5.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App6.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App7.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/AppLifeCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/AppLifeCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/src/main/resources/spring1.config/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring1/apps/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring1/apps/App2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring1/apps/App3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring1/apps/App4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App5.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring1/apps/App5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App6.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring1/apps/App6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/App7.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring1/apps/App7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/apps/AppLifeCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring1/apps/AppLifeCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring1/dao/BookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/dao/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring1/dao/OrderDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring1/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/dao/impl/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring1/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/dao/impl/BookDaoImpl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring1/dao/impl/BookDaoImpl2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/dao/impl/BookDaoImpl3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring1/dao/impl/BookDaoImpl3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/dao/impl/OrderDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring1/dao/impl/OrderDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring1/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/dao/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring1/dao/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/dao/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring1/dao/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/factory/OrderDaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring1/factory/OrderDaoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring1/factory/UserDaoFactoryBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring1/factory/UserDaoFactoryBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring2/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring2/AppForAnnot.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring2/AppForAnnot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring2/config/JDBCConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring2/config/JDBCConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring2/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring2/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring2/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring2/dao/BookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring2/dao/impl/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring2/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring2/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring2/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/java/spring2/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring2/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-AOP/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/resources/spring1.config/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/resources/spring1.config/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Spring/src/main/resources/spring1.config/applicationContext2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/resources/spring1.config/applicationContext2.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +78,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Groovy, Spock &amp; Mockito" />
-        <option value="package-info" />
         <option value="JUnit4 &amp; Mockito" />
         <option value="AnnotationType" />
         <option value="spring-beans.schema" />
+        <option value="package-info" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -77,6 +118,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="$PROJECT_DIR$/../soft/apache-maven-3.6.3" />
+        <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="C:\soft\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -102,14 +144,14 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
     "last_directory_selection": "C:/github/task_2611/src/test/java",
-    "last_opened_file_path": "C:/github/Java-Spring/src/main/java/spring2/congfig",
+    "last_opened_file_path": "C:/github/Java-Spring/Spring-AOP/src/main/java/com/jon/config",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Facets",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "f6d151d591da13d61a181fd4f0241889"
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "5d1a343054bbf3eccf22d43413de3c63"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -124,21 +166,21 @@
       <recent name="pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\github\Java-Spring\src\main\java\spring2\congfig" />
-      <recent name="C:\github\Java-Spring\src\main\resources" />
-      <recent name="C:\github\Java-Spring\src\main\java\spring2" />
+      <recent name="C:\github\Java-Spring\Spring-AOP\src\main\java\com\jon\config" />
+      <recent name="C:\github\Java-Spring\Spring-AOP\src\main\resources" />
+      <recent name="C:\github\Java-Spring\src\main\resources\spring3" />
       <recent name="C:\github\Reflection-Spring" />
-      <recent name="C:\github\Reflection-JVM" />
+      <recent name="C:\github\Java-Spring\src\main\java\spring2\congfig" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\github\Java-Spring" />
       <recent name="C:\github\Java-Spring\src\main\resources" />
       <recent name="C:\github\Java-Spring\src\main\resources\spring1.config" />
       <recent name="C:\github\Reflection-Basics\images" />
       <recent name="C:\github\Reflection-concurrency\images" />
-      <recent name="C:\github\Reflection-JVM\.images" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="spring2" />
@@ -147,11 +189,11 @@
       <recent name="pojo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="spring3.config" />
       <recent name="spring2.config" />
       <recent name="" />
       <recent name="spring2.service.impl" />
       <recent name="spring1.dao.impl" />
-      <recent name="spring1.apps" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -159,231 +201,46 @@
       <command value="id" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.AppForAnnot">
+  <component name="RunManager" selected="JUnit.AccountServiceTest.testTransfer">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spring2.App" />
-      <module name="Java-Spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spring2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="Spring-AOP" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spring1.apps.App6" />
-      <module name="Java-Spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spring1.apps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="AccountServiceTest.testFindById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring-Basics" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AccountServiceTest" />
+      <option name="METHOD_NAME" value="testFindById" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spring1.apps.App7" />
-      <module name="Java-Spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spring1.apps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="AccountServiceTest.testTransfer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring-AOP" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AccountServiceTest" />
+      <option name="METHOD_NAME" value="testTransfer" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppForAnnot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spring2.AppForAnnot" />
-      <module name="Java-Spring" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppLifeCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spring1.apps.AppLifeCycle" />
-      <module name="Java-Spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spring1.apps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NotInit2" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="17" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chapter4.NotInitialization" />
-      <module name="Java-JVM" />
-      <option name="VM_PARAMETERS" value="-Xlog:class+init" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="gcTest" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter5.gcTest" />
-      <module name="Java-JVM" />
-      <option name="VM_PARAMETERS" value="-verbose:gc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tomcat10" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.23" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="tomcat-demo1:war">
-          <settings>
-            <option name="CONTEXT_PATH" value="/tomcat_demo1_war" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="60139595-411d-48c7-849f-45732f2e715c" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="56436" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Debug with VisualVM">
-        <option name="DEBUG_PORT" value="56437" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug with VisualVM">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run with VisualVM">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="tomcat-demo1:war" />
-        </option>
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.gcTest" />
-      <item itemvalue="Application.NotInit2" />
-      <item itemvalue="Application.App" />
-      <item itemvalue="Application.App6" />
-      <item itemvalue="Application.App7" />
-      <item itemvalue="Application.AppForAnnot" />
-      <item itemvalue="Application.AppLifeCycle" />
-      <item itemvalue="Tomcat Server.Tomcat10" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AppForAnnot" />
+        <item itemvalue="JUnit.AccountServiceTest.testTransfer" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.App7" />
-        <item itemvalue="Application.App6" />
-        <item itemvalue="Application.AppLifeCycle" />
+        <item itemvalue="JUnit.AccountServiceTest.testFindById" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="" />
@@ -432,14 +289,9 @@
       <workItem from="1663228681518" duration="18799000" />
       <workItem from="1663546037738" duration="24431000" />
       <workItem from="1663648873802" duration="36170000" />
-      <workItem from="1664149770898" duration="2453000" />
-    </task>
-    <task id="LOCAL-00007" summary="一些思考">
-      <created>1657250555501</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1657250555501</updated>
+      <workItem from="1664149770898" duration="8371000" />
+      <workItem from="1664163039247" duration="25093000" />
+      <workItem from="1664247658153" duration="5287000" />
     </task>
     <task id="LOCAL-00008" summary="一些新的思考">
       <created>1657253490641</created>
@@ -777,7 +629,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663742116709</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="spring 2">
+      <created>1664153452818</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1664153452819</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -813,7 +672,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="线程进阶3" />
     <MESSAGE value="线程进阶4" />
     <MESSAGE value="JMM初步分析和理解" />
     <MESSAGE value="线程进阶5" />
@@ -838,7 +696,8 @@
     <MESSAGE value="整理文件" />
     <MESSAGE value="Spring 1" />
     <MESSAGE value="更新之前的pom文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新之前的pom文件" />
+    <MESSAGE value="spring 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -863,6 +722,11 @@
           <line>15</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$PROJECT_DIR$/../soft/local-repo/org/mybatis/mybatis-spring/2.0.7/mybatis-spring-2.0.7.jar!/org/mybatis/spring/SqlSessionTemplate.class</url>
+          <line>34</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
         <breakpoint suspend="THREAD" type="java-line" />
@@ -870,6 +734,7 @@
     </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
+        <PinnedItemInfo parentTag="org.mybatis.spring.SqlSessionFactoryBean" memberName="dataSource" />
         <PinnedItemInfo parentTag="java.lang.Thread" memberName="parkBlocker" />
       </pinned-members>
     </pin-to-top-manager>

@@ -7,10 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Spring-AOP" />
         <module name="Java-Basics" />
         <module name="Java-JVM" />
+        <module name="Spring-Basics" />
         <module name="Java-Concurrency" />
-        <module name="Java-Spring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

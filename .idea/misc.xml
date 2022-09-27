@@ -13,6 +13,8 @@
         <option value="$PROJECT_DIR$/Java-Concurrency/pom.xml" />
         <option value="$PROJECT_DIR$/Java-JVM/pom.xml" />
         <option value="$PROJECT_DIR$/Java-Spring/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-Spring/spring-basics/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-Spring/Spring-AOP/pom.xml" />
       </list>
     </option>
   </component>
