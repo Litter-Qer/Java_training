@@ -1,9 +1,8 @@
 package spring3.config;
 
-import com.alibaba.druid.pool.DruidDataSource;
+import com.mysql.cj.jdbc.MysqlDataSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import spring1.dao.BookDao;
 
 import javax.sql.DataSource;
 
@@ -16,10 +15,9 @@ public class JdbcConfig {
      */
     @Bean
     public DataSource dataSource() {
-        DruidDataSource ds = new DruidDataSource();
-        ds.setDriverClassName("${jdbc.driver}");
+        MysqlDataSource ds = new MysqlDataSource();
         ds.setUrl("${jdbc.url}");
-        ds.setUsername("${jdbc.username}");
+        ds.setUser("${jdbc.username}");
         ds.setPassword("${jdbc.password}");
         return ds;
     }

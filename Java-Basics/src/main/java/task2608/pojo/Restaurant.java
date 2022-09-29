@@ -1,4 +1,4 @@
-package pojo;
+package task2608.pojo;
 import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.HashMap;

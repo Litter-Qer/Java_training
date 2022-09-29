@@ -7,17 +7,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Spring-AOP" />
+        <module name="Spring-MVC" />
         <module name="Java-Basics" />
-        <module name="Java-JVM" />
         <module name="Spring-Basics" />
         <module name="Java-Concurrency" />
+        <module name="Spring-SSM" />
+        <module name="Spring-AOP" />
+        <module name="Java-JVM" />
+        <module name="Spring-RESTful" />
+        <module name="Spring-MVN" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="helloworld" target="17" />
       <module name="ordering" target="1.8" />
       <module name="reordering" target="1.8" />
+      <module name="SPring" target="17" />
       <module name="sql" target="17" />
       <module name="Sql-session" target="17" />
       <module name="task_2604" target="17" />

@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/Java-Spring/Spring-MVC" />
+    <file type="web" url="file://$PROJECT_DIR$/Java-Spring/Spring-RESTful" />
+    <file type="web" url="file://$PROJECT_DIR$/Java-Spring/Spring-SSM" />
     <file type="web" url="file://$PROJECT_DIR$/tomcat-demo1" />
   </component>
   <component name="MavenProjectsManager">
@@ -15,6 +18,13 @@
         <option value="$PROJECT_DIR$/Java-Spring/pom.xml" />
         <option value="$PROJECT_DIR$/Java-Spring/spring-basics/pom.xml" />
         <option value="$PROJECT_DIR$/Java-Spring/Spring-AOP/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-MVC/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-Spring/Spring-MVC/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-RESTful/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-Spring/Spring-RESTful/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-SSM/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-Spring/Spring-SSM/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-Spring/Spring-MVN/pom.xml" />
       </list>
     </option>
   </component>

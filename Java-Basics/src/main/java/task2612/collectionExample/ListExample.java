@@ -1,6 +1,6 @@
 package task2612.collectionExample;
 
-import pojo.Student;
+import task2612.pojo.Student;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
