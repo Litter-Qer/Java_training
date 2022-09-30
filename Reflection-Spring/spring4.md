@@ -94,8 +94,6 @@ public class BookController {
 }
 ```
 
-不得不说，只用spring没利用boot就已经可以这么间接了，属实很期待boot能优雅到什么程度了。
-
 ## ExceptionHandle
 
 其实和普通java的处理方式区别不大，主要考虑的倒是前后端的传参问题，这次新学了一个简单的Result的方式来传参，主要就是定义一个result类，然后把这个类转成JSON传给前端。

@@ -4,57 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="spring 3">
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-MVC/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-MVC/src/main/java/config/ServletContainerInitConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-MVC/src/main/java/config/SpringMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-MVC/src/main/java/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-MVC/src/main/java/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-MVC/src/main/java/domain/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-MVC/src/main/java/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-MVC/src/main/webapp/page.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-MVN/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-MVN/src/main/java/com/jon/domain/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-RESTful/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-RESTful/src/main/java/config/ServletContainerInitConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-RESTful/src/main/java/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-RESTful/src/main/java/config/SpringMvcSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-RESTful/src/main/java/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-RESTful/src/main/java/domain/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-SSM/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-SSM/src/main/java/com/jon/config/JdbcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-SSM/src/main/java/com/jon/config/MybatisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-SSM/src/main/java/com/jon/config/ServletConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-SSM/src/main/java/com/jon/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-SSM/src/main/java/com/jon/config/SpringMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-SSM/src/main/java/com/jon/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-SSM/src/main/java/com/jon/controller/Code.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-SSM/src/main/java/com/jon/controller/ProjectExceptionAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-SSM/src/main/java/com/jon/controller/ProjectInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-SSM/src/main/java/com/jon/controller/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-SSM/src/main/java/com/jon/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-SSM/src/main/java/com/jon/domain/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-SSM/src/main/java/com/jon/exception/BusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-SSM/src/main/java/com/jon/exception/SystemException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-SSM/src/main/java/com/jon/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-SSM/src/main/java/com/jon/service/Impl/BookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-SSM/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-SSM/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-SSM/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-SSM/src/test/java/BookServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-Spring/spring4.md" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="spring 4">
+      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-MybatisPlus/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-MybatisPlus/src/main/java/com/jon/springmybatisplus/SpringMybatisPlusApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-MybatisPlus/src/main/java/com/jon/springmybatisplus/config/MpConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-MybatisPlus/src/main/java/com/jon/springmybatisplus/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-MybatisPlus/src/main/java/com/jon/springmybatisplus/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-MybatisPlus/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-MybatisPlus/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/Spring-MybatisPlus/src/test/java/com/jon/springmybatisplus/SpringMybatisPlusApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/SpringBoot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/SpringBoot/src/main/java/com/jon/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/SpringBoot/src/main/java/com/jon/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/SpringBoot/src/main/java/com/jon/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/SpringBoot/src/main/java/com/jon/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/SpringBoot/src/main/java/com/jon/domain/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/SpringBoot/src/main/java/com/jon/domain/Enterprise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/SpringBoot/src/main/java/com/jon/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/SpringBoot/src/main/java/com/jon/service/Impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/SpringBoot/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Spring/SpringBoot/src/test/java/com/jon/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-Spring/spring5.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/cjc20.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/cjc20.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Basics/src/main/java/task2608/pojo/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2608/pojo/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Basics/src/main/java/task2612/collectionExample/ListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Basics/src/main/java/task2612/collectionExample/ListExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Spring/Spring-AOP/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-AOP/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Spring/Spring-Basics/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring2/config/JDBCConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring2/config/JDBCConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring2/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring2/config/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring3/config/JdbcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java/spring3/config/JdbcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-Spring/spring4.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Spring/spring4.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,10 +42,10 @@
         <option value="Groovy, Spock &amp; Mockito" />
         <option value="JUnit4 &amp; Mockito" />
         <option value="AnnotationType" />
-        <option value="spring-beans.schema" />
         <option value="package-info" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -125,6 +100,10 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -137,8 +116,8 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.spelling",
-    "spring.configuration.checksum": "5b072791537a283b85a27518cc0d5e42"
+    "settings.editor.selected.configurable": "File.Encoding",
+    "spring.configuration.checksum": "37066456a31d9188bc780454a33eef4f"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -153,8 +132,8 @@
       <recent name="pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\github\Java-Spring\Spring-MVC\src\main\webapp" />
       <recent name="C:\github\Reflection-Spring" />
+      <recent name="C:\github\Java-Spring\Spring-MVC\src\main\webapp" />
       <recent name="C:\github\Java-Spring\Spring-AOP\src\main\java\com\jon\config" />
       <recent name="C:\github\Java-Spring\Spring-AOP\src\main\resources" />
       <recent name="C:\github\Java-Spring\src\main\resources\spring3" />
@@ -188,13 +167,83 @@
       <command value="id" />
     </option>
   </component>
-  <component name="RunManager" selected="Maven.SSM">
-    <configuration name="BookServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring-SSM" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BookServiceTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
+  <component name="RunManager" selected="JUnit.SpringMybatisPlusApplicationTests.testGetByPage">
+    <configuration name="SpringMybatisPlusApplicationTests.deleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring-MybatisPlus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jon.springmybatisplus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jon.springmybatisplus" />
+      <option name="MAIN_CLASS_NAME" value="com.jon.springmybatisplus.SpringMybatisPlusApplicationTests" />
+      <option name="METHOD_NAME" value="deleteTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringMybatisPlusApplicationTests.getByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring-MybatisPlus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jon.springmybatisplus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jon.springmybatisplus" />
+      <option name="MAIN_CLASS_NAME" value="com.jon.springmybatisplus.SpringMybatisPlusApplicationTests" />
+      <option name="METHOD_NAME" value="getByIdTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringMybatisPlusApplicationTests.saveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring-MybatisPlus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jon.springmybatisplus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jon.springmybatisplus" />
+      <option name="MAIN_CLASS_NAME" value="com.jon.springmybatisplus.SpringMybatisPlusApplicationTests" />
+      <option name="METHOD_NAME" value="saveTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringMybatisPlusApplicationTests.testGetByPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring-MybatisPlus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jon.springmybatisplus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jon.springmybatisplus" />
+      <option name="MAIN_CLASS_NAME" value="com.jon.springmybatisplus.SpringMybatisPlusApplicationTests" />
+      <option name="METHOD_NAME" value="testGetByPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringMybatisPlusApplicationTests.updateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring-MybatisPlus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jon.springmybatisplus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jon.springmybatisplus" />
+      <option name="MAIN_CLASS_NAME" value="com.jon.springmybatisplus.SpringMybatisPlusApplicationTests" />
+      <option name="METHOD_NAME" value="updateTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -272,21 +321,48 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringBoot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringMybatisPlusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-MybatisPlus" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.springmybatisplus.SpringMybatisPlusApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.BookServiceTest" />
+      <item itemvalue="JUnit.SpringMybatisPlusApplicationTests.deleteTest" />
+      <item itemvalue="JUnit.SpringMybatisPlusApplicationTests.getByIdTest" />
+      <item itemvalue="JUnit.SpringMybatisPlusApplicationTests.saveTest" />
+      <item itemvalue="JUnit.SpringMybatisPlusApplicationTests.testGetByPage" />
+      <item itemvalue="JUnit.SpringMybatisPlusApplicationTests.updateTest" />
       <item itemvalue="Maven.SSM" />
       <item itemvalue="Maven.Java-Basics" />
       <item itemvalue="Maven.RESTful" />
+      <item itemvalue="Spring Boot.SpringMybatisPlusApplication" />
+      <item itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BookServiceTest" />
+        <item itemvalue="JUnit.SpringMybatisPlusApplicationTests.testGetByPage" />
+        <item itemvalue="JUnit.SpringMybatisPlusApplicationTests.updateTest" />
+        <item itemvalue="JUnit.SpringMybatisPlusApplicationTests.getByIdTest" />
+        <item itemvalue="JUnit.SpringMybatisPlusApplicationTests.deleteTest" />
+        <item itemvalue="JUnit.SpringMybatisPlusApplicationTests.saveTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SpringBeansView">
     <option name="beanDetailsProportion" value="0.3" />
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -341,14 +417,8 @@
       <workItem from="1664247658153" duration="20102000" />
       <workItem from="1664328288808" duration="137000" />
       <workItem from="1664328631835" duration="26903000" />
-      <workItem from="1664445701460" duration="3316000" />
-    </task>
-    <task id="LOCAL-00009" summary="基于上周遗留问题的思考">
-      <created>1657513700568</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1657513700568</updated>
+      <workItem from="1664445701460" duration="6066000" />
+      <workItem from="1664498432038" duration="19253000" />
     </task>
     <task id="LOCAL-00010" summary="提前保存">
       <created>1657605662812</created>
@@ -686,7 +756,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664255808022</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="spring 4">
+      <created>1664450405998</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1664450405999</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -722,7 +799,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="JMM初步分析和理解" />
     <MESSAGE value="线程进阶5" />
     <MESSAGE value="线程进阶6" />
     <MESSAGE value="线程进阶7" />
@@ -747,7 +823,8 @@
     <MESSAGE value="更新之前的pom文件" />
     <MESSAGE value="spring 2" />
     <MESSAGE value="spring 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring 3" />
+    <MESSAGE value="spring 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -9,10 +9,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-MVC" />
         <module name="Java-Basics" />
+        <module name="Spring-MybatisPlus" />
         <module name="Spring-Basics" />
         <module name="Java-Concurrency" />
         <module name="Spring-SSM" />
         <module name="Spring-AOP" />
+        <module name="SpringBoot" />
         <module name="Java-JVM" />
         <module name="Spring-RESTful" />
         <module name="Spring-MVN" />
@@ -45,5 +47,11 @@
       <module name="task_2629" target="17" />
       <module name="tomcat-demo1" target="17" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Spring-MybatisPlus" options="-parameters" />
+      <module name="SpringBoot" options="-parameters" />
+    </option>
   </component>
 </project>
