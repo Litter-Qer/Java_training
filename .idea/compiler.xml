@@ -12,6 +12,7 @@
         <module name="Spring-MybatisPlus" />
         <module name="Spring-Basics" />
         <module name="Java-Concurrency" />
+        <module name="SpringSource_1" />
         <module name="Spring-SSM" />
         <module name="Spring-AOP" />
         <module name="SpringBoot" />
@@ -52,6 +53,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Spring-MybatisPlus" options="-parameters" />
       <module name="SpringBoot" options="-parameters" />
+      <module name="SpringSource_1" options="-parameters" />
     </option>
   </component>
 </project>
