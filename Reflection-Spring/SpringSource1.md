@@ -132,7 +132,7 @@ System.out.println(context.getBean(Bean2.class).getBean1());
 首先在Spring容器中，所有带上@Component标签的类都可以被称为Bean。（话说我猜是因为java创始人喜欢喝java咖啡，所以就用豆子作为类的代替名吧。）
 之前已经画过Bean的生命周期了，这次打算更加精进一些。
 
-![](.SpringSource1_images/Bean生命周期进阶.png)
+![](.images/Bean生命周期进阶.png)
 
 上图算是比较完整的呈现了一个Spring Bean的一生，从被定义到被销毁(受人掌控的一生，哈哈)。从spring的官方文档中很难找到类似的描述，这里我定义的四个区域采取的是主流的观点。
 也就是一个Bean一定会经过的4个过程——实例化，赋值，初始化和销毁。当然，它和一个pojo的生命周期很像，但是spring毕竟是成熟的框架，所以其中必然加入了很多可以调整的部分。
@@ -399,6 +399,41 @@ public PropertyValues postProcessProperties(PropertyValues pvs, Object bean, Str
 
 这里看的这个类其实主要的作用和之前的那个很像。第一步它回去找哪些类被@Autowired修饰，并返回一个封装好的metadata类，再通过metadata类来注入需要的属性。
 这个inject方法前面已经讨论过了，方法和字段是分开加入的。
+
+## BeanFactoryPostProcessor 
+
+```java
+protected Set<BeanDefinitionHolder> doScan(String... basePackages) {
+    Assert.notEmpty(basePackages, "At least one base package must be specified");
+    Set<BeanDefinitionHolder> beanDefinitions = new LinkedHashSet<>();
+    for (String basePackage : basePackages) {
+        Set<BeanDefinition> candidates = findCandidateComponents(basePackage);
+        for (BeanDefinition candidate : candidates) {
+            ScopeMetadata scopeMetadata = this.scopeMetadataResolver.resolveScopeMetadata(candidate);
+            candidate.setScope(scopeMetadata.getScopeName());
+            String beanName = this.beanNameGenerator.generateBeanName(candidate, this.registry);
+            if (candidate instanceof AbstractBeanDefinition) {
+                postProcessBeanDefinition((AbstractBeanDefinition) candidate, beanName);
+            }
+            if (candidate instanceof AnnotatedBeanDefinition) {
+                AnnotationConfigUtils.processCommonDefinitionAnnotations((AnnotatedBeanDefinition) candidate);
+            }
+            if (checkCandidate(beanName, candidate)) {
+                BeanDefinitionHolder definitionHolder = new BeanDefinitionHolder(candidate, beanName);
+                definitionHolder =
+                        AnnotationConfigUtils.applyScopedProxyMode(scopeMetadata, definitionHolder, this.registry);
+                beanDefinitions.add(definitionHolder);
+                registerBeanDefinition(definitionHolder, this.registry);
+            }
+        }
+    }
+    return beanDefinitions;
+}
+```
+
+这个方法是我从ClassPathBeanDefinitionScanner中扣下来的。它的代码倒是没有什么可以讨论，主要观察实现过程。首先是扫整个所有的包，
+包拿到后，在扫描里面的所有class文件，通过class文件找BeanDefinition(关于BeanDefinition后面我会单独分析)，通过BeanDefinition结合元数据，
+直接解析各种不同的注解。解析完后，在把他注册到注册表里，最后返回一个BeanDefinition的LinkedHashSet。其实这个流程还是蛮清楚的，就是一步一步扫描和加入。
 
 # 小结
 
