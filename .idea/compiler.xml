@@ -7,22 +7,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Spring-MVC" />
         <module name="Java-Basics" />
         <module name="Spring-MybatisPlus" />
-        <module name="Spring-Basics" />
         <module name="Java-Concurrency" />
-        <module name="SpringSource_1" />
         <module name="Spring-SSM" />
         <module name="Spring-AOP" />
         <module name="SpringBoot" />
+        <module name="mp-simple" />
+        <module name="springboot-1" />
         <module name="Java-JVM" />
         <module name="Spring-RESTful" />
         <module name="Spring-MVN" />
+        <module name="mp-springboot" />
+        <module name="Spring-MVC" />
+        <module name="Spring-Basics" />
+        <module name="SpringSource_1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="helloworld" target="17" />
+      <module name="mp-spring" target="17" />
       <module name="ordering" target="1.8" />
       <module name="reordering" target="1.8" />
       <module name="SPring" target="17" />
@@ -54,6 +58,9 @@
       <module name="Spring-MybatisPlus" options="-parameters" />
       <module name="SpringBoot" options="-parameters" />
       <module name="SpringSource_1" options="-parameters" />
+      <module name="mp-spring" options="" />
+      <module name="mp-springboot" options="-parameters" />
+      <module name="springboot-1" options="-parameters" />
     </option>
   </component>
 </project>

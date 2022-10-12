@@ -7,6 +7,14 @@
     <file url="file://$PROJECT_DIR$/Java-Concurrency/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Java-JVM/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Java-JVM/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-MybatisPlus/mp-springboot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-MybatisPlus/mp-springboot/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-MybatisPlus/mp/mp-simple/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-MybatisPlus/mp/mp-simple/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-MybatisPlus/mp/mp-spring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-MybatisPlus/mp/mp-spring/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-MybatisPlus/mp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-MybatisPlus/mp/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Java-Spring/Spring-AOP/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Java-Spring/Spring-AOP/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Java-Spring/Spring-Basics/src/main/java" charset="UTF-8" />
@@ -22,7 +30,9 @@
     <file url="file://$PROJECT_DIR$/Java-Spring/Spring-SSM/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Java-Spring/SpringBoot/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Java-Spring/SpringBoot/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SpringBoot/springboot-1/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Java-SpringSource/SpringSource_1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-1/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

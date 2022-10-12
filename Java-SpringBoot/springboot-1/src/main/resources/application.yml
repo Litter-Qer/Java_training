@@ -1,0 +1,29 @@
+# 网络端口
+server:
+  port: 80
+
+# 日志配置
+logging:
+  level:
+    root: info
+    com.jon: info
+
+# spring 配置
+spring:
+  main:
+    banner-mode: off
+  # datasource 配置
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/spring_db?useSSL=false
+      username: root
+      password: 123456
+
+mybatis-plus:
+  global-config:
+    banner: off
+    db-config:
+      id-type: auto
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

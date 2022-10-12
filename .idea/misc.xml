@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/Java-MybatisPlus/mp-springboot" />
     <file type="web" url="file://$PROJECT_DIR$/Java-Spring/Spring-MVC" />
     <file type="web" url="file://$PROJECT_DIR$/Java-Spring/Spring-RESTful" />
     <file type="web" url="file://$PROJECT_DIR$/Java-Spring/Spring-SSM" />
@@ -28,6 +29,10 @@
         <option value="$PROJECT_DIR$/Java-Spring/SpringBoot/pom.xml" />
         <option value="$PROJECT_DIR$/Java-Spring/Spring-MybatisPlus/pom.xml" />
         <option value="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-MybatisPlus/mp/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-MybatisPlus/mp/mp-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-MybatisPlus/mp-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-SpringBoot/springboot-1/pom.xml" />
       </list>
     </option>
   </component>
