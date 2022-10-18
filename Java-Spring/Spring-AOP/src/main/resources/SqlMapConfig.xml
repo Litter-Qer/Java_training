@@ -16,6 +16,6 @@
         </environment>
     </environments>
     <mappers>
-        <package name="com.jon.dao"/>
+        <package name="com.jon.mapper"/>
     </mappers>
 </configuration>

@@ -1,6 +1,6 @@
 package task2612;
 
-import pojo.Person;
+import task2612.pojo.Person;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

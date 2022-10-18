@@ -11,11 +11,11 @@ import java.util.Arrays;
 @Component
 @Aspect
 public class MyAdvice {
-    @Pointcut("execution(void com.jon.dao.BookDao.update())")
+    @Pointcut("execution(void com.jon.mapper.BookDao.update())")
     private void pt() {
     }
 
-    @Pointcut("execution(int com.jon.dao.BookDao.select())")
+    @Pointcut("execution(int com.jon.mapper.BookDao.select())")
     private void pt2() {
     }
 

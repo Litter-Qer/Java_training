@@ -1,6 +1,6 @@
 package task2610.interfaces.methods;
 
-import pojo.Student;
+import task2610.pojo.Student;
 
 @FunctionalInterface
 public interface MyConstructor {

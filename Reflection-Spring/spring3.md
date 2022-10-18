@@ -16,7 +16,7 @@ AOP描述的是，当程序中出现了共性的功能，比如相同的循环�
 @Component
 @Aspect
 public class MyAdvice {
-    @Pointcut("execution(void com.jon.dao.BookDao.update())")
+    @Pointcut("execution(void com.jon.mapper.BookDao.update())")
     private void pt() {}
 
     @Before("pt()")

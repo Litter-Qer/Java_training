@@ -1,0 +1,22 @@
+mybatis-plus:
+  global-config:
+    banner: off
+
+spring:
+  main:
+    banner-mode: off
+  # datasource 配置
+  datasource:
+#    druid:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spring_db?useSSL=false
+    username: root
+    password: 123456
+
+logging:
+  level:
+    com.jon: debug
+
+
+server:
+  port: 80

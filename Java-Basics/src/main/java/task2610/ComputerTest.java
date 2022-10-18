@@ -1,5 +1,7 @@
 package task2610;
 
+import task2610.computer.*;
+
 public class ComputerTest {
     public static void main(String[] args) {
         CPU amd = new AMD();

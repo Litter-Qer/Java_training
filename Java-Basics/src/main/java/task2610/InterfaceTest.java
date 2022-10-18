@@ -1,8 +1,8 @@
 package task2610;
 
-import interfaces.lambda.LambdaImpl;
-import interfaces.lambda.LambdaInterface;
-import interfaces.lambda.LambdaInterface2;
+import task2610.interfaces.lambda.LambdaImpl;
+import task2610.interfaces.lambda.LambdaInterface;
+import task2610.interfaces.lambda.LambdaInterface2;
 
 public class InterfaceTest {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package com.jon.service.impl;
 
-import com.jon.dao.BookDao;
+import com.jon.mapper.BookDao;
 import com.jon.domian.Book;
 import com.jon.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;

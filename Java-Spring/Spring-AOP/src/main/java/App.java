@@ -1,5 +1,5 @@
 import com.jon.config.SpringConfig;
-import com.jon.dao.AccountDao;
+import com.jon.mapper.AccountDao;
 import com.jon.domain.Account;
 import com.jon.service.AccountService;
 import org.apache.ibatis.io.Resources;

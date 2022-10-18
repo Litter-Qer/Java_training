@@ -1,6 +1,6 @@
 package task2610;
 
-import pojo.Student;
+import task2604.pojo.Student;
 
 import java.util.Arrays;
 

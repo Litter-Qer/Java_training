@@ -1,8 +1,8 @@
 package task2610;
 
-import pojo.OuterClass;
-import pojo.OuterClass2;
-import pojo.TalkingClock;
+import task2610.pojo.OuterClass;
+import task2610.pojo.OuterClass2;
+import task2610.pojo.TalkingClock;
 
 public class innerClassTest {
 //    final static boolean isBeep = true;

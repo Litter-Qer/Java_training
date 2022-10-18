@@ -1,0 +1,31 @@
+spring:
+  profiles:
+    active: @profile.active@
+    group:
+      "dev": devDB, devMVC
+      "pro": devDB, proMVC
+  devtools:
+    restart:
+      exclude: static/**, public/**, config/application.yml
+      enabled: false
+  main:
+    banner-mode: off
+
+logging:
+  level:
+    root: info
+    com.jon: debug
+  pattern:
+    #    console: "%d - %m %n"
+    console: "%d %clr(%-5p) --- [%20t] %clr(%-40.40c){magenta} : %m %n"
+#  file:
+#    name: server.log
+#  logback:
+#    rollingpolicy:
+#      max-file-size: 4KB
+#      file-name-pattern: server.%d.%i.log
+servers:
+  ipAddr: 192.168.0.1
+  port: 2345
+  timeout: -1
+

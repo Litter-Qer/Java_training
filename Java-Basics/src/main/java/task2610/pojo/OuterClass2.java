@@ -12,11 +12,11 @@ public class OuterClass2 {
         class SmallClass {
             public static void suse(){
 //                System.out.println("这是sc的suse " + a);
-                System.out.println("这是sc的suse " + b);
+//                System.out.println("这是sc的suse " + b);
             }
             public void puse(){
-                System.out.println("这是sc的suse " + a);
-                System.out.println("这是sc的puse " + b);
+//                System.out.println("这是sc的suse " + a);
+//                System.out.println("这是sc的puse " + b);
             }
         }
         SmallClass sc = new SmallClass();

@@ -1,7 +1,7 @@
 package task2604;
 
 import org.junit.Test;
-import task_2604.NumPyramid;
+import task2604.task_2604.NumPyramid;
 
 public class NumPyramidTest {
     @Test

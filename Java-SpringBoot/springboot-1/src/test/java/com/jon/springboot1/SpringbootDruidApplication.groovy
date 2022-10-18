@@ -4,7 +4,7 @@ import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper
 import com.baomidou.mybatisplus.core.metadata.IPage
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page
-import com.jon.dao.BookDao
+import com.jon.mapper.BookDao
 import com.jon.domian.Book
 import org.apache.logging.log4j.util.Strings
 import org.springframework.beans.factory.annotation.Autowired

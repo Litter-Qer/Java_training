@@ -1,10 +1,10 @@
 package task2610;
 
-import interfaces.methods.MyClassSetName;
-import interfaces.methods.MyConstructor;
-import interfaces.methods.MyObjectSetName;
-import interfaces.methods.MyStaticPower;
-import pojo.Student;
+import task2610.interfaces.methods.MyClassSetName;
+import task2610.interfaces.methods.MyConstructor;
+import task2610.interfaces.methods.MyObjectSetName;
+import task2610.interfaces.methods.MyStaticPower;
+import task2610.pojo.Student;
 
 public class InterfaceTest2 {
     public static void main(String[] args) {

@@ -12,8 +12,12 @@
         <module name="Java-Concurrency" />
         <module name="Spring-SSM" />
         <module name="Spring-AOP" />
+        <module name="springboot-5" />
+        <module name="springboot-4" />
+        <module name="springboot-3" />
         <module name="SpringBoot" />
         <module name="mp-simple" />
+        <module name="springboot-2" />
         <module name="springboot-1" />
         <module name="Java-JVM" />
         <module name="Spring-RESTful" />
@@ -61,6 +65,10 @@
       <module name="mp-spring" options="" />
       <module name="mp-springboot" options="-parameters" />
       <module name="springboot-1" options="-parameters" />
+      <module name="springboot-2" options="-parameters" />
+      <module name="springboot-3" options="-parameters" />
+      <module name="springboot-4" options="-parameters" />
+      <module name="springboot-5" options="-parameters" />
     </option>
   </component>
 </project>
