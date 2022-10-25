@@ -1,0 +1,12 @@
+server:
+  port: 80
+
+management:
+  endpoints:
+    web:
+      base-path: /manage
+      path-mapping:
+        health: "healthcheck"
+  server:
+    port: 8000
+    address: "127.0.0.1"

@@ -1,0 +1,9 @@
+spring:
+  task:
+    scheduling:
+      pool:
+        size: 1
+      shutdown:
+        await-termination: off
+        await-termination-period: 10s
+      thread-name-prefix:

@@ -38,6 +38,12 @@
         <option value="$PROJECT_DIR$/Java-SpringBoot/sprintboot-4/pom.xml" />
         <option value="$PROJECT_DIR$/Java-SpringBoot/springboot-4/pom.xml" />
         <option value="$PROJECT_DIR$/Java-SpringBoot/springboot-5/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-SpringBoot-Guide/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-SpringBoot-Guide/webService-Actuator/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-SpringBoot-Guide/uploadingFiles/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-SpringBoot-Guide/scheduling-tasks/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-SpringBoot-Guide/spring-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-SpringBoot-Guide/AccessingDataMySQL/pom.xml" />
       </list>
     </option>
   </component>

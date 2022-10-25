@@ -9,8 +9,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Java-Basics" />
         <module name="Spring-MybatisPlus" />
+        <module name="uploadingFiles" />
         <module name="Java-Concurrency" />
         <module name="Spring-SSM" />
+        <module name="webService-Actuator" />
         <module name="Spring-AOP" />
         <module name="springboot-5" />
         <module name="springboot-4" />
@@ -24,6 +26,9 @@
         <module name="Spring-MVN" />
         <module name="mp-springboot" />
         <module name="Spring-MVC" />
+        <module name="scheduling-tasks" />
+        <module name="spring-jdbc" />
+        <module name="AccessingDataMySQL" />
         <module name="Spring-Basics" />
         <module name="SpringSource_1" />
       </profile>
@@ -59,16 +64,22 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AccessingDataMySQL" options="-parameters" />
+      <module name="Java-SpringBoot-Guide" options="" />
       <module name="Spring-MybatisPlus" options="-parameters" />
       <module name="SpringBoot" options="-parameters" />
       <module name="SpringSource_1" options="-parameters" />
       <module name="mp-spring" options="" />
       <module name="mp-springboot" options="-parameters" />
+      <module name="scheduling-tasks" options="-parameters" />
+      <module name="spring-jdbc" options="-parameters" />
       <module name="springboot-1" options="-parameters" />
       <module name="springboot-2" options="-parameters" />
       <module name="springboot-3" options="-parameters" />
       <module name="springboot-4" options="-parameters" />
       <module name="springboot-5" options="-parameters" />
+      <module name="uploadingFiles" options="-parameters" />
+      <module name="webService-Actuator" options="-parameters" />
     </option>
   </component>
 </project>
