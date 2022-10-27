@@ -7,29 +7,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Java-Basics" />
+        <module name="RESTservice" />
         <module name="Spring-MybatisPlus" />
         <module name="uploadingFiles" />
+        <module name="webService-Actuator" />
+        <module name="SpringBoot" />
+        <module name="mp-simple" />
+        <module name="Spring-RESTful" />
+        <module name="Spring-MVN" />
+        <module name="mp-springboot" />
+        <module name="AccessingDataMySQL" />
+        <module name="Spring-Basics" />
+        <module name="ManageTransaction" />
+        <module name="Java-Basics" />
         <module name="Java-Concurrency" />
         <module name="Spring-SSM" />
-        <module name="webService-Actuator" />
         <module name="Spring-AOP" />
         <module name="springboot-5" />
         <module name="springboot-4" />
         <module name="springboot-3" />
-        <module name="SpringBoot" />
-        <module name="mp-simple" />
         <module name="springboot-2" />
         <module name="springboot-1" />
         <module name="Java-JVM" />
-        <module name="Spring-RESTful" />
-        <module name="Spring-MVN" />
-        <module name="mp-springboot" />
         <module name="Spring-MVC" />
         <module name="scheduling-tasks" />
         <module name="spring-jdbc" />
-        <module name="AccessingDataMySQL" />
-        <module name="Spring-Basics" />
         <module name="SpringSource_1" />
       </profile>
     </annotationProcessing>
@@ -66,6 +68,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="AccessingDataMySQL" options="-parameters" />
       <module name="Java-SpringBoot-Guide" options="" />
+      <module name="ManageTransaction" options="-parameters" />
+      <module name="RESTservice" options="-parameters" />
       <module name="Spring-MybatisPlus" options="-parameters" />
       <module name="SpringBoot" options="-parameters" />
       <module name="SpringSource_1" options="-parameters" />

@@ -4,55 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="SpringBoot 2">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/AccessingDataMySQL/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/AccessingDataMySQL/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/AccessingDataMySQL/src/main/java/com/jon/AccessingDataMySqlApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/AccessingDataMySQL/src/main/java/com/jon/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/AccessingDataMySQL/src/main/java/com/jon/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/AccessingDataMySQL/src/main/java/com/jon/repo/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/AccessingDataMySQL/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/AccessingDataMySQL/src/test/java/com/jon/AccessingDataMySqlApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/scheduling-tasks/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/scheduling-tasks/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/scheduling-tasks/src/main/java/com/jon/SchedulingTasksApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/scheduling-tasks/src/main/java/com/jon/schedulingtasks/ScheduledTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/scheduling-tasks/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/scheduling-tasks/src/test/java/com/jon/SchedulingTasksApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/spring-jdbc/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/spring-jdbc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/spring-jdbc/src/main/java/com/jon/SpringJdbcApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/spring-jdbc/src/main/java/com/jon/pojo/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/spring-jdbc/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/spring-jdbc/src/test/java/com/jon/SpringJdbcApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/uploadingFiles/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/uploadingFiles/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/uploadingFiles/src/main/java/com/jon/UploadingFilesApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/uploadingFiles/src/main/java/com/jon/controller/FileUploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/uploadingFiles/src/main/java/com/jon/storage/FileSystemStorageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/uploadingFiles/src/main/java/com/jon/storage/StorageException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/uploadingFiles/src/main/java/com/jon/storage/StorageFileNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/uploadingFiles/src/main/java/com/jon/storage/StorageProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/uploadingFiles/src/main/java/com/jon/storage/StorageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/uploadingFiles/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/uploadingFiles/src/main/resources/templates/uploadForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/uploadingFiles/src/test/java/com/jon/UploadingFilesApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/webService-Actuator/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/webService-Actuator/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/webService-Actuator/src/main/java/com/jon/Greeting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/webService-Actuator/src/main/java/com/jon/WebServiceActuatorApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/webService-Actuator/src/main/java/com/jon/controller/HelloWorldController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/webService-Actuator/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/webService-Actuator/src/test/java/com/jon/WebServiceActuatorApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-Spring/.images/built-in_endpoints.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-Spring/springboot3.md" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="SpringBoot 3">
+      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/ManageTransaction/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/ManageTransaction/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/ManageTransaction/src/main/java/com/jon/AppRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/ManageTransaction/src/main/java/com/jon/ManageTransactionApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/ManageTransaction/src/main/java/com/jon/mapper/BookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/ManageTransaction/src/main/java/com/jon/pojo/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/ManageTransaction/src/main/java/com/jon/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/ManageTransaction/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/ManageTransaction/src/test/java/com/jon/ReadOnlyTest.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/RESTservice/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/RESTservice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/RESTservice/src/main/java/com/jon/RESTServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/RESTservice/src/main/java/com/jon/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/RESTservice/src/main/java/com/jon/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/RESTservice/src/main/java/com/jon/payroll/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/RESTservice/src/main/java/com/jon/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/RESTservice/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-Spring/.images/transaction-aop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-Spring/springboot4.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-SpringBoot-Guide/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +44,8 @@
         <option value="AnnotationType" />
         <option value="package-info" />
         <option value="spring-beans.schema" />
-        <option value="Interface" />
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -88,6 +65,10 @@
     <setting file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-17.0.3.1/lib/src.zip!/java.base/java/lang/Thread.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-17.0.3.1/lib/src.zip!/java.base/java/util/concurrent/locks/ReentrantLock.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-17.0.3.1/lib/src.zip!/java.base/jdk/internal/perf/PerfCounter.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../soft/local-repo/org/springframework/spring-tx/5.3.23/spring-tx-5.3.23-sources.jar!/org/springframework/transaction/PlatformTransactionManager.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../soft/local-repo/org/springframework/spring-tx/5.3.23/spring-tx-5.3.23-sources.jar!/org/springframework/transaction/annotation/Transactional.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../soft/local-repo/org/springframework/spring-tx/5.3.23/spring-tx-5.3.23-sources.jar!/org/springframework/transaction/interceptor/RuleBasedTransactionAttribute.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../soft/local-repo/org/springframework/spring-tx/5.3.23/spring-tx-5.3.23-sources.jar!/org/springframework/transaction/interceptor/TransactionInterceptor.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/../soft/local-repo/org/springframework/spring-web/5.2.10.RELEASE/spring-web-5.2.10.RELEASE-sources.jar!/org/springframework/web/multipart/commons/CommonsMultipartFile.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/../soft/local-repo/org/springframework/spring-web/5.3.23/spring-web-5.3.23-sources.jar!/org/springframework/http/ResponseEntity.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/../soft/local-repo/org/springframework/spring-web/5.3.23/spring-web-5.3.23-sources.jar!/org/springframework/web/multipart/MultipartFile.java" root0="SKIP_INSPECTION" />
@@ -138,14 +119,14 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
     "last_directory_selection": "C:/github/Java-SpringBoot/springboot-3/src/test/java/com/jon",
-    "last_opened_file_path": "C:/github/Reflection-Spring",
+    "last_opened_file_path": "C:/github/Java-SpringBoot-Guide/RESTservice/src/main/resources",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.sourceCode.Java",
-    "spring.configuration.checksum": "8a78777e02ec64a4dae576aecb569bae"
+    "spring.configuration.checksum": "ea575ace8f91a3ae4ef4e358533dd451"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -161,11 +142,11 @@
       <recent name="pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\github\Java-SpringBoot-Guide\RESTservice\src\main\resources" />
       <recent name="C:\github\Reflection-Spring" />
       <recent name="C:\github\Java-SpringBoot\springboot-2\src\main\resources" />
       <recent name="C:\github\Java-MybatisPlus\mp\mp-springboot\src\main\resources" />
       <recent name="C:\github\Java-MybatisPlus\mp\mp-spring\src\test\resources" />
-      <recent name="C:\github\Java-Spring\Spring-MVC\src\main\webapp" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -205,24 +186,9 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AccessingDataMySqlApplication">
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="17" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.jon.test" />
-      <module name="uploadingFiles" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringApplicationTest.get hset name value" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-4" />
+  <component name="RunManager" selected="Spring Boot.ResTserviceApplication">
+    <configuration name="ReadOnlyTest.insert a book" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ManageTransaction" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jon.*" />
@@ -230,15 +196,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.jon" />
-      <option name="MAIN_CLASS_NAME" value="com.jon.SpringApplicationTest" />
-      <option name="METHOD_NAME" value="get hset name value" />
+      <option name="MAIN_CLASS_NAME" value="com.jon.ReadOnlyTest" />
+      <option name="METHOD_NAME" value="insert a book" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringApplicationTest.get name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-4" />
+    <configuration name="ReadOnlyTest.read only A to B" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ManageTransaction" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jon.*" />
@@ -246,15 +212,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.jon" />
-      <option name="MAIN_CLASS_NAME" value="com.jon.SpringApplicationTest" />
-      <option name="METHOD_NAME" value="get name" />
+      <option name="MAIN_CLASS_NAME" value="com.jon.ReadOnlyTest" />
+      <option name="METHOD_NAME" value="read only A to B" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringApplicationTest.set hset name value" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-4" />
+    <configuration name="ReadOnlyTest.read only B to A" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ManageTransaction" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jon.*" />
@@ -262,15 +228,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.jon" />
-      <option name="MAIN_CLASS_NAME" value="com.jon.SpringApplicationTest" />
-      <option name="METHOD_NAME" value="set hset name value" />
+      <option name="MAIN_CLASS_NAME" value="com.jon.ReadOnlyTest" />
+      <option name="METHOD_NAME" value="read only B to A" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringJdbcApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-jdbc" />
+    <configuration name="ReadOnlyTest.update a record " type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ManageTransaction" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jon.*" />
@@ -278,8 +244,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.jon" />
-      <option name="MAIN_CLASS_NAME" value="com.jon.SpringJdbcApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="MAIN_CLASS_NAME" value="com.jon.ReadOnlyTest" />
+      <option name="METHOD_NAME" value="update a record " />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadOnlyTest.what's happened to read only" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ManageTransaction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jon" />
+      <option name="MAIN_CLASS_NAME" value="com.jon.ReadOnlyTest" />
+      <option name="METHOD_NAME" value="what's happened to read only" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -379,6 +361,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ManageTransactionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ManageTransaction" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.ManageTransactionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResTserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="RESTservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.RESTServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SchedulingTasksApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="scheduling-tasks" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.SchedulingTasksApplication" />
@@ -464,15 +460,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.test" />
-      <item itemvalue="JUnit.SpringJdbcApplicationTests.contextLoads" />
-      <item itemvalue="JUnit.SpringApplicationTest.get hset name value" />
-      <item itemvalue="JUnit.SpringApplicationTest.get name" />
-      <item itemvalue="JUnit.SpringApplicationTest.set hset name value" />
+      <item itemvalue="JUnit.ReadOnlyTest.insert a book" />
+      <item itemvalue="JUnit.ReadOnlyTest.read only A to B" />
+      <item itemvalue="JUnit.ReadOnlyTest.read only B to A" />
+      <item itemvalue="JUnit.ReadOnlyTest.update a record " />
+      <item itemvalue="JUnit.ReadOnlyTest.what's happened to read only" />
       <item itemvalue="Maven.SSM" />
       <item itemvalue="Maven.Java-Basics" />
       <item itemvalue="Maven.RESTful" />
+      <item itemvalue="Spring Boot.ResTserviceApplication" />
       <item itemvalue="Spring Boot.AccessingDataMySqlApplication" />
+      <item itemvalue="Spring Boot.ManageTransactionApplication" />
       <item itemvalue="Spring Boot.SchedulingTasksApplication" />
       <item itemvalue="Spring Boot.SpringJdbcApplication" />
       <item itemvalue="Spring Boot.JavaSpringBootGuideApplication" />
@@ -490,11 +488,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SpringJdbcApplicationTests.contextLoads" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="JUnit.SpringApplicationTest.get name" />
-        <item itemvalue="JUnit.SpringApplicationTest.get hset name value" />
-        <item itemvalue="JUnit.SpringApplicationTest.set hset name value" />
+        <item itemvalue="JUnit.ReadOnlyTest.read only B to A" />
+        <item itemvalue="JUnit.ReadOnlyTest.update a record " />
+        <item itemvalue="JUnit.ReadOnlyTest.insert a book" />
+        <item itemvalue="JUnit.ReadOnlyTest.read only A to B" />
+        <item itemvalue="JUnit.ReadOnlyTest.what's happened to read only" />
       </list>
     </recent_temporary>
   </component>
@@ -576,14 +574,9 @@
       <workItem from="1665985097497" duration="19738000" />
       <workItem from="1666136532277" duration="49210000" />
       <workItem from="1666313174235" duration="25462000" />
-      <workItem from="1666665577877" duration="5113000" />
-    </task>
-    <task id="LOCAL-00015" summary="补充了比较器的部分">
-      <created>1657865588571</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1657865588571</updated>
+      <workItem from="1666665577877" duration="11789000" />
+      <workItem from="1666739211455" duration="11299000" />
+      <workItem from="1666826236869" duration="21387000" />
     </task>
     <task id="LOCAL-00016" summary="补充了lambda表达式的部分">
       <created>1658113742005</created>
@@ -921,7 +914,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666072763689</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="SpringBoot 3">
+      <created>1666672774132</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1666672774133</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -960,7 +960,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="线程进阶10" />
     <MESSAGE value="补充了一些细节" />
     <MESSAGE value="重新修改了项目结构" />
     <MESSAGE value="整理之前的代码" />
@@ -985,7 +984,8 @@
     <MESSAGE value="Spring源码 1 补充" />
     <MESSAGE value="SpringBoot 1" />
     <MESSAGE value="SpringBoot 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="SpringBoot 2" />
+    <MESSAGE value="SpringBoot 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpringBoot 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1029,6 +1029,10 @@
           <url>file://$PROJECT_DIR$/Java-SpringBoot-Guide/AccessingDataMySQL/src/main/java/com/jon/controller/MainController.java</url>
           <line>25</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$PROJECT_DIR$/../soft/local-repo/org/springframework/spring-tx/5.3.23/spring-tx-5.3.23.jar!/org/springframework/transaction/annotation/Transactional.class</url>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
