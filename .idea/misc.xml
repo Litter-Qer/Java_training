@@ -46,8 +46,13 @@
         <option value="$PROJECT_DIR$/Java-SpringBoot-Guide/AccessingDataMySQL/pom.xml" />
         <option value="$PROJECT_DIR$/Java-SpringBoot-Guide/ManageTransaction/pom.xml" />
         <option value="$PROJECT_DIR$/Java-SpringBoot-Guide/RESTservice/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-Redis/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-Redis/spring-data-redis-demo/pom.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK" />
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
 </project>

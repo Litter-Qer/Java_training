@@ -4,32 +4,63 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="SpringBoot 3">
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/ManageTransaction/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/ManageTransaction/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/ManageTransaction/src/main/java/com/jon/AppRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/ManageTransaction/src/main/java/com/jon/ManageTransactionApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/ManageTransaction/src/main/java/com/jon/mapper/BookMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/ManageTransaction/src/main/java/com/jon/pojo/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/ManageTransaction/src/main/java/com/jon/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/ManageTransaction/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/ManageTransaction/src/test/java/com/jon/ReadOnlyTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/RESTservice/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/RESTservice/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/RESTservice/src/main/java/com/jon/RESTServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/RESTservice/src/main/java/com/jon/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/RESTservice/src/main/java/com/jon/mapper/EmployeeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/RESTservice/src/main/java/com/jon/payroll/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/RESTservice/src/main/java/com/jon/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/RESTservice/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-Spring/.images/transaction-aop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-Spring/springboot4.md" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="SpringBoot 4">
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/jedis-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/jedis-demo/src/main/java/utils/JedisConnectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/jedis-demo/src/test/java/JedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-demo/src/main/java/com/jon/SpringDataRedisDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-demo/src/main/java/com/jon/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-demo/src/main/java/com/jon/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-demo/src/test/java/com/jon/RedisTest.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-demo/src/test/java/com/jon/StringRedisTest.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-PopTechs/.images/SkipList.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-PopTechs/.images/redis_hash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-PopTechs/Redis1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/github.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/github.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-SpringBoot-Guide/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-SpringBoot-Guide/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/JMM1.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/JMM1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/images/CPU调度.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/images/CPU调度.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/images/JMM内存分配.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/images/JMM内存分配.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/images/JVM局部变量.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/images/JVM局部变量.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/images/Monitor概览.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/images/Monitor概览.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/images/ReentrantLock继承关系.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/images/ReentrantLock继承关系.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/images/Striped64.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/images/Striped64.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/images/java线程状态.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/images/java线程状态.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/images/jconsole死锁.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/images/jconsole死锁.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/images/wait流程.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/images/wait流程.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/images/堆栈模型.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/images/堆栈模型.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/images/方法一.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/images/方法一.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/images/条件变量.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/images/条件变量.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/images/硬件内存.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/images/硬件内存.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/images/硬件内存交互.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/images/硬件内存交互.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/images/系统线程状态.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/images/系统线程状态.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/images/线程池初级.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/images/线程池初级.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/images/线程状态进阶.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/images/线程状态进阶.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/images/轻量级锁.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/images/轻量级锁.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/images/锁膨胀.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/images/锁膨胀.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/images/非公平锁.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/images/非公平锁.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/images/非公平锁2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/images/非公平锁2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/并发补充文档.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/并发补充文档.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/线程入门.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/线程入门.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/线程进阶1.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/线程进阶1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/线程进阶10.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/线程进阶10.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/线程进阶11.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/线程进阶11.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/线程进阶2.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/线程进阶2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/线程进阶3.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/线程进阶3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/线程进阶4.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/线程进阶4.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/线程进阶5.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/线程进阶5.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/线程进阶6.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/线程进阶6.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/线程进阶7.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/线程进阶7.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/线程进阶8.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/线程进阶8.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-concurrency/线程进阶9.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Concurrency/线程进阶9.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +107,18 @@
   <component name="HttpClientSelectedEnvironments">
     <file url="mock:///JavaWeb.md" />
   </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
   <component name="JsbtTreeLayoutManager">
     <layout place="tools.popupGrunt">
       <scroll-view-position x="0" y="0" />
@@ -87,6 +130,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="localRepository" value="C:\soft\local-repo" />
         <option name="mavenHome" value="$PROJECT_DIR$/../soft/apache-maven-3.6.3" />
         <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="C:\soft\apache-maven-3.6.3\conf\settings.xml" />
@@ -119,14 +163,14 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
     "last_directory_selection": "C:/github/Java-SpringBoot/springboot-3/src/test/java/com/jon",
-    "last_opened_file_path": "C:/github/Java-SpringBoot-Guide/RESTservice/src/main/resources",
+    "last_opened_file_path": "C:/github/Java-Redis/jedis-demo",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
-    "spring.configuration.checksum": "ea575ace8f91a3ae4ef4e358533dd451"
+    "settings.editor.selected.configurable": "Settings.Markdown",
+    "spring.configuration.checksum": "4dff07b6bf62b1e065f92d63be4030f3"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -134,6 +178,9 @@
     ]
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.jon.springsource_5" />
@@ -142,11 +189,11 @@
       <recent name="pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\github\Java-Redis\jedis-demo" />
+      <recent name="C:\github\Java-Redis\jedis-start" />
       <recent name="C:\github\Java-SpringBoot-Guide\RESTservice\src\main\resources" />
       <recent name="C:\github\Reflection-Spring" />
       <recent name="C:\github\Java-SpringBoot\springboot-2\src\main\resources" />
-      <recent name="C:\github\Java-MybatisPlus\mp\mp-springboot\src\main\resources" />
-      <recent name="C:\github\Java-MybatisPlus\mp\mp-spring\src\test\resources" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -186,9 +233,9 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ResTserviceApplication">
-    <configuration name="ReadOnlyTest.insert a book" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ManageTransaction" />
+  <component name="RunManager" selected="JUnit.StringRedisTest">
+    <configuration name="RedisTest.save an object" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-data-redis-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jon.*" />
@@ -196,15 +243,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.jon" />
-      <option name="MAIN_CLASS_NAME" value="com.jon.ReadOnlyTest" />
-      <option name="METHOD_NAME" value="insert a book" />
+      <option name="MAIN_CLASS_NAME" value="com.jon.RedisTest" />
+      <option name="METHOD_NAME" value="save an object" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadOnlyTest.read only A to B" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ManageTransaction" />
+    <configuration name="RedisTest.write to a hash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-data-redis-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jon.*" />
@@ -212,15 +259,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.jon" />
-      <option name="MAIN_CLASS_NAME" value="com.jon.ReadOnlyTest" />
-      <option name="METHOD_NAME" value="read only A to B" />
+      <option name="MAIN_CLASS_NAME" value="com.jon.RedisTest" />
+      <option name="METHOD_NAME" value="write to a hash" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadOnlyTest.read only B to A" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ManageTransaction" />
+    <configuration name="RedisTest.write to a string" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-data-redis-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jon.*" />
@@ -228,15 +275,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.jon" />
-      <option name="MAIN_CLASS_NAME" value="com.jon.ReadOnlyTest" />
-      <option name="METHOD_NAME" value="read only B to A" />
+      <option name="MAIN_CLASS_NAME" value="com.jon.RedisTest" />
+      <option name="METHOD_NAME" value="write to a string" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadOnlyTest.update a record " type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ManageTransaction" />
+    <configuration name="StringRedisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-data-redis-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jon.*" />
@@ -244,15 +291,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.jon" />
-      <option name="MAIN_CLASS_NAME" value="com.jon.ReadOnlyTest" />
-      <option name="METHOD_NAME" value="update a record " />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.jon.StringRedisTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadOnlyTest.what's happened to read only" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ManageTransaction" />
+    <configuration name="StringRedisTest.insert an user string" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-data-redis-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jon.*" />
@@ -260,8 +306,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.jon" />
-      <option name="MAIN_CLASS_NAME" value="com.jon.ReadOnlyTest" />
-      <option name="METHOD_NAME" value="what's happened to read only" />
+      <option name="MAIN_CLASS_NAME" value="com.jon.StringRedisTest" />
+      <option name="METHOD_NAME" value="insert an user string" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -382,6 +428,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringDataRedisDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-data-redis-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.SpringDataRedisDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringJdbcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-jdbc" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.SpringJdbcApplication" />
@@ -460,14 +513,15 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ReadOnlyTest.insert a book" />
-      <item itemvalue="JUnit.ReadOnlyTest.read only A to B" />
-      <item itemvalue="JUnit.ReadOnlyTest.read only B to A" />
-      <item itemvalue="JUnit.ReadOnlyTest.update a record " />
-      <item itemvalue="JUnit.ReadOnlyTest.what's happened to read only" />
+      <item itemvalue="JUnit.RedisTest.save an object" />
+      <item itemvalue="JUnit.RedisTest.write to a hash" />
+      <item itemvalue="JUnit.RedisTest.write to a string" />
+      <item itemvalue="JUnit.StringRedisTest" />
+      <item itemvalue="JUnit.StringRedisTest.insert an user string" />
       <item itemvalue="Maven.SSM" />
       <item itemvalue="Maven.Java-Basics" />
       <item itemvalue="Maven.RESTful" />
+      <item itemvalue="Spring Boot.SpringDataRedisDemoApplication" />
       <item itemvalue="Spring Boot.ResTserviceApplication" />
       <item itemvalue="Spring Boot.AccessingDataMySqlApplication" />
       <item itemvalue="Spring Boot.ManageTransactionApplication" />
@@ -488,11 +542,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ReadOnlyTest.read only B to A" />
-        <item itemvalue="JUnit.ReadOnlyTest.update a record " />
-        <item itemvalue="JUnit.ReadOnlyTest.insert a book" />
-        <item itemvalue="JUnit.ReadOnlyTest.read only A to B" />
-        <item itemvalue="JUnit.ReadOnlyTest.what's happened to read only" />
+        <item itemvalue="JUnit.StringRedisTest" />
+        <item itemvalue="JUnit.StringRedisTest.insert an user string" />
+        <item itemvalue="JUnit.RedisTest.save an object" />
+        <item itemvalue="JUnit.RedisTest.write to a hash" />
+        <item itemvalue="JUnit.RedisTest.write to a string" />
       </list>
     </recent_temporary>
   </component>
@@ -576,14 +630,10 @@
       <workItem from="1666313174235" duration="25462000" />
       <workItem from="1666665577877" duration="11789000" />
       <workItem from="1666739211455" duration="11299000" />
-      <workItem from="1666826236869" duration="21387000" />
-    </task>
-    <task id="LOCAL-00016" summary="补充了lambda表达式的部分">
-      <created>1658113742005</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1658113742005</updated>
+      <workItem from="1666826236869" duration="23819000" />
+      <workItem from="1666912716380" duration="1310000" />
+      <workItem from="1666914038414" duration="21364000" />
+      <workItem from="1667185921580" duration="9067000" />
     </task>
     <task id="LOCAL-00017" summary="内部类的反思 Done">
       <created>1658202732587</created>
@@ -921,7 +971,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666672774133</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="SpringBoot 4">
+      <created>1666851334356</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1666851334357</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -960,7 +1017,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="补充了一些细节" />
     <MESSAGE value="重新修改了项目结构" />
     <MESSAGE value="整理之前的代码" />
     <MESSAGE value="JVM1" />
@@ -985,7 +1041,8 @@
     <MESSAGE value="SpringBoot 1" />
     <MESSAGE value="SpringBoot 2" />
     <MESSAGE value="SpringBoot 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="SpringBoot 3" />
+    <MESSAGE value="SpringBoot 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpringBoot 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
