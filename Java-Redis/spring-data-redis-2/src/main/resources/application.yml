@@ -1,0 +1,33 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: Redis2
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost/spring_db?useSSL=false
+    username: root
+    password: 123456
+
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+        time-between-eviction-runs: 10s
+  main:
+    banner-mode: off
+
+mybatis-plus:
+  global-config:
+    banner: off
+  type-aliases-package: com.jon.pojo\
+  
+logging:
+  level:
+    com.jon: debug

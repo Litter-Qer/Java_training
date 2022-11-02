@@ -10,7 +10,6 @@
         <module name="RESTservice" />
         <module name="Spring-MybatisPlus" />
         <module name="uploadingFiles" />
-        <module name="spring-data-redis-demo" />
         <module name="webService-Actuator" />
         <module name="SpringBoot" />
         <module name="mp-simple" />
@@ -35,6 +34,8 @@
         <module name="scheduling-tasks" />
         <module name="spring-jdbc" />
         <module name="SpringSource_1" />
+        <module name="spring-data-redis-1" />
+        <module name="spring-data-redis-2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -83,7 +84,8 @@
       <module name="mp-spring" options="" />
       <module name="mp-springboot" options="-parameters" />
       <module name="scheduling-tasks" options="-parameters" />
-      <module name="spring-data-redis-demo" options="-parameters" />
+      <module name="spring-data-redis-1" options="-parameters" />
+      <module name="spring-data-redis-2" options="-parameters" />
       <module name="spring-jdbc" options="-parameters" />
       <module name="springboot-1" options="-parameters" />
       <module name="springboot-2" options="-parameters" />

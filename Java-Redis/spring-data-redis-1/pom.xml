@@ -9,7 +9,7 @@
     </parent>
 
     <groupId>com.jon</groupId>
-    <artifactId>spring-data-redis-demo</artifactId>
+    <artifactId>spring-data-redis-1</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <dependencies>
