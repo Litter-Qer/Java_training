@@ -33,6 +33,7 @@
         <module name="Spring-MVC" />
         <module name="scheduling-tasks" />
         <module name="spring-jdbc" />
+        <module name="spring-data-redis-3" />
         <module name="SpringSource_1" />
         <module name="spring-data-redis-1" />
         <module name="spring-data-redis-2" />
@@ -86,6 +87,7 @@
       <module name="scheduling-tasks" options="-parameters" />
       <module name="spring-data-redis-1" options="-parameters" />
       <module name="spring-data-redis-2" options="-parameters" />
+      <module name="spring-data-redis-3" options="-parameters" />
       <module name="spring-jdbc" options="-parameters" />
       <module name="springboot-1" options="-parameters" />
       <module name="springboot-2" options="-parameters" />

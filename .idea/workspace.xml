@@ -4,31 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="Redis 1">
-      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-2/src/main/java/com/jon/SpringDataRedis2Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-2/src/main/java/com/jon/config/MyBatisPlusConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-2/src/main/java/com/jon/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-2/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-2/src/test/java/com/jon/StringTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-Redis/.images/Redis单线程.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-Redis/Redis2.md" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="Redis 2">
+      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-3/src/main/java/com/jon/SpringDataRedis3Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-3/src/main/java/com/jon/utils/ILock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-3/src/main/java/com/jon/utils/redisLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-3/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-3/src/main/resources/unlock.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-3/src/test/java/com/jon/SpringDataRedis3ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-Redis/.images/Cache_model.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-Redis/.images/Redis_atomic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-Redis/.images/Redis_distributed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-Redis/.images/Redis_distributed_lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-Redis/.images/Redis_lock_delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-Redis/Redis3.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Redis/spring-data-redis-demo/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-1/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Redis/spring-data-redis-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Redis/spring-data-redis-demo/src/main/java/com/jon/SpringDataRedisDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-1/src/main/java/com/jon/SpringDataRedisDemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Redis/spring-data-redis-demo/src/main/java/com/jon/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-1/src/main/java/com/jon/config/RedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Redis/spring-data-redis-demo/src/main/java/com/jon/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-1/src/main/java/com/jon/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Redis/spring-data-redis-demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-1/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Redis/spring-data-redis-demo/src/test/java/com/jon/RedisTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-1/src/test/java/com/jon/RedisTest.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Redis/spring-data-redis-demo/src/test/java/com/jon/StringRedisTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-1/src/test/java/com/jon/StringRedisTest.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-PopTechs/.images/SkipList.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Redis/.images/SkipList.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-PopTechs/.images/redis_hash.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Redis/.images/redis_hash.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-PopTechs/Redis1.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Redis/Redis1.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +38,9 @@
         <option value="package-info" />
         <option value="spring-beans.schema" />
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
+        <option value="NewLua" />
       </list>
     </option>
   </component>
@@ -116,36 +111,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "15",
-    "RequestMappingsPanelWidth1": "15",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_directory_selection": "C:/github/Java-SpringBoot/springboot-3/src/test/java/com/jon",
-    "last_opened_file_path": "C:/github/Reflection-PopTechs",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "Settings.Markdown",
-    "spring.configuration.checksum": "4dff07b6bf62b1e065f92d63be4030f3"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/github/Java-SpringBoot/springboot-3/src/test/java/com/jon&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/github/Reflection-Redis&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;bf58b8100ae07d1673cb6835218fab9b&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -157,21 +152,21 @@
       <recent name="pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\github\Reflection-Redis" />
       <recent name="C:\github\Reflection-PopTechs" />
       <recent name="C:\github\Java-Redis\jedis-demo" />
       <recent name="C:\github\Java-Redis\jedis-start" />
       <recent name="C:\github\Java-SpringBoot-Guide\RESTservice\src\main\resources" />
-      <recent name="C:\github\Reflection-Spring" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\github\Reflection-Redis\.images" />
       <recent name="C:\github\Java-MybatisPlus" />
       <recent name="C:\github\Reflection-Spring\.images" />
       <recent name="C:\github\Java-Spring" />
       <recent name="C:\github\Java-Spring\src\main\resources" />
-      <recent name="C:\github\Java-Spring\src\main\resources\spring1.config" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.jon" />
@@ -404,6 +399,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringDataRedis3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-data-redis-3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.SpringDataRedis3Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringDataRedisDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-data-redis-1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.SpringDataRedisDemoApplication" />
@@ -498,6 +500,7 @@
       <item itemvalue="Maven.Java-Basics" />
       <item itemvalue="Maven.RESTful" />
       <item itemvalue="Spring Boot.SpringDataRedis2Application" />
+      <item itemvalue="Spring Boot.SpringDataRedis3Application" />
       <item itemvalue="Spring Boot.SpringDataRedisDemoApplication" />
       <item itemvalue="Spring Boot.ResTserviceApplication" />
       <item itemvalue="Spring Boot.AccessingDataMySqlApplication" />
@@ -610,14 +613,9 @@
       <workItem from="1666826236869" duration="23819000" />
       <workItem from="1666912716380" duration="1310000" />
       <workItem from="1666914038414" duration="21364000" />
-      <workItem from="1667185921580" duration="36599000" />
-    </task>
-    <task id="LOCAL-00018" summary="异常机制的基础">
-      <created>1658295769006</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1658295769006</updated>
+      <workItem from="1667185921580" duration="61400000" />
+      <workItem from="1667538360893" duration="38000" />
+      <workItem from="1667538411432" duration="2063000" />
     </task>
     <task id="LOCAL-00019" summary="三个问题解决">
       <created>1658370653329</created>
@@ -955,14 +953,33 @@
       <option name="project" value="LOCAL" />
       <updated>1667195786334</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Redis 2">
+      <created>1667433428415</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1667433428415</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
     <option featureType="dependencySupport" implementationName="java:com.google.protobuf:protobuf-java" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.validation:jakarta.validation-api" />
+    <option featureType="dependencySupport" implementationName="java:io.projectreactor:reactor-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate.validator:hibernate-validator" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:org.thymeleaf:thymeleaf" />
+    <option featureType="dependencySupport" implementationName="maven-packaging:war" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-messaging" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate:hibernate-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -994,7 +1011,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="整理之前的代码" />
     <MESSAGE value="JVM1" />
     <MESSAGE value="JVM2" />
     <MESSAGE value="JVM3" />
@@ -1019,7 +1035,8 @@
     <MESSAGE value="SpringBoot 3" />
     <MESSAGE value="SpringBoot 4" />
     <MESSAGE value="Redis 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Redis 1" />
+    <MESSAGE value="Redis 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redis 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
