@@ -1,0 +1,21 @@
+spring:
+  main:
+    banner-mode: off
+  redis:
+    sentinel:
+      master: mymaster
+      nodes:
+        - 192.168.150.101:27001
+        - 192.168.150.101:27002
+        - 192.168.150.101:27003
+#  redis:
+#    url: redis://127.0.0.1
+#    port: 6379
+logging:
+  level:
+    io.lettuce.core: debug
+  pattern:
+    dateformat: MM-dd HH:mm:ss:SSS
+server:
+  port: 8080
+

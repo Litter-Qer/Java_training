@@ -4,21 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="Redis 2">
-      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-3/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-3/src/main/java/com/jon/SpringDataRedis3Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-3/src/main/java/com/jon/utils/ILock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-3/src/main/java/com/jon/utils/redisLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-3/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-3/src/main/resources/unlock.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-3/src/test/java/com/jon/SpringDataRedis3ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-Redis/.images/Cache_model.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-Redis/.images/Redis_atomic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-Redis/.images/Redis_distributed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-Redis/.images/Redis_distributed_lock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-Redis/.images/Redis_lock_delete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-Redis/Redis3.md" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="Redis 3">
+      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-4/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-4/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-4/src/main/java/com/jon/SpringDataRedis4Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-4/src/main/java/com/jon/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-4/src/main/resources/ReentrantLock.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-4/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-4/src/test/java/com/jon/RedissonTest.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-caffeine/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-caffeine/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-caffeine/src/main/java/com/jon/SpringDataRedisCaffeineApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-caffeine/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-caffeine/src/test/java/com/jon/CaffeineTest.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-Redis/.images/Redis全量同步.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-Redis/.images/Redis哨兵模式.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-Redis/.images/redis分片式集群.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-Redis/.images/redis可重入锁.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-Redis/.images/redis可重入锁hash结构.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-Redis/.images/redis锁重试.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-Redis/.images/主从集群.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-Redis/Redis4.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -38,9 +44,9 @@
         <option value="package-info" />
         <option value="spring-beans.schema" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Interface" />
         <option value="NewLua" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -133,7 +139,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;bf58b8100ae07d1673cb6835218fab9b&quot;
+    &quot;spring.configuration.checksum&quot;: &quot;8b522ba709b41e543e437b963c553199&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
@@ -196,7 +202,23 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringTest.set key with {}">
+  <component name="RunManager" selected="Spring Boot.SpringDataRedis4Application">
+    <configuration name="RedissonTest.quick start" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-data-redis-4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jon" />
+      <option name="MAIN_CLASS_NAME" value="com.jon.RedissonTest" />
+      <option name="METHOD_NAME" value="quick start" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringTest.Hash set get timeout -- [#id]" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-data-redis-2" />
       <extension name="coverage">
@@ -208,22 +230,6 @@
       <option name="PACKAGE_NAME" value="com.jon" />
       <option name="MAIN_CLASS_NAME" value="com.jon.StringTest" />
       <option name="METHOD_NAME" value="Hash set get timeout -- [#id]" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringTest.Multi-Thread setnx timeout lock -- [#id]" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-data-redis-2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jon" />
-      <option name="MAIN_CLASS_NAME" value="com.jon.StringTest" />
-      <option name="METHOD_NAME" value="Multi-Thread setnx timeout lock -- [#id]" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -406,6 +412,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringDataRedis4Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-data-redis-4" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.SpringDataRedis4Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDataRedisCaffeineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-data-redis-caffeine" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.SpringDataRedisCaffeineApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringDataRedisDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-data-redis-1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.SpringDataRedisDemoApplication" />
@@ -491,14 +511,16 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.RedissonTest.quick start" />
       <item itemvalue="JUnit.StringTest.Hash set get timeout -- [#id]" />
-      <item itemvalue="JUnit.StringTest.Multi-Thread setnx timeout lock -- [#id]" />
       <item itemvalue="JUnit.StringTest.Zset top 10" />
       <item itemvalue="JUnit.StringTest.delete all records" />
       <item itemvalue="JUnit.StringTest.set key with {}" />
       <item itemvalue="Maven.SSM" />
       <item itemvalue="Maven.Java-Basics" />
       <item itemvalue="Maven.RESTful" />
+      <item itemvalue="Spring Boot.SpringDataRedisCaffeineApplication" />
+      <item itemvalue="Spring Boot.SpringDataRedis4Application" />
       <item itemvalue="Spring Boot.SpringDataRedis2Application" />
       <item itemvalue="Spring Boot.SpringDataRedis3Application" />
       <item itemvalue="Spring Boot.SpringDataRedisDemoApplication" />
@@ -522,11 +544,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RedissonTest.quick start" />
         <item itemvalue="JUnit.StringTest.set key with {}" />
         <item itemvalue="JUnit.StringTest.Zset top 10" />
         <item itemvalue="JUnit.StringTest.delete all records" />
         <item itemvalue="JUnit.StringTest.Hash set get timeout -- [#id]" />
-        <item itemvalue="JUnit.StringTest.Multi-Thread setnx timeout lock -- [#id]" />
       </list>
     </recent_temporary>
   </component>
@@ -615,14 +637,10 @@
       <workItem from="1666914038414" duration="21364000" />
       <workItem from="1667185921580" duration="61400000" />
       <workItem from="1667538360893" duration="38000" />
-      <workItem from="1667538411432" duration="2063000" />
-    </task>
-    <task id="LOCAL-00019" summary="三个问题解决">
-      <created>1658370653329</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1658370653329</updated>
+      <workItem from="1667538411432" duration="5968000" />
+      <workItem from="1667776954174" duration="1844000" />
+      <workItem from="1667778827672" duration="18000000" />
+      <workItem from="1667866421114" duration="19092000" />
     </task>
     <task id="LOCAL-00020" summary="关于泛型的反思">
       <created>1658386433017</created>
@@ -960,7 +978,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667433428415</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Redis 3">
+      <created>1667541098758</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1667541098758</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1011,7 +1036,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="JVM1" />
     <MESSAGE value="JVM2" />
     <MESSAGE value="JVM3" />
     <MESSAGE value="JVM4" />
@@ -1036,7 +1060,8 @@
     <MESSAGE value="SpringBoot 4" />
     <MESSAGE value="Redis 1" />
     <MESSAGE value="Redis 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Redis 2" />
+    <MESSAGE value="Redis 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redis 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
