@@ -1,0 +1,8 @@
+spring:
+  redis:
+    port: 7005
+    host: 192.168.0.139
+    password: 1234
+
+  main:
+    banner-mode: off

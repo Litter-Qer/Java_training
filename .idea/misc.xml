@@ -53,6 +53,7 @@
         <option value="$PROJECT_DIR$/Java-Redis/spring-data-redis-3/pom.xml" />
         <option value="$PROJECT_DIR$/Java-Redis/spring-data-redis-4/pom.xml" />
         <option value="$PROJECT_DIR$/Java-Redis/spring-data-redis-caffeine/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-Redis/spring-data-redis-5/pom.xml" />
       </list>
     </option>
   </component>

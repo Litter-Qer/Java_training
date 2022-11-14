@@ -11,6 +11,7 @@
         <module name="Spring-MybatisPlus" />
         <module name="uploadingFiles" />
         <module name="webService-Actuator" />
+        <module name="spring-data-redis-5" />
         <module name="SpringBoot" />
         <module name="mp-simple" />
         <module name="Spring-RESTful" />
@@ -35,7 +36,6 @@
         <module name="spring-jdbc" />
         <module name="spring-data-redis-3" />
         <module name="spring-data-redis-4" />
-        <module name="spring-data-redis-caffeine" />
         <module name="SpringSource_1" />
         <module name="spring-data-redis-1" />
         <module name="spring-data-redis-2" />
@@ -91,7 +91,7 @@
       <module name="spring-data-redis-2" options="-parameters" />
       <module name="spring-data-redis-3" options="-parameters" />
       <module name="spring-data-redis-4" options="-parameters" />
-      <module name="spring-data-redis-caffeine" options="-parameters" />
+      <module name="spring-data-redis-5" options="-parameters" />
       <module name="spring-jdbc" options="-parameters" />
       <module name="springboot-1" options="-parameters" />
       <module name="springboot-2" options="-parameters" />

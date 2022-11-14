@@ -4,31 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="Redis 3">
-      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-4/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-4/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-4/src/main/java/com/jon/SpringDataRedis4Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-4/src/main/java/com/jon/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-4/src/main/resources/ReentrantLock.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-4/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-4/src/test/java/com/jon/RedissonTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-caffeine/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-caffeine/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-caffeine/src/main/java/com/jon/SpringDataRedisCaffeineApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-caffeine/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-caffeine/src/test/java/com/jon/CaffeineTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-Redis/.images/Redis全量同步.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-Redis/.images/Redis哨兵模式.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-Redis/.images/redis分片式集群.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-Redis/.images/redis可重入锁.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-Redis/.images/redis可重入锁hash结构.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-Redis/.images/redis锁重试.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-Redis/.images/主从集群.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-Redis/Redis4.md" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="Redis 4">
+      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-5/src/main/java/com/jon/utils/StringCommands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-5/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-5/src/main/resources/updateKeys.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-5/src/test/java/com/jon/PipelineTest.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-Redis/.images/SDS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-Redis/.images/redis阻塞IO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-Redis/Redis5.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Redis/spring-data-redis-caffeine/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-5/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Redis/spring-data-redis-caffeine/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-5/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Redis/spring-data-redis-caffeine/src/main/java/com/jon/SpringDataRedisCaffeineApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-5/src/main/java/com/jon/SpringDataRedisCaffeineApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Redis/spring-data-redis-caffeine/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Redis/spring-data-redis-caffeine/src/test/java/com/jon/CaffeineTest.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-Basics/images/4条数据.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-Basics/images/空表.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-Basics/images/空表对比.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-Basics/images/空表对比alter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-Basics/images/非空表_alter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-Basics/images/非空表alter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-Basics/mysql_alter.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-Basics/mysql_reflection.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-Basics/sql研究进度.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-Basics/任务跟进.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +46,9 @@
         <option value="package-info" />
         <option value="spring-beans.schema" />
         <option value="HTML File" />
+        <option value="Class" />
         <option value="Interface" />
         <option value="NewLua" />
-        <option value="Class" />
       </list>
     </option>
   </component>
@@ -139,7 +141,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;8b522ba709b41e543e437b963c553199&quot;
+    &quot;spring.configuration.checksum&quot;: &quot;f1d3d8b659490a0cb17d3d5fc85214ee&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
@@ -202,9 +204,9 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringDataRedis4Application">
-    <configuration name="RedissonTest.quick start" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-data-redis-4" />
+  <component name="RunManager" selected="JUnit.PipelineTest.test lua">
+    <configuration name="PipelineTest.lettuce async set" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-data-redis-5" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jon.*" />
@@ -212,15 +214,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.jon" />
-      <option name="MAIN_CLASS_NAME" value="com.jon.RedissonTest" />
-      <option name="METHOD_NAME" value="quick start" />
+      <option name="MAIN_CLASS_NAME" value="com.jon.PipelineTest" />
+      <option name="METHOD_NAME" value="lettuce async set" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTest.Hash set get timeout -- [#id]" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-data-redis-2" />
+    <configuration name="PipelineTest.lettuce batch commands" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-data-redis-5" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jon.*" />
@@ -228,15 +230,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.jon" />
-      <option name="MAIN_CLASS_NAME" value="com.jon.StringTest" />
-      <option name="METHOD_NAME" value="Hash set get timeout -- [#id]" />
+      <option name="MAIN_CLASS_NAME" value="com.jon.PipelineTest" />
+      <option name="METHOD_NAME" value="lettuce batch commands" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTest.Zset top 10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-data-redis-2" />
+    <configuration name="PipelineTest.lettuce future task handler" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-data-redis-5" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jon.*" />
@@ -244,15 +246,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.jon" />
-      <option name="MAIN_CLASS_NAME" value="com.jon.StringTest" />
-      <option name="METHOD_NAME" value="Zset top 10" />
+      <option name="MAIN_CLASS_NAME" value="com.jon.PipelineTest" />
+      <option name="METHOD_NAME" value="lettuce future task handler" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTest.delete all records" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-data-redis-2" />
+    <configuration name="PipelineTest.lettuce sync set" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-data-redis-5" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jon.*" />
@@ -260,15 +262,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.jon" />
-      <option name="MAIN_CLASS_NAME" value="com.jon.StringTest" />
-      <option name="METHOD_NAME" value="delete all records" />
+      <option name="MAIN_CLASS_NAME" value="com.jon.PipelineTest" />
+      <option name="METHOD_NAME" value="lettuce sync set" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTest.set key with {}" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-data-redis-2" />
+    <configuration name="PipelineTest.test lua" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-data-redis-5" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jon.*" />
@@ -276,8 +278,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.jon" />
-      <option name="MAIN_CLASS_NAME" value="com.jon.StringTest" />
-      <option name="METHOD_NAME" value="set key with {}" />
+      <option name="MAIN_CLASS_NAME" value="com.jon.PipelineTest" />
+      <option name="METHOD_NAME" value="test lua" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -420,7 +422,7 @@
       </method>
     </configuration>
     <configuration name="SpringDataRedisCaffeineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-data-redis-caffeine" />
+      <module name="spring-data-redis-5" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.SpringDataRedisCaffeineApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -511,11 +513,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.RedissonTest.quick start" />
-      <item itemvalue="JUnit.StringTest.Hash set get timeout -- [#id]" />
-      <item itemvalue="JUnit.StringTest.Zset top 10" />
-      <item itemvalue="JUnit.StringTest.delete all records" />
-      <item itemvalue="JUnit.StringTest.set key with {}" />
+      <item itemvalue="JUnit.PipelineTest.test lua" />
+      <item itemvalue="JUnit.PipelineTest.lettuce async set" />
+      <item itemvalue="JUnit.PipelineTest.lettuce batch commands" />
+      <item itemvalue="JUnit.PipelineTest.lettuce future task handler" />
+      <item itemvalue="JUnit.PipelineTest.lettuce sync set" />
       <item itemvalue="Maven.SSM" />
       <item itemvalue="Maven.Java-Basics" />
       <item itemvalue="Maven.RESTful" />
@@ -544,11 +546,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RedissonTest.quick start" />
-        <item itemvalue="JUnit.StringTest.set key with {}" />
-        <item itemvalue="JUnit.StringTest.Zset top 10" />
-        <item itemvalue="JUnit.StringTest.delete all records" />
-        <item itemvalue="JUnit.StringTest.Hash set get timeout -- [#id]" />
+        <item itemvalue="JUnit.PipelineTest.test lua" />
+        <item itemvalue="JUnit.PipelineTest.lettuce batch commands" />
+        <item itemvalue="JUnit.PipelineTest.lettuce async set" />
+        <item itemvalue="JUnit.PipelineTest.lettuce sync set" />
+        <item itemvalue="JUnit.PipelineTest.lettuce future task handler" />
       </list>
     </recent_temporary>
   </component>
@@ -640,14 +642,10 @@
       <workItem from="1667538411432" duration="5968000" />
       <workItem from="1667776954174" duration="1844000" />
       <workItem from="1667778827672" duration="18000000" />
-      <workItem from="1667866421114" duration="19092000" />
-    </task>
-    <task id="LOCAL-00020" summary="关于泛型的反思">
-      <created>1658386433017</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1658386433017</updated>
+      <workItem from="1667866421114" duration="22583000" />
+      <workItem from="1667975266267" duration="26501000" />
+      <workItem from="1668127935368" duration="3480000" />
+      <workItem from="1668136449146" duration="27617000" />
     </task>
     <task id="LOCAL-00021" summary="集合的反思">
       <created>1658713081749</created>
@@ -985,7 +983,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667541098758</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Redis 4">
+      <created>1667967101745</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1667967101745</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1036,7 +1041,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="JVM2" />
     <MESSAGE value="JVM3" />
     <MESSAGE value="JVM4" />
     <MESSAGE value="JVM5" />
@@ -1061,7 +1065,8 @@
     <MESSAGE value="Redis 1" />
     <MESSAGE value="Redis 2" />
     <MESSAGE value="Redis 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Redis 3" />
+    <MESSAGE value="Redis 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redis 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1128,6 +1133,7 @@
         <watch expression="((org.apache.ibatis.binding.MapperMethod.ParamMap)param).entrySet().toArray()[3]" custom="org.apache.ibatis.binding.MapperMethod.ParamMap" />
         <watch expression="((java.util.ArrayList)((MixedSqlNode)rootSqlNode).contents).get(3)" custom="org.apache.ibatis.scripting.xmltags.MixedSqlNode,java.util.ArrayList" />
         <watch expression="((StaticTextSqlNode)((java.util.ArrayList)((MixedSqlNode)rootSqlNode).contents).get(7)).text" custom="org.apache.ibatis.scripting.xmltags.MixedSqlNode,org.apache.ibatis.scripting.xmltags.StaticTextSqlNode,java.util.ArrayList" />
+        <watch expression="con" />
       </configuration>
       <configuration name="SpringBootApplicationConfigurationType">
         <watch expression="((AnnotationConfigServletWebServerApplicationContext)context).beanFactory" custom="org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext" />

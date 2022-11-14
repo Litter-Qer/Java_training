@@ -17,20 +17,5 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
-
-        <!-- https://mvnrepository.com/artifact/com.github.ben-manes.caffeine/caffeine -->
-        <dependency>
-            <groupId>com.github.ben-manes.caffeine</groupId>
-            <artifactId>caffeine</artifactId>
-            <version>3.1.1</version>
-        </dependency>
-
-        <!-- https://mvnrepository.com/artifact/com.github.cb372/scalacache-caffeine -->
-        <dependency>
-            <groupId>com.github.cb372</groupId>
-            <artifactId>scalacache-caffeine_2.13</artifactId>
-            <version>0.28.0</version>
-        </dependency>
-
     </dependencies>
 </project>
