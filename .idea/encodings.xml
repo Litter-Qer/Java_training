@@ -58,6 +58,22 @@
     <file url="file://$PROJECT_DIR$/Java-SpringBoot/springboot-4/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Java-SpringBoot/springboot-5/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Java-SpringBoot/springboot-5/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SpringCloud/cloud-basic/eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SpringCloud/cloud-basic/feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SpringCloud/cloud-basic/order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SpringCloud/cloud-basic/order-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SpringCloud/cloud-basic/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SpringCloud/cloud-basic/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SpringCloud/cloud-basic/user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SpringCloud/cloud-basic/user-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SpringCloud/eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SpringCloud/eureka-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SpringCloud/order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SpringCloud/order-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SpringCloud/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SpringCloud/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SpringCloud/user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Java-SpringCloud/user-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Java-SpringSource/SpringSource_1/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-1/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-4/src/main/java" charset="UTF-8" />

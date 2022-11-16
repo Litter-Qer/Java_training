@@ -1,0 +1,40 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: order-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/cloud_order?useSSL=false
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+
+mybatis:
+  type-aliases-package: com.jon.user.pojo
+  configuration:
+    map-underscore-to-camel-case: true
+
+logging:
+  level:
+    com.jon.order: debug
+  pattern:
+    dateformat: MM-dd HH:mm:ss:SSS
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10001/eureka  # eureka address
+
+# Feign Connection
+#feign:
+#  client:
+#    config:
+#      default:
+#        loggerLevel: FULL
+#  httpclient:
+#    enabled: true
+#    max-connections: 200
+#    max-connections-per-route: 50
+
+

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/Java-SpringCloud/eureka-server/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -14,6 +17,8 @@
         <module name="spring-data-redis-5" />
         <module name="SpringBoot" />
         <module name="mp-simple" />
+        <module name="user-service" />
+        <module name="eureka-server" />
         <module name="Spring-RESTful" />
         <module name="Spring-MVN" />
         <module name="mp-springboot" />
@@ -39,13 +44,18 @@
         <module name="SpringSource_1" />
         <module name="spring-data-redis-1" />
         <module name="spring-data-redis-2" />
+        <module name="order-service" />
+        <module name="feign" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="helloworld" target="17" />
       <module name="Java-Redis (1)" target="1.5" />
+      <module name="Java-SpringCloud" target="1.8" />
       <module name="jedis-start" target="17" />
       <module name="mp-spring" target="17" />
+      <module name="order-service (1) (cn.itcast.demo)" target="1.5" />
+      <module name="order-service (2) (com.jon)" target="1.8" />
       <module name="ordering" target="1.8" />
       <module name="reordering" target="1.8" />
       <module name="SPring" target="17" />
@@ -77,15 +87,20 @@
       <module name="AccessingDataMySQL" options="-parameters" />
       <module name="Java-Redis" options="" />
       <module name="Java-SpringBoot-Guide" options="" />
+      <module name="Java-SpringCloud" options="" />
       <module name="ManageTransaction" options="-parameters" />
       <module name="RESTservice" options="-parameters" />
       <module name="Spring-MybatisPlus" options="-parameters" />
       <module name="SpringBoot" options="-parameters" />
       <module name="SpringSource_1" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="feign" options="-parameters" />
       <module name="jedis-demo" options="" />
       <module name="jedis-start" options="-parameters" />
       <module name="mp-spring" options="" />
       <module name="mp-springboot" options="-parameters" />
+      <module name="order-service" options="-parameters" />
+      <module name="order-service (2) (com.jon)" options="-parameters" />
       <module name="scheduling-tasks" options="-parameters" />
       <module name="spring-data-redis-1" options="-parameters" />
       <module name="spring-data-redis-2" options="-parameters" />
@@ -99,6 +114,7 @@
       <module name="springboot-4" options="-parameters" />
       <module name="springboot-5" options="-parameters" />
       <module name="uploadingFiles" options="-parameters" />
+      <module name="user-service" options="-parameters" />
       <module name="webService-Actuator" options="-parameters" />
     </option>
   </component>

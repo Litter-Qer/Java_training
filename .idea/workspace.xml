@@ -4,33 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="Redis 4">
-      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-5/src/main/java/com/jon/utils/StringCommands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-5/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-5/src/main/resources/updateKeys.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-5/src/test/java/com/jon/PipelineTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-Redis/.images/SDS.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-Redis/.images/redis阻塞IO.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-Redis/Redis5.md" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="Redis 5">
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/eureka-server/src/main/java/com/jon/eureka/EurekaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/feign/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/feign/src/main/java/com/jon/feign/clients/UserClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/feign/src/main/java/com/jon/feign/config/FeignConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/feign/src/main/java/com/jon/feign/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/order-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/order-service/src/main/java/com/jon/order/OrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/order-service/src/main/java/com/jon/order/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/order-service/src/main/java/com/jon/order/pojo/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/order-service/src/main/java/com/jon/order/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/order-service/src/main/java/com/jon/order/web/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/order-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/user-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/user-service/src/main/java/com/jon/user/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/user-service/src/main/java/com/jon/user/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/user-service/src/main/java/com/jon/user/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/user-service/src/main/java/com/jon/user/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/user-service/src/main/java/com/jon/user/web/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-SpringCloud/.images/IRule接口图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-SpringCloud/springcloud1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Redis/spring-data-redis-caffeine/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-5/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Redis/spring-data-redis-caffeine/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-5/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Redis/spring-data-redis-caffeine/src/main/java/com/jon/SpringDataRedisCaffeineApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-Redis/spring-data-redis-5/src/main/java/com/jon/SpringDataRedisCaffeineApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Redis/spring-data-redis-caffeine/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Redis/spring-data-redis-caffeine/src/test/java/com/jon/CaffeineTest.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-Basics/images/4条数据.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-Basics/images/空表.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-Basics/images/空表对比.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-Basics/images/空表对比alter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-Basics/images/非空表_alter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-Basics/images/非空表alter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-Basics/mysql_alter.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-Basics/mysql_reflection.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-Basics/sql研究进度.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-Basics/任务跟进.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-MybatisPlus/mp-springboot/src/main/resources/mybatis/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-MybatisPlus/mp-springboot/src/main/resources/mybatis/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-MybatisPlus/mp/mp-simple/src/main/resources/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-MybatisPlus/mp/mp-simple/src/main/resources/UserMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +54,9 @@
         <option value="package-info" />
         <option value="spring-beans.schema" />
         <option value="HTML File" />
-        <option value="Class" />
-        <option value="Interface" />
         <option value="NewLua" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -119,36 +127,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/github/Java-SpringBoot/springboot-3/src/test/java/com/jon&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/github/Reflection-Redis&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;f1d3d8b659490a0cb17d3d5fc85214ee&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_directory_selection": "C:/github/Java-SpringBoot/springboot-3/src/test/java/com/jon",
+    "last_opened_file_path": "C:/github/Java-SpringCloud/cloud-basic/feign/src/main/java/com/jon/feign",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "dc5fc22e3f0a45fc14dfcf2b89f399bd"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -160,21 +168,21 @@
       <recent name="pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\github\Java-SpringCloud\cloud-basic\feign\src\main\java\com\jon\feign" />
+      <recent name="C:\github\Java-SpringCloud" />
+      <recent name="C:\github\Java-SpringCloud\user-service\src\resources" />
       <recent name="C:\github\Reflection-Redis" />
       <recent name="C:\github\Reflection-PopTechs" />
-      <recent name="C:\github\Java-Redis\jedis-demo" />
-      <recent name="C:\github\Java-Redis\jedis-start" />
-      <recent name="C:\github\Java-SpringBoot-Guide\RESTservice\src\main\resources" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\github\Java-SpringCloud\user-service\src\main" />
+      <recent name="C:\github\Java-SpringCloud\user-service\src" />
       <recent name="C:\github\Reflection-Redis\.images" />
       <recent name="C:\github\Java-MybatisPlus" />
       <recent name="C:\github\Reflection-Spring\.images" />
-      <recent name="C:\github\Java-Spring" />
-      <recent name="C:\github\Java-Spring\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.jon" />
@@ -185,11 +193,11 @@
       <recent name="pojo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jon.pojo" />
       <recent name="com.jon.config" />
       <recent name="com.jon.controller" />
       <recent name="com.jon.service.Impl" />
       <recent name="task2604.pojo" />
-      <recent name="com.jon.springboot1" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -204,71 +212,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PipelineTest.test lua">
-    <configuration name="PipelineTest.lettuce async set" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-data-redis-5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jon" />
-      <option name="MAIN_CLASS_NAME" value="com.jon.PipelineTest" />
-      <option name="METHOD_NAME" value="lettuce async set" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PipelineTest.lettuce batch commands" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-data-redis-5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jon" />
-      <option name="MAIN_CLASS_NAME" value="com.jon.PipelineTest" />
-      <option name="METHOD_NAME" value="lettuce batch commands" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PipelineTest.lettuce future task handler" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-data-redis-5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jon" />
-      <option name="MAIN_CLASS_NAME" value="com.jon.PipelineTest" />
-      <option name="METHOD_NAME" value="lettuce future task handler" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PipelineTest.lettuce sync set" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-data-redis-5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jon" />
-      <option name="MAIN_CLASS_NAME" value="com.jon.PipelineTest" />
-      <option name="METHOD_NAME" value="lettuce sync set" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.UserApplication2">
     <configuration name="PipelineTest.test lua" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-data-redis-5" />
       <extension name="coverage">
@@ -372,9 +316,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaSpringBootGuideApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="Java-SpringBoot-Guide" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.JavaSpringBootGuideApplication" />
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" />
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.eureka.EurekaApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jon.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -386,7 +337,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResTserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" />
+      <module name="order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.order.OrderApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jon.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RESTServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="RESTservice" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.RESTServiceApplication" />
       <method v="2">
@@ -449,13 +414,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringSource1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="SpringSource_1" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.springsource_1.SpringSource1Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Springboot1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot-1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.Springboot1Application" />
@@ -491,16 +449,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sprintboot4Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="springboot-4" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.Sprintboot4Application" />
+    <configuration name="UploadingFilesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="uploadingFiles" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.UploadingFilesApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UploadingFilesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="uploadingFiles" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.UploadingFilesApplication" />
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" />
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.user.UserApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jon.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.user.UserApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8082" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jon.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -514,43 +494,39 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.PipelineTest.test lua" />
-      <item itemvalue="JUnit.PipelineTest.lettuce async set" />
-      <item itemvalue="JUnit.PipelineTest.lettuce batch commands" />
-      <item itemvalue="JUnit.PipelineTest.lettuce future task handler" />
-      <item itemvalue="JUnit.PipelineTest.lettuce sync set" />
       <item itemvalue="Maven.SSM" />
       <item itemvalue="Maven.Java-Basics" />
       <item itemvalue="Maven.RESTful" />
-      <item itemvalue="Spring Boot.SpringDataRedisCaffeineApplication" />
-      <item itemvalue="Spring Boot.SpringDataRedis4Application" />
+      <item itemvalue="Spring Boot.AccessingDataMySqlApplication" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.ManageTransactionApplication" />
+      <item itemvalue="Spring Boot.RESTServiceApplication" />
+      <item itemvalue="Spring Boot.SchedulingTasksApplication" />
       <item itemvalue="Spring Boot.SpringDataRedis2Application" />
       <item itemvalue="Spring Boot.SpringDataRedis3Application" />
+      <item itemvalue="Spring Boot.SpringDataRedis4Application" />
+      <item itemvalue="Spring Boot.SpringDataRedisCaffeineApplication" />
       <item itemvalue="Spring Boot.SpringDataRedisDemoApplication" />
-      <item itemvalue="Spring Boot.ResTserviceApplication" />
-      <item itemvalue="Spring Boot.AccessingDataMySqlApplication" />
-      <item itemvalue="Spring Boot.ManageTransactionApplication" />
-      <item itemvalue="Spring Boot.SchedulingTasksApplication" />
       <item itemvalue="Spring Boot.SpringJdbcApplication" />
-      <item itemvalue="Spring Boot.JavaSpringBootGuideApplication" />
-      <item itemvalue="Spring Boot.UploadingFilesApplication" />
-      <item itemvalue="Spring Boot.WebServiceActuatorApplication" />
-      <item itemvalue="Spring Boot.Springboot4Application" />
-      <item itemvalue="Spring Boot.Springboot5Application" />
-      <item itemvalue="Spring Boot.Sprintboot4Application" />
+      <item itemvalue="Spring Boot.SpringMybatisPlusApplication" />
+      <item itemvalue="Spring Boot.Springboot1Application" />
       <item itemvalue="Spring Boot.Springboot2Application" />
       <item itemvalue="Spring Boot.Springboot3Application" />
-      <item itemvalue="Spring Boot.Springboot1Application" />
-      <item itemvalue="Spring Boot.SpringMybatisPlusApplication" />
-      <item itemvalue="Spring Boot.SpringSource1Application" />
-      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.Springboot4Application" />
+      <item itemvalue="Spring Boot.Springboot5Application" />
+      <item itemvalue="Spring Boot.UploadingFilesApplication" />
+      <item itemvalue="Spring Boot.WebServiceActuatorApplication" />
+      <item itemvalue="Spring Boot.UserApplication2" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.OrderApplication" />
+        <item itemvalue="Spring Boot.UserApplication" />
+        <item itemvalue="Spring Boot.EurekaApplication" />
         <item itemvalue="JUnit.PipelineTest.test lua" />
-        <item itemvalue="JUnit.PipelineTest.lettuce batch commands" />
-        <item itemvalue="JUnit.PipelineTest.lettuce async set" />
-        <item itemvalue="JUnit.PipelineTest.lettuce sync set" />
-        <item itemvalue="JUnit.PipelineTest.lettuce future task handler" />
       </list>
     </recent_temporary>
   </component>
@@ -645,14 +621,15 @@
       <workItem from="1667866421114" duration="22583000" />
       <workItem from="1667975266267" duration="26501000" />
       <workItem from="1668127935368" duration="3480000" />
-      <workItem from="1668136449146" duration="27617000" />
-    </task>
-    <task id="LOCAL-00021" summary="集合的反思">
-      <created>1658713081749</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1658713081749</updated>
+      <workItem from="1668136449146" duration="33546000" />
+      <workItem from="1668409691479" duration="76000" />
+      <workItem from="1668409792005" duration="35000" />
+      <workItem from="1668409831350" duration="29000" />
+      <workItem from="1668409890156" duration="200000" />
+      <workItem from="1668410104130" duration="9796000" />
+      <workItem from="1668477540633" duration="541000" />
+      <workItem from="1668480384819" duration="360000" />
+      <workItem from="1668480756297" duration="26814000" />
     </task>
     <task id="LOCAL-00022" summary="SQL和参数反射">
       <created>1658795918345</created>
@@ -990,7 +967,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667967101745</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Redis 5">
+      <created>1668402383340</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1668402383341</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1003,8 +987,12 @@
     <option featureType="dependencySupport" implementationName="java:io.projectreactor:reactor-core" />
     <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
     <option featureType="dependencySupport" implementationName="java:org.hibernate.validator:hibernate-validator" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.cloud:spring-cloud-context" />
     <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
     <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:com.google.inject:guice" />
+    <option featureType="dependencySupport" implementationName="java:io.reactivex.rxjava3:rxjava" />
+    <option featureType="dependencySupport" implementationName="java:com.amazonaws:aws-java-sdk-core" />
     <option featureType="dependencySupport" implementationName="java:org.thymeleaf:thymeleaf" />
     <option featureType="dependencySupport" implementationName="maven-packaging:war" />
     <option featureType="dependencySupport" implementationName="java:org.springframework:spring-messaging" />
@@ -1041,7 +1029,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="JVM3" />
     <MESSAGE value="JVM4" />
     <MESSAGE value="JVM5" />
     <MESSAGE value="JVM6" />
@@ -1066,7 +1053,8 @@
     <MESSAGE value="Redis 2" />
     <MESSAGE value="Redis 3" />
     <MESSAGE value="Redis 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Redis 4" />
+    <MESSAGE value="Redis 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redis 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1138,6 +1126,7 @@
       <configuration name="SpringBootApplicationConfigurationType">
         <watch expression="((AnnotationConfigServletWebServerApplicationContext)context).beanFactory" custom="org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext" />
         <watch expression="((ApplicationPart)((StandardMultipartFile)file).part).fileItem" custom="org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.StandardMultipartFile,org.apache.catalina.core.ApplicationPart" />
+        <watch expression="this.loadBalancer" language="JAVA" />
       </configuration>
       <configuration name="Application">
         <watch expression="((String)((BookDaoImpl)((BookServiceImpl)bookService).bookDao).name).value[0]" custom="spring1.service.impl.BookServiceImpl,spring1.dao.impl.BookDaoImpl,java.lang.String" />

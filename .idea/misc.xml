@@ -54,7 +54,17 @@
         <option value="$PROJECT_DIR$/Java-Redis/spring-data-redis-4/pom.xml" />
         <option value="$PROJECT_DIR$/Java-Redis/spring-data-redis-caffeine/pom.xml" />
         <option value="$PROJECT_DIR$/Java-Redis/spring-data-redis-5/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-SpringCloud/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-SpringCloud/cloud-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Java-SpringCloud/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-SpringCloud/order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-SpringCloud/user-service/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK" />
