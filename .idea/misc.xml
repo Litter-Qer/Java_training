@@ -57,6 +57,13 @@
         <option value="$PROJECT_DIR$/Java-SpringCloud/pom.xml" />
         <option value="$PROJECT_DIR$/Java-SpringCloud/cloud-demo/pom.xml" />
         <option value="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-SpringCloud/mq-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-SpringCloud/cloud-mq/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-SpringCloud/cloud-AMQP/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-SpringCloud/cloud-AMQP/consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-SpringCloud/cloud-AMQP/publisher/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-SpringCloud/cloud-AMQP/apublisher/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-SpringCloud/cloud-AMQP/aconsumer/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

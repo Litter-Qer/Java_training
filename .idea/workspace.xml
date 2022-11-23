@@ -4,41 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="Redis 5">
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/eureka-server/src/main/java/com/jon/eureka/EurekaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/feign/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/feign/src/main/java/com/jon/feign/clients/UserClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/feign/src/main/java/com/jon/feign/config/FeignConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/feign/src/main/java/com/jon/feign/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/order-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/order-service/src/main/java/com/jon/order/OrderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/order-service/src/main/java/com/jon/order/mapper/OrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/order-service/src/main/java/com/jon/order/pojo/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/order-service/src/main/java/com/jon/order/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/order-service/src/main/java/com/jon/order/web/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/order-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/user-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/user-service/src/main/java/com/jon/user/UserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/user-service/src/main/java/com/jon/user/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/user-service/src/main/java/com/jon/user/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/user-service/src/main/java/com/jon/user/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/user-service/src/main/java/com/jon/user/web/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/user-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-SpringCloud/.images/IRule接口图.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-SpringCloud/springcloud1.md" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="spring cloud 1">
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-AMQP/aconsumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-AMQP/aconsumer/src/main/java/com/jon/consumer/listener/SpringRabbitListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-AMQP/aconsumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-AMQP/aconsumer/src/test/java/com/jon/consuner/ConsumerTest.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-AMQP/apublisher/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-AMQP/apublisher/src/main/java/com/jon/publisher/PublisherApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-AMQP/apublisher/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-AMQP/apublisher/src/test/java/com/jon/publisher/SpringAMQPTest.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-AMQP/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/gateway/src/main/java/com/jon/gateway/AuthorizeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/gateway/src/main/java/com/jon/gateway/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-mq/consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-mq/consumer/src/main/java/com/jon/consumer/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-mq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-mq/publisher/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-mq/publisher/src/main/java/com/jon/publisher/Publish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-SpringCloud/.images/docker基本操作.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-SpringCloud/.images/docker容器命令.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-SpringCloud/springcloud2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-MybatisPlus/mp-springboot/src/main/resources/mybatis/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-MybatisPlus/mp-springboot/src/main/resources/mybatis/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-MybatisPlus/mp/mp-simple/src/main/resources/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-MybatisPlus/mp/mp-simple/src/main/resources/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2604/task_2604/jmh_generated/SystemOutCompare1_jmhType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2604/task_2604/jmh_generated/SystemOutCompare1_jmhType_B1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2604/task_2604/jmh_generated/SystemOutCompare1_jmhType_B2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2604/task_2604/jmh_generated/SystemOutCompare1_jmhType_B3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2604/task_2604/jmh_generated/SystemOutCompare1_test2_jmhTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2604/task_2604/jmh_generated/SystemOutCompare_jmhType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2604/task_2604/jmh_generated/SystemOutCompare_jmhType_B1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2604/task_2604/jmh_generated/SystemOutCompare_jmhType_B2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2604/task_2604/jmh_generated/SystemOutCompare_jmhType_B3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2604/task_2604/jmh_generated/SystemOutCompare_test1_jmhTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,16 +147,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
+    "jdk.selected.JAVA_MODULE": "17",
     "last_directory_selection": "C:/github/Java-SpringBoot/springboot-3/src/test/java/com/jon",
-    "last_opened_file_path": "C:/github/Java-SpringCloud/cloud-basic/feign/src/main/java/com/jon/feign",
+    "last_opened_file_path": "C:/aututech/pocket",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "dc5fc22e3f0a45fc14dfcf2b89f399bd"
+    "settings.editor.selected.configurable": "configurable.group.tools",
+    "spring.configuration.checksum": "d1ce1597302e9561af9e4e62e2cb2358"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -168,11 +175,11 @@
       <recent name="pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\github\Java-SpringCloud\cloud-AMQP\aconsumer\src\main\resources" />
+      <recent name="C:\github\Java-SpringCloud\cloud-AMQP" />
+      <recent name="C:\github\Reflection-SpringCloud" />
       <recent name="C:\github\Java-SpringCloud\cloud-basic\feign\src\main\java\com\jon\feign" />
       <recent name="C:\github\Java-SpringCloud" />
-      <recent name="C:\github\Java-SpringCloud\user-service\src\resources" />
-      <recent name="C:\github\Reflection-Redis" />
-      <recent name="C:\github\Reflection-PopTechs" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -185,6 +192,7 @@
       <recent name="C:\github\Reflection-Spring\.images" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.jon.publisher" />
       <recent name="com.jon" />
       <recent name="com" />
       <recent name="spring2" />
@@ -193,11 +201,11 @@
       <recent name="pojo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jon.publisher" />
       <recent name="com.jon.pojo" />
       <recent name="com.jon.config" />
       <recent name="com.jon.controller" />
       <recent name="com.jon.service.Impl" />
-      <recent name="task2604.pojo" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -212,18 +220,72 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserApplication2">
-    <configuration name="PipelineTest.test lua" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-data-redis-5" />
+  <component name="RunManager" selected="JUnit.SpringAMQPTest.test send a message">
+    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jon.publisher.A" />
+      <module name="apublisher" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jon.*" />
+          <option name="PATTERN" value="com.jon.publisher.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.jon" />
-      <option name="MAIN_CLASS_NAME" value="com.jon.PipelineTest" />
-      <option name="METHOD_NAME" value="test lua" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jon.consumer.Consumer" />
+      <module name="consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jon.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Publish" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jon.publisher.Publish" />
+      <module name="publisher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jon.publisher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringAMQPTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apublisher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jon.publisher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jon.publisher" />
+      <option name="MAIN_CLASS_NAME" value="com.jon.publisher.SpringAMQPTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringAMQPTest.test send a message" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apublisher" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jon.publisher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jon.publisher" />
+      <option name="MAIN_CLASS_NAME" value="com.jon.publisher.SpringAMQPTest" />
+      <option name="METHOD_NAME" value="test send a message" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -316,16 +378,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="ACTIVE_PROFILES" />
-      <module name="eureka-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.eureka.EurekaApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jon.eureka.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.consumer.ConsumerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -337,16 +392,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="ACTIVE_PROFILES" />
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="order-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.order.OrderApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jon.order.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PublisherApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="apublisher" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.publisher.PublisherApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -456,20 +511,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="ACTIVE_PROFILES" />
-      <module name="user-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.user.UserApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jon.user.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UserApplication2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <module name="user-service" />
@@ -493,13 +534,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.PipelineTest.test lua" />
+      <item itemvalue="Application.A" />
+      <item itemvalue="Application.Consumer" />
+      <item itemvalue="Application.Publish" />
+      <item itemvalue="JUnit.SpringAMQPTest" />
+      <item itemvalue="JUnit.SpringAMQPTest.test send a message" />
       <item itemvalue="Maven.SSM" />
       <item itemvalue="Maven.Java-Basics" />
       <item itemvalue="Maven.RESTful" />
+      <item itemvalue="Spring Boot.PublisherApplication" />
+      <item itemvalue="Spring Boot.ConsumerApplication" />
+      <item itemvalue="Spring Boot.ManageTransactionApplication" />
       <item itemvalue="Spring Boot.AccessingDataMySqlApplication" />
       <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="Spring Boot.ManageTransactionApplication" />
       <item itemvalue="Spring Boot.RESTServiceApplication" />
       <item itemvalue="Spring Boot.SchedulingTasksApplication" />
       <item itemvalue="Spring Boot.SpringDataRedis2Application" />
@@ -517,16 +564,15 @@
       <item itemvalue="Spring Boot.UploadingFilesApplication" />
       <item itemvalue="Spring Boot.WebServiceActuatorApplication" />
       <item itemvalue="Spring Boot.UserApplication2" />
-      <item itemvalue="Spring Boot.EurekaApplication" />
       <item itemvalue="Spring Boot.OrderApplication" />
-      <item itemvalue="Spring Boot.UserApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.OrderApplication" />
-        <item itemvalue="Spring Boot.UserApplication" />
-        <item itemvalue="Spring Boot.EurekaApplication" />
-        <item itemvalue="JUnit.PipelineTest.test lua" />
+        <item itemvalue="JUnit.SpringAMQPTest.test send a message" />
+        <item itemvalue="Application.A" />
+        <item itemvalue="JUnit.SpringAMQPTest" />
+        <item itemvalue="Application.Consumer" />
+        <item itemvalue="Application.Publish" />
       </list>
     </recent_temporary>
   </component>
@@ -629,14 +675,9 @@
       <workItem from="1668410104130" duration="9796000" />
       <workItem from="1668477540633" duration="541000" />
       <workItem from="1668480384819" duration="360000" />
-      <workItem from="1668480756297" duration="26814000" />
-    </task>
-    <task id="LOCAL-00022" summary="SQL和参数反射">
-      <created>1658795918345</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1658795918345</updated>
+      <workItem from="1668480756297" duration="29404000" />
+      <workItem from="1668639703629" duration="38072000" />
+      <workItem from="1669091314161" duration="9683000" />
     </task>
     <task id="LOCAL-00023" summary="Hexo初探">
       <created>1658817628301</created>
@@ -974,7 +1015,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668402383341</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="spring cloud 1">
+      <created>1668579377269</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1668579377270</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1029,7 +1077,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="JVM4" />
     <MESSAGE value="JVM5" />
     <MESSAGE value="JVM6" />
     <MESSAGE value="Performance Schema 入门" />
@@ -1054,7 +1101,8 @@
     <MESSAGE value="Redis 3" />
     <MESSAGE value="Redis 4" />
     <MESSAGE value="Redis 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Redis 5" />
+    <MESSAGE value="spring cloud 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring cloud 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1126,7 +1174,6 @@
       <configuration name="SpringBootApplicationConfigurationType">
         <watch expression="((AnnotationConfigServletWebServerApplicationContext)context).beanFactory" custom="org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext" />
         <watch expression="((ApplicationPart)((StandardMultipartFile)file).part).fileItem" custom="org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.StandardMultipartFile,org.apache.catalina.core.ApplicationPart" />
-        <watch expression="this.loadBalancer" language="JAVA" />
       </configuration>
       <configuration name="Application">
         <watch expression="((String)((BookDaoImpl)((BookServiceImpl)bookService).bookDao).name).value[0]" custom="spring1.service.impl.BookServiceImpl,spring1.dao.impl.BookDaoImpl,java.lang.String" />

@@ -10,6 +10,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="aconsumer" />
         <module name="RESTservice" />
         <module name="Spring-MybatisPlus" />
         <module name="uploadingFiles" />
@@ -25,8 +26,10 @@
         <module name="jedis-demo" />
         <module name="AccessingDataMySQL" />
         <module name="Spring-Basics" />
+        <module name="consumer" />
         <module name="ManageTransaction" />
         <module name="Java-Basics" />
+        <module name="apublisher" />
         <module name="Java-Concurrency" />
         <module name="Spring-SSM" />
         <module name="Spring-AOP" />
@@ -44,8 +47,10 @@
         <module name="SpringSource_1" />
         <module name="spring-data-redis-1" />
         <module name="spring-data-redis-2" />
+        <module name="publisher" />
         <module name="order-service" />
         <module name="feign" />
+        <module name="gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -93,14 +98,20 @@
       <module name="Spring-MybatisPlus" options="-parameters" />
       <module name="SpringBoot" options="-parameters" />
       <module name="SpringSource_1" options="-parameters" />
+      <module name="aconsumer" options="-parameters" />
+      <module name="apublisher" options="-parameters" />
+      <module name="cloud-AMQP" options="" />
+      <module name="consumer" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="feign" options="-parameters" />
+      <module name="gateway" options="-parameters" />
       <module name="jedis-demo" options="" />
       <module name="jedis-start" options="-parameters" />
       <module name="mp-spring" options="" />
       <module name="mp-springboot" options="-parameters" />
       <module name="order-service" options="-parameters" />
       <module name="order-service (2) (com.jon)" options="-parameters" />
+      <module name="publisher" options="-parameters" />
       <module name="scheduling-tasks" options="-parameters" />
       <module name="spring-data-redis-1" options="-parameters" />
       <module name="spring-data-redis-2" options="-parameters" />

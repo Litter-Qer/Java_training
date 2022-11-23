@@ -1,0 +1,31 @@
+server:
+  port: 10002
+
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      routes: # 网关路由配置
+        - id: user-service  # 路由id 可自定义
+          uri: lb://user-service # 路由目标地址的负载均衡
+          predicates: # 断言
+            - Path=/user/** # 路径由user开头则成功
+        - id: order-service
+          uri: lb://order-service
+          predicates:
+            - Path=/order/**
+#      filter:
+#        add-request-header:
+#          enabled: off
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10001/eureka  # eureka address
+
+logging:
+  level:
+    com.jon.gateway: debug
+  pattern:
+    dateformat: MM-dd HH:mm:ss:SSS
