@@ -58,6 +58,7 @@
       <module name="Java-Redis (1)" target="1.5" />
       <module name="Java-SpringCloud" target="1.8" />
       <module name="jedis-start" target="17" />
+      <module name="keywords-utils" target="17" />
       <module name="mp-spring" target="17" />
       <module name="order-service (1) (cn.itcast.demo)" target="1.5" />
       <module name="order-service (2) (com.jon)" target="1.8" />
@@ -118,6 +119,7 @@
       <module name="spring-data-redis-3" options="-parameters" />
       <module name="spring-data-redis-4" options="-parameters" />
       <module name="spring-data-redis-5" options="-parameters" />
+      <module name="spring-data-redis-caffeine" options="-parameters" />
       <module name="spring-jdbc" options="-parameters" />
       <module name="springboot-1" options="-parameters" />
       <module name="springboot-2" options="-parameters" />

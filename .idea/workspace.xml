@@ -4,48 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="spring cloud 1">
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-AMQP/aconsumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-AMQP/aconsumer/src/main/java/com/jon/consumer/listener/SpringRabbitListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-AMQP/aconsumer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-AMQP/aconsumer/src/test/java/com/jon/consuner/ConsumerTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-AMQP/apublisher/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-AMQP/apublisher/src/main/java/com/jon/publisher/PublisherApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-AMQP/apublisher/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-AMQP/apublisher/src/test/java/com/jon/publisher/SpringAMQPTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-AMQP/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/gateway/src/main/java/com/jon/gateway/AuthorizeFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/gateway/src/main/java/com/jon/gateway/GatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-mq/consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-mq/consumer/src/main/java/com/jon/consumer/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-mq/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-mq/publisher/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-mq/publisher/src/main/java/com/jon/publisher/Publish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-SpringCloud/.images/docker基本操作.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-SpringCloud/.images/docker容器命令.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-SpringCloud/springcloud2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/github.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="整理文件">
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2604/task_2604/jmh_generated/SystemOutCompare1_jmhType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2604/task_2604/jmh_generated/SystemOutCompare1_jmhType_B1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2604/task_2604/jmh_generated/SystemOutCompare1_jmhType_B2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2604/task_2604/jmh_generated/SystemOutCompare1_jmhType_B3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2604/task_2604/jmh_generated/SystemOutCompare1_test2_jmhTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2604/task_2604/jmh_generated/SystemOutCompare_jmhType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2604/task_2604/jmh_generated/SystemOutCompare_jmhType_B1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2604/task_2604/jmh_generated/SystemOutCompare_jmhType_B2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2604/task_2604/jmh_generated/SystemOutCompare_jmhType_B3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2604/task_2604/jmh_generated/SystemOutCompare_test1_jmhTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2610/apackage/jmh_generated/ArrayListExample2_jmhType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2610/apackage/jmh_generated/ArrayListExample2_jmhType_B1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2610/apackage/jmh_generated/ArrayListExample2_jmhType_B2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2610/apackage/jmh_generated/ArrayListExample2_jmhType_B3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2610/apackage/jmh_generated/ArrayListExample2_test1_jmhTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2610/apackage/jmh_generated/ArrayListExample2_test2_jmhTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2610/apackage/jmh_generated/ArrayListExample3_jmhType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2610/apackage/jmh_generated/ArrayListExample3_jmhType_B1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2610/apackage/jmh_generated/ArrayListExample3_jmhType_B2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2610/apackage/jmh_generated/ArrayListExample3_jmhType_B3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2610/apackage/jmh_generated/ArrayListExample3_test1_jmhTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2610/apackage/jmh_generated/ArrayListExample3_test2_jmhTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2610/apackage/jmh_generated/ArrayListExample4_jmhType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2610/apackage/jmh_generated/ArrayListExample4_jmhType_B1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2610/apackage/jmh_generated/ArrayListExample4_jmhType_B2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2610/apackage/jmh_generated/ArrayListExample4_jmhType_B3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2610/apackage/jmh_generated/ArrayListExample4_test1_jmhTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2610/apackage/jmh_generated/ArrayListExample4_test2_jmhTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringBoot/keywords-search-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-DB/5.7 keywords.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-DB/8.0 keywords.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-DB/Database System 2021.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-DB/newKeywords" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2604/task_2604/jmh_generated/SystemOutCompare1_jmhType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2604/task_2604/jmh_generated/SystemOutCompare1_jmhType_B1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2604/task_2604/jmh_generated/SystemOutCompare1_jmhType_B2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2604/task_2604/jmh_generated/SystemOutCompare1_jmhType_B3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2604/task_2604/jmh_generated/SystemOutCompare1_test2_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2604/task_2604/jmh_generated/SystemOutCompare_jmhType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2604/task_2604/jmh_generated/SystemOutCompare_jmhType_B1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2604/task_2604/jmh_generated/SystemOutCompare_jmhType_B2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2604/task_2604/jmh_generated/SystemOutCompare_jmhType_B3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Basics/target/generated-sources/annotations/task2604/task_2604/jmh_generated/SystemOutCompare_test1_jmhTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-SpringBoot/springboot-3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-SpringBoot/springboot-3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java-SpringBoot/springboot-3/src/main/java/com/jon/domian/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-SpringBoot/springboot-3/src/main/java/com/jon/domian/Book.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +74,11 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-17.0.3.1/lib/src.zip!/java.base/java/lang/Class.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-17.0.3.1/lib/src.zip!/java.base/java/lang/ClassLoader.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-17.0.3.1/lib/src.zip!/java.base/java/lang/String.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-17.0.3.1/lib/src.zip!/java.base/java/lang/StringBuilder.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-17.0.3.1/lib/src.zip!/java.base/java/lang/Thread.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-17.0.3.1/lib/src.zip!/java.base/java/net/URL.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-17.0.3.1/lib/src.zip!/java.base/java/util/Enumeration.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-17.0.3.1/lib/src.zip!/java.base/java/util/concurrent/locks/ReentrantLock.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/../Program Files/Java/jdk-17.0.3.1/lib/src.zip!/java.base/jdk/internal/perf/PerfCounter.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/../soft/local-repo/org/springframework/spring-tx/5.3.23/spring-tx-5.3.23-sources.jar!/org/springframework/transaction/PlatformTransactionManager.java" root0="SKIP_INSPECTION" />
@@ -149,7 +148,7 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
     "last_directory_selection": "C:/github/Java-SpringBoot/springboot-3/src/test/java/com/jon",
-    "last_opened_file_path": "C:/aututech/pocket",
+    "last_opened_file_path": "C:/Workings",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -175,11 +174,11 @@
       <recent name="pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\github\Java-SpringBoot" />
+      <recent name="C:\github\Java-Basics" />
       <recent name="C:\github\Java-SpringCloud\cloud-AMQP\aconsumer\src\main\resources" />
       <recent name="C:\github\Java-SpringCloud\cloud-AMQP" />
       <recent name="C:\github\Reflection-SpringCloud" />
-      <recent name="C:\github\Java-SpringCloud\cloud-basic\feign\src\main\java\com\jon\feign" />
-      <recent name="C:\github\Java-SpringCloud" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -220,57 +219,37 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpringAMQPTest.test send a message">
-    <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jon.publisher.A" />
-      <module name="apublisher" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jon.publisher.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Application.com.S">
+    <configuration name="S (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="S" />
+      <module name="springboot-3" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jon.consumer.Consumer" />
-      <module name="consumer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jon.consumer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="S" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="S" />
+      <module name="springboot-4" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Publish" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jon.publisher.Publish" />
-      <module name="publisher" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jon.publisher.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Scan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scan" />
+      <module name="Java-Basics" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringAMQPTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="apublisher" />
+    <configuration name="com.S" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.S" />
+      <module name="springboot-3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jon.publisher.*" />
+          <option name="PATTERN" value="com.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.jon.publisher" />
-      <option name="MAIN_CLASS_NAME" value="com.jon.publisher.SpringAMQPTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -534,10 +513,10 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.A" />
-      <item itemvalue="Application.Consumer" />
-      <item itemvalue="Application.Publish" />
-      <item itemvalue="JUnit.SpringAMQPTest" />
+      <item itemvalue="Application.S" />
+      <item itemvalue="Application.S (1)" />
+      <item itemvalue="Application.Scan" />
+      <item itemvalue="Application.com.S" />
       <item itemvalue="JUnit.SpringAMQPTest.test send a message" />
       <item itemvalue="Maven.SSM" />
       <item itemvalue="Maven.Java-Basics" />
@@ -568,11 +547,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.S" />
+        <item itemvalue="Application.S (1)" />
+        <item itemvalue="Application.S" />
+        <item itemvalue="Application.Scan" />
         <item itemvalue="JUnit.SpringAMQPTest.test send a message" />
-        <item itemvalue="Application.A" />
-        <item itemvalue="JUnit.SpringAMQPTest" />
-        <item itemvalue="Application.Consumer" />
-        <item itemvalue="Application.Publish" />
       </list>
     </recent_temporary>
   </component>
@@ -678,13 +657,6 @@
       <workItem from="1668480756297" duration="29404000" />
       <workItem from="1668639703629" duration="38072000" />
       <workItem from="1669091314161" duration="9683000" />
-    </task>
-    <task id="LOCAL-00023" summary="Hexo初探">
-      <created>1658817628301</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1658817628301</updated>
     </task>
     <task id="LOCAL-00024" summary="mySql的尝试">
       <created>1658899914486</created>
@@ -1022,7 +994,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668579377270</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="整理文件">
+      <created>1669683321858</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1669683321858</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1083,7 +1062,6 @@
     <MESSAGE value="JVM 7" />
     <MESSAGE value="JVM 8" />
     <MESSAGE value="JVM 9 完结" />
-    <MESSAGE value="整理文件" />
     <MESSAGE value="Spring 1" />
     <MESSAGE value="更新之前的pom文件" />
     <MESSAGE value="spring 2" />
@@ -1102,7 +1080,8 @@
     <MESSAGE value="Redis 4" />
     <MESSAGE value="Redis 5" />
     <MESSAGE value="spring cloud 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring cloud 1" />
+    <MESSAGE value="整理文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="整理文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
