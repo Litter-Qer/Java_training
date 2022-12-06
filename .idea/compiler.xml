@@ -21,6 +21,7 @@
         <module name="user-service" />
         <module name="eureka-server" />
         <module name="Spring-RESTful" />
+        <module name="Spring-basics" />
         <module name="Spring-MVN" />
         <module name="mp-springboot" />
         <module name="jedis-demo" />
@@ -40,10 +41,12 @@
         <module name="springboot-1" />
         <module name="Java-JVM" />
         <module name="Spring-MVC" />
+        <module name="sprintboot-4" />
         <module name="scheduling-tasks" />
         <module name="spring-jdbc" />
         <module name="spring-data-redis-3" />
         <module name="spring-data-redis-4" />
+        <module name="spring-data-redis-caffeine" />
         <module name="SpringSource_1" />
         <module name="spring-data-redis-1" />
         <module name="spring-data-redis-2" />
@@ -126,6 +129,7 @@
       <module name="springboot-3" options="-parameters" />
       <module name="springboot-4" options="-parameters" />
       <module name="springboot-5" options="-parameters" />
+      <module name="sprintboot-4" options="-parameters" />
       <module name="uploadingFiles" options="-parameters" />
       <module name="user-service" options="-parameters" />
       <module name="webService-Actuator" options="-parameters" />
