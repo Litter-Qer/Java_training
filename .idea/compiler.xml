@@ -19,6 +19,7 @@
         <module name="SpringBoot" />
         <module name="mp-simple" />
         <module name="user-service" />
+        <module name="Java-Reactor" />
         <module name="eureka-server" />
         <module name="Spring-RESTful" />
         <module name="Spring-basics" />
@@ -41,7 +42,6 @@
         <module name="springboot-1" />
         <module name="Java-JVM" />
         <module name="Spring-MVC" />
-        <module name="sprintboot-4" />
         <module name="scheduling-tasks" />
         <module name="spring-jdbc" />
         <module name="spring-data-redis-3" />
@@ -94,6 +94,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="AccessingDataMySQL" options="-parameters" />
+      <module name="Java-Reactor" options="-parameters" />
       <module name="Java-Redis" options="" />
       <module name="Java-SpringBoot-Guide" options="" />
       <module name="Java-SpringCloud" options="" />
@@ -129,7 +130,6 @@
       <module name="springboot-3" options="-parameters" />
       <module name="springboot-4" options="-parameters" />
       <module name="springboot-5" options="-parameters" />
-      <module name="sprintboot-4" options="-parameters" />
       <module name="uploadingFiles" options="-parameters" />
       <module name="user-service" options="-parameters" />
       <module name="webService-Actuator" options="-parameters" />

@@ -41,7 +41,7 @@ pfs的监控是面向全平台的，不过由于操作系统的区别，timer可
 
 MySQL server 5.7是默认开启Performance Schema，可以通过官方的workbench工具查看
 
-![](images/test.png)
+![](.images/test.png)
 
 也可以直接用这个查`SHOW VARIABLES LIKE 'performance_schema';`
 
