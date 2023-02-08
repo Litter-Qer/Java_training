@@ -105,3 +105,4 @@ jon> update tb_user set name = '新白起' where name = '白起'
 lock tables [table_name] write/read;
 unlock tables;
 ```
+

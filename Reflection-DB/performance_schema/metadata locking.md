@@ -157,4 +157,4 @@ WHERE NAME = 'wait/lock/metadata/sql/mdl';
 
 metadata_locks表的示意图
 
-![](.images/metadata_locks.png)
+![](../.images/metadata_locks.png)

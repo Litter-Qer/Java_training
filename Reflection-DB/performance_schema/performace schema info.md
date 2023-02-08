@@ -41,7 +41,7 @@ pfs的监控是面向全平台的，不过由于操作系统的区别，timer可
 
 MySQL server 5.7是默认开启Performance Schema，可以通过官方的workbench工具查看
 
-![](.images/test.png)
+![](../.images/test.png)
 
 也可以直接用这个查`SHOW VARIABLES LIKE 'performance_schema';`
 
@@ -75,7 +75,7 @@ OBJECT_INSTANCE_BEGIN: 2248170372120
 ```
 
 其实有很多行，每一行就是一个线程，不过这里我就用一个来分析一下。
-首先是线程id，这个不用说了。然后event_name表示的就是时间的名称，并且清晰告知它的源文件。时间记录了事件开始事件和结束时间，包括持续时间。
+首先是线程id，这个不用说了。然后event_name表示的就是事件名称，并且清晰告知它的源文件。TIMER记录事件开始和结束的时间，包括持续时间。
 如果事件还在继续，那么结束时间和持续时间就会是null。这个时间的单位是picoseconds。
 
 通过performance_schema.events_waits_history可以查到历史事件。这里就不展开聊了。
@@ -163,6 +163,60 @@ resolution就是自增的最小单位，上表中的1表示，一次最少加1�
 
 所以我个人的建议是，还是要手动调整一下，不过后面可能出现的测试我还是会按照官方的配置来，以减少和官方理解上的冲突。
 
+在pfs的表中，用来记录事件的一行一定会有这三列——TIMER_START,TIMER_END，以及TIMER_WAIT。前面已经说过了，虽然我不知道为什么要叫wait，但是wait表示持续时间，而不是等待时间。
+
+在setup_instruments表中，会用ENABLED这列来表示开启对某一时间的插桩（监控）；TIMED来显示哪一个监控需要记录时间。如果一个监控没有开启，那么就不会生产事件。
+如果一个开启的监控没有时间，那么事件上的时间都会显示null。如果时间显示为null，那么在summary表中就不会记录聚合数据。
+
+对于内部，时间单位都是timmer规定的。为了方便展示，请求pfs表的事件后，时间单位一般是ps
+
 在不同的pfs表中都会包含三列分别是开始时间，结束时间和等待时间。可以在之前提到的setup_instruments表中打开计时功能。虽然看上去每个计时器的单位不同，但是实际上每次计时都是先用picoseconds，最终转成需要的时间单位。
 如果手动的调整不同任务的计时器，这个改动会被mySQL立即捕捉并且生效。所以要格外注意，如果在运行中改动timer可能会导致最终**无法预测**。官方的推荐改法是用TRUNCATE TABLE来同时修改pfs的statistics。
 
+## pfs 事件过滤
+
+之前说过，事件的使用是生产-消费者模式。
+
+instrumented code是所有收集和产生事件的源头。在setup_instruments表中记录了什么事件会被收集，它们是否被启动，以及是否需要需要时间信息。
+
+![](../.images/setup_instruments.png)
+
+可以看到表中很清晰标注了事件的开启与否，包括是否记录时间。这张表提供了最最基础的事件控制。如果需要进一步调控事件，那么可以参考下面的部分。
+
+pfs是一个事件和消费这个事件的目的地，而setup_consumers表则会列出所有种类的消费者，包括事件信息发送给谁，以及是否开启。细节如下
+
+![](../.images/setup_consumers.png)
+
+### pre-filtering 预过滤
+
+事件过滤可以在不同的几个阶段进行，这里先介绍预过滤。
+
+在使用pfs之前可以进行配置，一般来说可以限定某些特定的事件会被生产和采集，以及被特定的消费者收集。这里所有的配置都是全局有效的。
+
+使用预过滤的优势
+
+- 减少开销，即使pfs的开销已经很小了，但是通过配置减少不需要的事件收集也是不错的选择。
+- 减少表数据量，由于所有的事件都会被记录，所以减少一些不同的数据，可以减少表内的数据量，更加简洁
+- 防止维护多余的事件表
+
+#### 使用方式
+
+```mysql
+UPDATE performance_schema.setup_instruments
+SET ENABLED = 'NO'
+WHERE NAME = 'wait/synch/mutex/mysys/TMPDIR_mutex';
+```
+
+上面就是对于某一个特定的事件关闭监控。具体开关方式就是简单的使用update语句。
+
+`SELECT * FROM performance_schema.setup_objects;`通过这个可以提取到每一个不同的schema中的不同种类的事件，比如event，function等。
+可以通过上面一样的方式，直接配置单独的开关，包括计时器。
+
+### post-filtering 后过滤
+
+这个机制只有在尝试请求pfs数据中使用where才会触发。也就是找你需要的事件的sql。说白了，就是一个带where的sql，就叫做后过滤。
+
+## pfs监控命名方式
+
+所有的插桩都是用`/`作为分隔符，一般来说分成6种不同的名字。基本名字有如下六种
+- idle：空闲事件，

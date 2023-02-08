@@ -4,27 +4,196 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="MySQL进阶 1">
-      <change afterPath="$PROJECT_DIR$/Java-Reactor/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Reactor/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Reactor/src/main/java/com/jon/javareactor/JavaReactorApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Reactor/src/main/java/com/jon/javareactor/MyObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-Reactor/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-DB/.images/metadata_locks.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-DB/MySQL进阶2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-DB/performace_schema2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-Reactor/.images/Flux.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-Reactor/.images/Mono.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-Reactor/Reactive1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="performace_schema 2">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]4/docker基本操作.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]4/docker容器命令.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/Array2d.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/BubbleSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/Example.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/Example1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/FinalExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/InsertionSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/META-INF/BenchmarkList" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/META-INF/CompilerHints" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/StringExample1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/StringExample2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/StringExample3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/YHTriangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/mysql/insertDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/mysql/mapper/TestMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/pojo/A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/pojo/B.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/pojo/C.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/pojo/Cafeteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/pojo/D.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/pojo/Hotpot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/pojo/Restaurant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2604/pojo/Parallelogram.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2604/pojo/Rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2604/pojo/Shape.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2604/pojo/Square.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2604/pojo/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2604/pojo/Trapezoid.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2604/pojo/Triangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2604/task_2604/MultiplicationTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2604/task_2604/NumPyramid.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2604/task_2604/SystemOutCompare.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2604/task_2604/SystemOutCompare1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2604/task_2604/jmh_generated/SystemOutCompare1_jmhType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2604/task_2604/jmh_generated/SystemOutCompare1_jmhType_B1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2604/task_2604/jmh_generated/SystemOutCompare1_jmhType_B2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2604/task_2604/jmh_generated/SystemOutCompare1_jmhType_B3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2604/task_2604/jmh_generated/SystemOutCompare1_test2_jmhTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2604/task_2604/jmh_generated/SystemOutCompare_jmhType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2604/task_2604/jmh_generated/SystemOutCompare_jmhType_B1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2604/task_2604/jmh_generated/SystemOutCompare_jmhType_B2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2604/task_2604/jmh_generated/SystemOutCompare_jmhType_B3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2604/task_2604/jmh_generated/SystemOutCompare_test1_jmhTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2608/pojo/Restaurant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/ComparableTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/ComputerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/InterfaceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/InterfaceTest2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/apackage/ArrayListExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/apackage/ArrayListExample2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/apackage/ArrayListExample3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/apackage/ArrayListExample4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/apackage/jmh_generated/ArrayListExample2_jmhType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/apackage/jmh_generated/ArrayListExample2_jmhType_B1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/apackage/jmh_generated/ArrayListExample2_jmhType_B2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/apackage/jmh_generated/ArrayListExample2_jmhType_B3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/apackage/jmh_generated/ArrayListExample2_test1_jmhTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/apackage/jmh_generated/ArrayListExample2_test2_jmhTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/apackage/jmh_generated/ArrayListExample3_jmhType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/apackage/jmh_generated/ArrayListExample3_jmhType_B1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/apackage/jmh_generated/ArrayListExample3_jmhType_B2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/apackage/jmh_generated/ArrayListExample3_jmhType_B3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/apackage/jmh_generated/ArrayListExample3_test1_jmhTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/apackage/jmh_generated/ArrayListExample3_test2_jmhTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/apackage/jmh_generated/ArrayListExample4_jmhType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/apackage/jmh_generated/ArrayListExample4_jmhType_B1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/apackage/jmh_generated/ArrayListExample4_jmhType_B2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/apackage/jmh_generated/ArrayListExample4_jmhType_B3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/apackage/jmh_generated/ArrayListExample4_test1_jmhTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/apackage/jmh_generated/ArrayListExample4_test2_jmhTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/computer/AMD.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/computer/CPU.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/computer/Computer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/computer/DISK.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/computer/EMS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/computer/Intel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/computer/Kingston.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/computer/Samsung.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/computer/WestDigit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/innerClassTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/innerClassTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/interfaces/lambda/LambdaImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/interfaces/lambda/LambdaImpl2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/interfaces/lambda/LambdaInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/interfaces/lambda/LambdaInterface2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/interfaces/methods/MyClassSetName.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/interfaces/methods/MyConstructor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/interfaces/methods/MyObjectSetName.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/interfaces/methods/MyStaticPower.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/interfaces/plain/MyAbstractClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/interfaces/plain/MyInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/interfaces/plain/MyInterface2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/interfaces/plain/MyInterface3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/interfaces/plain/MyInterfaceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/pojo/OuterClass$InnerClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/pojo/OuterClass$PrivateClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/pojo/OuterClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/pojo/OuterClass2$1SmallClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/pojo/OuterClass2$InnerClass2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/pojo/OuterClass2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/pojo/OuterClass3$InnerClass3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/pojo/OuterClass3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/pojo/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/pojo/TalkingClock$TimerPrinter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/pojo/TalkingClock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2610/pojo/TimerPrinterDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2611/MyException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2611/OuterClass$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2611/OuterClass$PrivateClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2611/OuterClass$PrivateStaticClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2611/OuterClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2611/ReflectionTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2611/SimpleMath.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2612/GenericDesign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2612/Pair.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2612/collectionExample/ListExample$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2612/collectionExample/ListExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2612/pojo/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2612/pojo/StringList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/classes/task2612/pojo/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/test-classes/Scan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/test-classes/task2604/LoopPrintTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/test-classes/task2604/MTTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/test-classes/task2604/NumPyramidTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-Basics/target/test-classes/task2605/InsertionSortTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringBoot/springboot-4/target/classes/S.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringBoot/springboot-4/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringBoot/springboot-4/target/classes/com/jon/Springboot4Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringBoot/springboot-4/target/classes/com/jon/controller/BookController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringBoot/springboot-4/target/classes/com/jon/dao/BookMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringBoot/springboot-4/target/classes/com/jon/domain/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/application1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_1/CompA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_1/CompB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_1/SpringSource1Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_1/TestBeanFactory$Bean1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_1/TestBeanFactory$Bean2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_1/TestBeanFactory$Bean3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_1/TestBeanFactory$Bean4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_1/TestBeanFactory$Config.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_1/TestBeanFactory$Inter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_1/TestBeanFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_1/UserRegistrationEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_2/Application$Bean1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_2/Application$Bean2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_2/Application$Config.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_2/Application$WebConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_2/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_3/Application3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_3/BeanLifeCycle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_3/MyBeanPostProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_3/TestMethodTemplate$BeanPostProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_3/TestMethodTemplate$MyBeanFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_3/TestMethodTemplate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_4/Application4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_4/AutowiredSource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_4/Bean1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_4/Bean2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_4/Bean3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_4/Bean4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_5/Application5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_5/AtBeanPostProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_5/Bean1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_5/ComponentScanPostProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_5/Config.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_5/MapperBeanPostProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_5/component/Bean2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_5/component/Bean3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_5/component/Bean4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_5/mapper/Mapper1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_5/mapper/Mapper2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_6/Application6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/com/jon/springsource_6/MyBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/messages_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/messages_ja.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringSource/SpringSource_1/target/classes/messages_zh.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-DB/.images/redo_log.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-DB/.images/setup_consumers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-DB/.images/setup_instruments.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-DB/MySQL进阶3.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-SpringBoot/springboot-4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java-SpringBoot/springboot-4/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/gateway/src/main/java/com/jon/gateway/AuthorizeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-basic/gateway/src/main/java/com/jon/gateway/AuthorizeFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-Basics/images/test.png" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-DB/.images/test.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-Basics/performace_schema.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-DB/performace_schema.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reflection-Spring/SpringSource1.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-Spring/SpringSource1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-DB/MySQL进阶2.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-DB/MySQL进阶2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-DB/performace_schema.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-DB/performance_schema/performace schema info.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-DB/performace_schema2.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-DB/performance_schema/metadata locking.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,41 +285,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/github/Java-SpringBoot/springboot-3/src/test/java/com/jon&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/github/Reflection-DB&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;b19c9974004aaa946e4315530b1d6593&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_directory_selection": "C:/github/Java-SpringBoot/springboot-3/src/test/java/com/jon",
+    "last_opened_file_path": "C:/aututech/syringe",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "b19c9974004aaa946e4315530b1d6593",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -173,10 +342,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\github\Reflection-DB\.images" />
+      <recent name="C:\github\Reflection-DB\performance_schema" />
       <recent name="C:\github\Reflection-DB" />
       <recent name="C:\github\Reflection-Reactor\.images" />
       <recent name="C:\github\Java-SpringCloud\user-service\src\main" />
-      <recent name="C:\github\Java-SpringCloud\user-service\src" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.jon.publisher" />
@@ -704,14 +873,7 @@
       <workItem from="1675296684873" duration="10487000" />
       <workItem from="1675395668288" duration="10762000" />
       <workItem from="1675647958226" duration="3007000" />
-      <workItem from="1675725960911" duration="4077000" />
-    </task>
-    <task id="LOCAL-00027" summary="新表">
-      <created>1658988797711</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1658988797711</updated>
+      <workItem from="1675725960911" duration="34149000" />
     </task>
     <task id="LOCAL-00028" summary="初识线程">
       <created>1659336614068</created>
@@ -1049,7 +1211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670287910424</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="performace_schema 2">
+      <created>1675730137257</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1675730137257</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1104,7 +1273,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="JVM 7" />
     <MESSAGE value="JVM 8" />
     <MESSAGE value="JVM 9 完结" />
     <MESSAGE value="Spring 1" />
@@ -1129,7 +1297,8 @@
     <MESSAGE value="关键字扫描工具" />
     <MESSAGE value="关键字扫描工具支持jdk 11" />
     <MESSAGE value="MySQL进阶 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="MySQL进阶 1" />
+    <MESSAGE value="performace_schema 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="performace_schema 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
