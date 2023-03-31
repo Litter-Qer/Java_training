@@ -19,7 +19,6 @@
         <module name="SpringBoot" />
         <module name="mp-simple" />
         <module name="user-service" />
-        <module name="Java-Reactor" />
         <module name="eureka-server" />
         <module name="Spring-RESTful" />
         <module name="Spring-basics" />
@@ -41,6 +40,7 @@
         <module name="springboot-2" />
         <module name="springboot-1" />
         <module name="Java-JVM" />
+        <module name="Java-RocketMQ" />
         <module name="Spring-MVC" />
         <module name="scheduling-tasks" />
         <module name="spring-jdbc" />
@@ -58,6 +58,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="helloworld" target="17" />
+      <module name="Java-Netty" target="17" />
+      <module name="Java-Reactor" target="17" />
       <module name="Java-Redis (1)" target="1.5" />
       <module name="Java-SpringCloud" target="1.8" />
       <module name="jedis-start" target="17" />

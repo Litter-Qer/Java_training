@@ -6,5 +6,4 @@ import spock.lang.Specification
 
 @SpringBootTest
 class ConsumerTest extends Specification {
-    @Shared
 }
