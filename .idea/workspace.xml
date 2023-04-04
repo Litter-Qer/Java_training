@@ -4,32 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="MySQL进阶 3">
-      <change afterPath="$PROJECT_DIR$/Java-RocketMQ/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-RocketMQ/src/main/java/com/jon/base/consumer/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-RocketMQ/src/main/java/com/jon/base/consumer/Consumer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-RocketMQ/src/main/java/com/jon/base/producer/AsyncProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-RocketMQ/src/main/java/com/jon/base/producer/OnewayProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-RocketMQ/src/main/java/com/jon/base/producer/SyncProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-RocketMQ/src/main/java/com/jon/order/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-RocketMQ/src/main/java/com/jon/order/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java-RocketMQ/src/main/java/com/jon/order/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-Netty/NIO1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-RocketMQ/RocketMQ1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reflection-RocketMQ/images/RocketMQ.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="e985ad6e-6e3c-449a-991f-addb702d90df" name="Changes" comment="RocketMQ 1">
+      <change afterPath="$PROJECT_DIR$/Java-SpringBoot/springboot-6/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringBoot/springboot-6/src/main/java/com/jon/ConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringBoot/springboot-6/src/main/java/com/jon/ProducerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringBoot/springboot-6/src/main/java/com/jon/consumer/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringBoot/springboot-6/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java-SpringBoot/springboot-6/src/test/java/com/jon/ProducerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-RocketMQ/images/MQ_DB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reflection-RocketMQ/images/Msg_send.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Reactor/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Reactor/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Reactor/src/main/java/com/jon/javareactor/JavaReactorApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Reactor/src/main/java/com/jon/javareactor/MyObserver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-Reactor/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java-SpringCloud/cloud-AMQP/aconsumer/src/test/java/com/jon/consuner/ConsumerTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/Java-SpringCloud/cloud-AMQP/aconsumer/src/test/java/com/jon/consuner/ConsumerTest.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reflection-RocketMQ/RocketMQ1.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reflection-RocketMQ/RocketMQ1.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,9 +122,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
     "last_directory_selection": "C:/github/Java-SpringBoot/springboot-3/src/test/java/com/jon",
-    "last_opened_file_path": "C:/github/Java-RocketMQ",
+    "last_opened_file_path": "C:/github/Java-SpringBoot/springboot-6",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -147,7 +136,7 @@
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "49a8f1cd6a1584bd7a483e7fcc35bf65",
+    "spring.configuration.checksum": "08742442fd36bd51c9716c023e8be74f",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -167,11 +156,11 @@
       <recent name="pojo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\github\Java-SpringBoot\springboot-6" />
       <recent name="C:\github\Java-RocketMQ" />
       <recent name="C:\github\Java-Netty\src\test\java" />
       <recent name="C:\github\Reflection-DB" />
       <recent name="C:\github\Java-Reactor" />
-      <recent name="C:\github\Java-SpringBoot" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -213,54 +202,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.com.jon.order.Consumer">
-    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jon.base.consumer.Consumer" />
-      <module name="Java-RocketMQ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jon.base.consumer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Consumer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jon.base.consumer.Consumer2" />
-      <module name="Java-RocketMQ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jon.base.consumer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.ConsumerApplication (1)">
     <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jon.order.Producer" />
       <module name="Java-RocketMQ" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jon.order.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SyncProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.jon.base.producer.SyncProducer" />
-      <module name="Java-RocketMQ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jon.base.producer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -277,6 +225,37 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jon" />
+      <option name="MAIN_CLASS_NAME" value="com.jon.ProducerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerTest.sendMsg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jon" />
+      <option name="MAIN_CLASS_NAME" value="com.jon.ProducerTest" />
+      <option name="METHOD_NAME" value="sendMsg" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -364,6 +343,19 @@
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="SpringBoot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-6" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.ConsumerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -508,6 +500,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Springboot5Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springboot-5 (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.Springboot5Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Springboot5Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot-5" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jon.Springboot5Application" />
@@ -545,14 +544,14 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Consumer" />
-      <item itemvalue="Application.Consumer2" />
       <item itemvalue="Application.Producer" />
       <item itemvalue="Application.com.jon.order.Consumer" />
-      <item itemvalue="Application.SyncProducer" />
+      <item itemvalue="JUnit.ProducerTest" />
+      <item itemvalue="JUnit.ProducerTest.sendMsg" />
       <item itemvalue="Maven.SSM" />
       <item itemvalue="Maven.Java-Basics" />
       <item itemvalue="Maven.RESTful" />
+      <item itemvalue="Spring Boot.Springboot5Application (1)" />
       <item itemvalue="Spring Boot.JavaReactorApplication" />
       <item itemvalue="Spring Boot.SpringDataRedisCaffeineApplication (1)" />
       <item itemvalue="Spring Boot.Springboot4Application (1)" />
@@ -579,14 +578,15 @@
       <item itemvalue="Spring Boot.WebServiceActuatorApplication" />
       <item itemvalue="Spring Boot.UserApplication2" />
       <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.ConsumerApplication (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ConsumerApplication (1)" />
+        <item itemvalue="JUnit.ProducerTest.sendMsg" />
+        <item itemvalue="JUnit.ProducerTest" />
         <item itemvalue="Application.com.jon.order.Consumer" />
         <item itemvalue="Application.Producer" />
-        <item itemvalue="Application.SyncProducer" />
-        <item itemvalue="Application.Consumer2" />
-        <item itemvalue="Application.Consumer" />
       </list>
     </recent_temporary>
   </component>
@@ -730,14 +730,10 @@
       <workItem from="1680145184674" duration="351000" />
       <workItem from="1680145623692" duration="6930000" />
       <workItem from="1680224493933" duration="3452000" />
-      <workItem from="1680238471467" duration="8476000" />
-    </task>
-    <task id="LOCAL-00029" summary="线程进阶1">
-      <created>1659425362724</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1659425362724</updated>
+      <workItem from="1680238471467" duration="8547000" />
+      <workItem from="1680568238697" duration="342000" />
+      <workItem from="1680568632846" duration="173000" />
+      <workItem from="1680568837423" duration="11397000" />
     </task>
     <task id="LOCAL-00030" summary="线程进阶2">
       <created>1659511524185</created>
@@ -1075,7 +1071,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675831203215</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="RocketMQ 1">
+      <created>1680248642510</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1680248642510</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1130,7 +1133,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="JVM 9 完结" />
     <MESSAGE value="Spring 1" />
     <MESSAGE value="更新之前的pom文件" />
     <MESSAGE value="spring 2" />
@@ -1155,7 +1157,8 @@
     <MESSAGE value="MySQL进阶 1" />
     <MESSAGE value="performace_schema 2" />
     <MESSAGE value="MySQL进阶 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="MySQL进阶 3" />
+    <MESSAGE value="RocketMQ 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="RocketMQ 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

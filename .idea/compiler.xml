@@ -33,6 +33,7 @@
         <module name="apublisher" />
         <module name="Java-Concurrency" />
         <module name="Spring-SSM" />
+        <module name="springboot-6" />
         <module name="Spring-AOP" />
         <module name="springboot-5" />
         <module name="springboot-4" />
@@ -70,6 +71,8 @@
       <module name="ordering" target="1.8" />
       <module name="reordering" target="1.8" />
       <module name="SPring" target="17" />
+      <module name="springboot-5 (1)" target="17" />
+      <module name="springboot-5 (2)" target="1.5" />
       <module name="sql" target="17" />
       <module name="Sql-session" target="17" />
       <module name="task_2604" target="17" />
@@ -132,6 +135,8 @@
       <module name="springboot-3" options="-parameters" />
       <module name="springboot-4" options="-parameters" />
       <module name="springboot-5" options="-parameters" />
+      <module name="springboot-5 (1)" options="-parameters" />
+      <module name="springboot-6" options="-parameters" />
       <module name="uploadingFiles" options="-parameters" />
       <module name="user-service" options="-parameters" />
       <module name="webService-Actuator" options="-parameters" />

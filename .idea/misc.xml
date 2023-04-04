@@ -65,6 +65,7 @@
         <option value="$PROJECT_DIR$/Java-SpringCloud/cloud-AMQP/apublisher/pom.xml" />
         <option value="$PROJECT_DIR$/Java-SpringCloud/cloud-AMQP/aconsumer/pom.xml" />
         <option value="$PROJECT_DIR$/Java-RocketMQ/pom.xml" />
+        <option value="$PROJECT_DIR$/Java-SpringBoot/springboot-6/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

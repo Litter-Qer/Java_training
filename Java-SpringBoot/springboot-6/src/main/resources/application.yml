@@ -1,0 +1,6 @@
+rocketmq:
+  name-server: 192.168.0.45:9876;192.168.0.46:9876
+  producer:
+    group: my-group
+  consumer:
+    group: my-group
